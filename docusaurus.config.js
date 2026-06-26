@@ -51,12 +51,6 @@ const config = {
           routeBasePath: '/',
         },
         blog: false,
-
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
         theme: {
           customCss: './src/css/custom.css',
         },
