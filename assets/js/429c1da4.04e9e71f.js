@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkplvacc_wiki=self.webpackChunkplvacc_wiki||[]).push([["766"],{1777(e){e.exports=JSON.parse('{"metadata":{"permalink":"/docs/welcome/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":0,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
