@@ -101,15 +101,15 @@ const config = {
             items: [
               {
                 label: 'Website',
-                thref: 'https://plvacc.pl',
+                href: 'https://plvacc.pl/',
               },
               {
                 label: 'E-learning platform',
-                thref: 'https://plvacc.pl',
+                href: 'https://plvacc.pl/',
               },
               {
                 label: 'CORE vACC',
-                thref: 'https://cv.plvacc.pl',
+                href: 'https://cv.plvacc.pl/',
               },
             ],
           },
@@ -118,7 +118,7 @@ const config = {
             items: [
               {
                 label: 'Facebook',
-                href: 'https://www.facebook.com/plvacc',
+                href: 'https://www.facebook.com/plvacc/',
               },
               {
                 label: 'Instagram',
@@ -126,7 +126,7 @@ const config = {
               },
               {
                 label: 'Discord',
-                href: 'https://community.vatsim.net',
+                href: 'https://community.vatsim.net/',
               },
             ],
           },
