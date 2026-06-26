@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Polish VACC Wiki',
   tagline: 'Welcome to Polish VACC Knowledgebase',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo-plvacc.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -80,40 +80,43 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/plvacc-social-card.png',
       colorMode: {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: 'Polish VACC Knowledgebase',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Logo Polish VACC',
+          src: 'img/logo-plvacc.svg',
         },
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'main-menu',
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          {to: '/Home', label: '', position: 'left'},
         ],
       },
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Learn more',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Website',
+                thref: 'https://plvacc.pl',
+              },
+              {
+                label: 'E-learning platform',
+                thref: 'https://plvacc.pl',
+              },
+              {
+                label: 'CORE vACC',
+                thref: 'https://cv.plvacc.pl',
               },
             ],
           },
@@ -121,34 +124,21 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Facebook',
+                href: 'https://www.facebook.com/plvacc',
+              },
+              {
+                label: 'Instagram',
+                href: 'https://www.instagram.com/plvacc/',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://community.vatsim.net',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Polish VACC Knowledgebase`,
       },
       prism: {
         theme: prismThemes.github,
