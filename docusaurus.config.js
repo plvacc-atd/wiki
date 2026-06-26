@@ -38,8 +38,8 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'pl',
-    locales: ['pl'],
+    defaultLocale: 'en',
+    locales: ['en'],
   },
 
   presets: [
@@ -91,13 +91,6 @@ const config = {
           src: 'img/logo-plvacc.svg',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'main-menu',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/Home', label: '', position: 'left'},
         ],
       },
       footer: {
