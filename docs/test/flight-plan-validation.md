@@ -1,4 +1,4 @@
-# Sprawdzenie poprawności planu lotu.
+# 1. Sprawdzenie poprawności planu lotu.
 
 Jednym z pierwszych i kluczowych obowiązków kontrolera ruchu lotniczego na pozycji **delivery** jest weryfikacja planu lotu złożonego przez pilota. Prawidłowy plan lotu gwarantuje bezpieczną separację, płynność ruchu w przestrzeni powietrznej oraz daje informacje o zamiarach pilota. Kontroler ma obowiązek sprawdzić i w razie potrzeb poinformować pilota o ewentualnych nieprawidłowościach przed wydaniem zezwolenia na lot.
 

@@ -1,4 +1,4 @@
-# Zarządzanie przylotami
+# 1. Zarządzanie przylotami
 
 Kontroler na pozycji **tower** jest odpowiedzialny za odpowiednie zarządzanie ruchem przylatującym, w taki sposób aby zapewnić mu możliwość wylądowania (lub wykonania innej operacji) na wolnej drodze startowej.]
 
