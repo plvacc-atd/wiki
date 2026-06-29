@@ -33,7 +33,7 @@ Warto zauważyć, że droga startowa to nie jest po prostu całość betonowej l
 
 ![Katowice runway 08](assets/epkt-runway.png)
 
-Pas drogi startowej z kolei jest tworem bardziej abstrakcyjnym. Nie wyznaczają go żadne fizyczne granice a jedynie definicja. Powierzchnia wchodząca w skład pasa drogi startowej musi spełniać dodatkowe wymagania, takie jak minimalizacja występowania wysokich przeszkód, wymóg łamliwości i specjalnego oznaczania tych przeszkód, które już w pasie drogi startowej muszą się znaleźć (na przykład anteny systemu ILS). Kształt pasa drogi startowej najlepiej widać na mapach, przykładowo w EPKT jest to przerywana linia wokół drogi startowej.
+Pas drogi startowej z kolei jest tworem bardziej abstrakcyjnym. Nie wyznaczają go żadne fizyczne granice a jedynie definicja. Powierzchnia wchodząca w skład pasa drogi startowej musi spełniać dodatkowe wymagania, takie jak minimalizacja występowania wysokich przeszkód, wymóg łamliwości i specjalnego oznaczania tych przeszkód, które już w pasie drogi startowej muszą się znaleźć (na przykład anteny systemu ILS). Kształt pasa drogi startowej najlepiej widać na mapach lotniczych, gdzie zaznaczony jest przerywaną linią wokół drogi startowej.
 
 ![Katowice runway strip](assets/rwy-strip.png)
 
@@ -42,13 +42,6 @@ Pas drogi startowej z kolei jest tworem bardziej abstrakcyjnym. Nie wyznaczają 
 > **Droga kołowania** (*taxiway*) - Określona droga na lotnisku lądowym wyznaczona do kołowania statków powietrznych i zapewniająca połączenie między określonymi częściami lotniska.
 
 > **Płyta postojowa** (*apron*) - Wydzielona dla postoju statków powietrznych część powierzchni lotniska lądowego, na której odbywa się wsiadanie lub wysiadanie pasażerów, załadowanie lub wyładowanie poczty lub towaru, zaopatrywanie w paliwo, parkowanie lub obsługa tych statków.
-
-
-
-
-
- 
-
 
 ## Najważniejsze parametry
 
@@ -101,37 +94,23 @@ Drugi człon kodu określa maksymalną dopuszczalną rozpiętość skrzydeł lub
 
 **Wytrzymałość nawierzchni** - zdolność do przenoszenia obciążeń wynikających z wykorzystania drogi startowej przez dany statek powietrzny.
 
-### Parametry dróg kołowania
-
-Dopuszczalne kategorie statków powietrznych
-
-### Parametry stanowisk i płyt postojowych
-
-Dopuszczalne kategorie statków powietrznych
+## Kategorie lotnisk
+Lotniska możemy podzielić na kategorie w zależności od różnych czynników. Przykładowe kategorie dzielą lotniska na:
+- krajowe i międzynarodowe
+- użytku publicznego i użytku wyłącznego
+- kontrolowane i niekontrolowane
+- cywilne, wojskowe lub mieszane
+- naziemne i nawodne
 
 ## Gdzie szukać informacji
 
-AIP. Link do AIP PL, info o AIP innych krajów, nie zawsze dostępne, nie zawsze darmowe
+  Najlepszą, publicznie dostępną i darmową bazą danych na temat lotnisk w Polsce jest [Zbiór Informacji Lotniczych AIP Polska](https://www.ais.pansa.pl/publikacje/aip-polska/). Podzielony jest on na części IFR, VFR i MIL, gdzie znajdziesz informacje na temat odpowiednio lotnisk kontrolowanych, niekontrolowanych i wojskowych. Informacje o lotniskach znajdują się w Części 3 - LOTNISKA (AD).
 
-oficjalna dokumentacja
-
-skybrary
-
-alternatywy
-- navigraph
-- chartfox
-- littlenavmap
-
-## Kategorie lotnisk
-Lotniska możemy podzielić na kategorie w zależności od różnych czynników:
-- kontrolowane (EPWA) i niekontrolowane (EPOD)
-- cywilne (np. EPPO),  wojskowe (np. EPLK) lub mieszane (EPKK/EPWA)
-- lądowe (EPGD) i wodne (???)
-
+  Poza oficjalnymi źródłami dostępne są też inne alternatywy dedykowane bezpośrednio do symulacji lotniczych. Płatne, jak [Navigraph](https://navigraph.com/), lub darmowe: [Little Navmap](https://albar965.github.io/) czy [Chartfox](https://chartfox.org/).
 
 ## Źródła
-- Ustawa prawo lotnicze z 3 lipca 2002 roku
-- Aneks 14 do Konwencji chicagowskiej
-- Rozporządzenie UE 134/2014 - Łatwo Dostępne Przepisy dla Lotnisk
-- Rozporządzenie UE 930/2012 SERA
-- Zarządzanie ruchem lotniczym 4444
+- [Ustawa prawo lotnicze z 3 lipca 2002 roku](https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20021301112/U/D20021112Lj.pdf)
+- [Załącznik 14 do konwencji o międzynarodowym lotnictwie cywilnym - Lotniska](https://ulc.gov.pl/_download/lotniska/drogi-startowe/kompendium/__Za%C5%82a%CC%A8cznik_14_Tom_I_zm.13B15_2021.02.pdf)
+- [Rozporządzenie UE 930/2012 - SERA - Single European Rules of the Air](https://eur-lex.europa.eu/eli/reg_impl/2012/923/oj/pol)
+- [Rozporządzenie UE 134/2014 - Łatwo Dostępne Przepisy dla Lotnisk](https://eur-lex.europa.eu/eli/reg/2014/139/oj/pol)
+
