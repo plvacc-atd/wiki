@@ -10,6 +10,12 @@ Na razie jest tu jeszcze pusto, ale wiele zdolnych osób wkrótce zacznie pracow
 
 Jeśli chcesz dołożyć swoją cegiełkę i dołączyć do grupy roboczej tworzącej wiki, to [sprawdź koniecznie ten link](https://github.com/plvacc-atd/.github/blob/main/CONTRIBUTING.md)
 
+:::tip
+
+Wiki PLVACC jest w trakcie tworzenia, w związku z tym wszystkie dane do momentu oficjalnej publikacji są jedynie informacyjne i nie do użytku operacyjnego w sieci VATSIM
+
+:::
+
 
 :::danger
 
