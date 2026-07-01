@@ -1,0 +1,162 @@
+---
+title: Zarządzanie przylotami
+description: Jak kontroler na pozycji tower zarządza ruchem przylatującym, żeby zapewnić mu bezpieczną operację na wolnej drodze startowej.
+---
+
+{/*
+  PERSONA CZYTELNIKA
+  Zakładana wiedza: czytelnik zna podstawową frazeologię i zdał rating S1 (zna strukturę
+  lotniska, podstawowe zezwolenia). Nie zna jeszcze szczegółów separacji w śladzie
+  aerodynamicznym ani koordynacji między stanowiskami.
+  Czego artykuł uczy: jak prowadzić ruch przylatujący na pozycji TWR - od zezwolenia na
+  operację, przez separacje, po obsługę nieudanego podejścia.
+  Kategoria docelowa: Rating S2
+*/}
+
+## Wprowadzenie
+
+Kontroler na pozycji **tower** jest odpowiedzialny za zarządzanie ruchem przylatującym w taki
+sposób, aby zapewnić mu możliwość wylądowania (lub wykonania innej operacji) na wolnej drodze
+startowej.
+
+## Definicje
+
+### Rodzaje operacji przylotowych
+
+Mówiąc o przylocie, mamy na myśli jedną z poniższych operacji na drodze startowej:
+
+- **pełne lądowanie**,
+- **touch and go** (lądowanie i natychmiastowy start statku powietrznego),
+- **niskie podejście** (statek powietrzny przelatuje nad drogą startową bez lądowania na niej),
+- **stop and go** (pełne lądowanie statku powietrznego, po czym ponowny jego start z
+  pozostałej długości drogi startowej),
+- inne operacje, przy których ruch przecina próg drogi startowej z powietrza.
+
+## Procedura
+
+### Zezwolenie na przylot
+
+Przylatujące statki powietrzne powinny otrzymać zezwolenie na operację na drodze startowej
+tak wcześnie, jak to możliwe.
+
+- Ruch IFR musi otrzymać zezwolenie nie później niż 2 mile morskie przed progiem drogi
+  startowej — chyba że wcześniej poinformowałeś pilota o spodziewanym późnym zezwoleniu
+  (*„expect late landing/operation clearance"*). W takiej sytuacji zezwolenie może zostać
+  wydane najpóźniej przed przyziemieniem.
+- Ruch VFR powinien otrzymać zezwolenie przed przecięciem progu drogi startowej.
+
+### Elementy zezwolenia na przylot
+
+Zezwolenie na operację przylotową na drodze startowej powinno zawierać:
+
+- znak wywoławczy statku powietrznego,
+- kierunek oraz siłę wiatru,
+- oznaczenie drogi startowej,
+- typ operacji, na który wydajesz zezwolenie.
+
+```
+SPABC, wind 290 degrees 5 knots, runway 25, cleared to land
+```
+
+Jeśli zezwalasz na inną operację niż pełne lądowanie, dodaj instrukcję, co pilot ma zrobić
+zaraz po jej wykonaniu:
+
+```
+SPABC, wind 290 degrees 5 knots, runway 25, cleared for touch and go,
+after operation join right hand traffic pattern, report downwind
+```
+
+:::caution Ruch VFR w CTR
+Jeśli w CTR znajduje się inny ruch VFR, musisz poinformować o nim pilota podchodzącego statku
+powietrznego.
+:::
+
+```
+Traffic information, 2 VFR aircraft on both sides of the aerodrome, not higher than 2000ft
+```
+
+### Separacje w śladzie aerodynamicznym
+
+Ruch IFR trafia do kontrolera tower już odpowiednio odseparowany przez kontrolera zbliżania —
+Twoim zadaniem jest zadbać o to, żeby ta separacja nie została zaburzona w Twojej przestrzeni.
+
+Inaczej wygląda to w przypadku ruchu VFR, który dołącza do prostej podejścia w CTR. W tym
+przypadku informujesz pilota o poprzedzającym ruchu i nakazujesz mu zachowanie własnej
+separacji za tym ruchem:
+
+```
+SPABC, number 2, own separation, continue approach as number 2,
+preceding traffic category medium
+```
+
+:::caution TODO
+Tabela separacji w śladzie aerodynamicznym (kategorie turbulencji vs. wymagana separacja) —
+do uzupełnienia. Źródło: ICAO Doc 4444 (PANS-ATM), rozdział dotyczący separacji w śladzie
+aerodynamicznym.
+:::
+
+### Sterowanie prędkością przylotów
+
+Jako kontroler tower masz ograniczone możliwości sterowania prędkością ruchu. Możesz jednak,
+w celu zwiększenia separacji między podchodzącym ruchem, nakazać pilotowi zwolnienie do
+najmniejszej bezpiecznej prędkości podejścia:
+
+```
+SPABC, reduce minimum approach speed
+```
+
+### Koordynacja z kontrolerem APP
+
+Możesz poprosić kontrolera zbliżania (APP) o większe separacje albo zwolnienie statku
+powietrznego — np. żeby wpuścić operację ruchu VFR. Odpowiednia koordynacja usprawnia ruch na
+drodze startowej i zmniejsza opóźnienia zarówno dla ruchu oczekującego na odlot, jak i dla
+ruchu przylatującego VFR.
+
+### Podejścia z widocznością
+
+Obsługa podejścia z widocznością (*visual approach*) w większości nie różni się od innych
+przylotów IFR. Pamiętaj, żeby przed operacją przekazać pilotowi instrukcje na wypadek
+nieudanego podejścia — skoordynowane wcześniej z kontrolerem zbliżania:
+
+```
+WZZ1, in case of missed approach, maintain runway heading, climb altitude 5000ft
+```
+
+### Nieudane podejście (go-around)
+
+Gdy pilot informuje Cię, że odchodzi na drugi krąg:
+
+1. Jeśli inny statek powietrzny może naruszyć separację z tym ruchem, natychmiast wydaj
+   instrukcje zapobiegające ewentualnej kolizji (np. anulowanie zezwolenia na odlot innemu
+   ruchowi).
+2. Poinformuj pilota odchodzącego na drugi krąg, co ma zrobić:
+
+```
+maintain runway heading, climb altitude 4000ft
+```
+
+lub, jeśli obowiązuje procedura opublikowana:
+
+```
+continue as published
+```
+
+3. Poinformuj o zaistniałej sytuacji kontrolera zbliżania i skoordynuj z nim *departure
+   release* — zezwolenie od APP na wypuszczenie kolejnego odlotu.
+
+Tak samo wygląda sytuacja, gdy to Ty wydajesz pilotowi instrukcję przerwania podejścia:
+
+```
+WZZ1, go around, I say again, go around!
+```
+
+:::info Nieudane podejście ruchu VFR
+Jeśli na drugi krąg odchodzi ruch VFR, nie musisz koordynować tego z APP — dotyczy to
+wyłącznie sytuacji w CTR. To Ty decydujesz, co dany ruch ma zrobić dalej; najczęściej będzie
+to dołączenie do kręgu nadlotniskowego albo lot na jeden z wyznaczonych w CTR punktów VFR.
+:::
+
+## Zobacz też
+
+- [Lotniska](/test/aerodrome)
+- [Sprawdzenie poprawności planu lotu](/test/flight-plan-validation)
