@@ -41,7 +41,7 @@ Podobnie jak w przypadku odlotów, należy zwrócić uwagę na możliwość wyst
 :::info
 Instrukcja kołowania powinna jednoznacznie określać **miejsce, do którego statek powietrzny ma kołować**, czyli tzw. _clearance limit_. Najczęściej będzie to punkt oczekiwania przed drogą startową lub stanowisko postojowe, np.: "taxi to holding point runway 25 via..." lub "taxi to stand ... via ...". W sytuacji zwiększonego natężenia ruchu kontroler może jednak wydać instrukcję jedynie do miejsca pośredniego, np. przed skrzyżowaniem dróg kołowania: "taxi via W, hold short of B". Po osiągnięciu tego miejsca załoga otrzyma dalsze instrukcje kołowania.
 
-Należy unikać łączenia obu rodzajów poleceń w jednej transmisji. Niepoprawna będzie zatem instrukcja: "taxi to holding point runway 25 via Z, W, B and A, on W hold short of B." - zawiera ona dwa różne miejsca zakończenia instrukcji kołowania: punkt oczekiwania przed pasem 25 oraz punkt zatrzymania przed drogą kołowania B. Załoga nie powinien otrzymywać jednocześnie polecenia dojechania do punktu oczekiwania i zatrzymania się wcześniej.
+Co ważne, należy unikać łączenia obu rodzajów poleceń w jednej transmisji. Niepoprawna będzie zatem instrukcja: "taxi to holding point runway 25 via Z, W, B and A, on W hold short of B." - zawiera ona dwa różne miejsca zakończenia instrukcji kołowania: punkt oczekiwania przed pasem 25 oraz punkt zatrzymania przed drogą kołowania B. Załoga nie powinien otrzymywać jednocześnie polecenia dojechania do punktu oczekiwania i zatrzymania się wcześniej.
 :::
 
 ### Progressive taxi
