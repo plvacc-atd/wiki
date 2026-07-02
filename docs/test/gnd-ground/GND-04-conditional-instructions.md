@@ -1,10 +1,10 @@
-# Instrukcje warunkowe
+4. Instrukcje warunkowe
 
 W sytuacjach, gdy wydanie instrukcji zależy od wykonania określonego manewru przez inny statek powietrzny lub pojazd, kontroler może zastosować **instrukcję warunkową**. Pozwala ona ograniczyć liczbę transmisji radiowych i zwiększyć płynność ruchu naziemnego bez negatywnego wpływu na poziom bezpieczeństwa. Zamiast oczekiwać na zakończenie manewru wykonywanego przez inny statek powietrzny i dopiero wtedy wydawać kolejną instrukcję, kontroler może przekazać ją wcześniej, wskazując warunek, po którego spełnieniu załoga będzie mogła rozpocząć wykonywanie manewru. Załoga **nie może rozpocząć wykonywania instrukcji przed spełnieniem wskazanego warunku**.
 
 Najczęstszym zastosowaniem instrukcji warunkowych przez kontrolera GND jest **wypychanie**. Instrukcje warunkowe można wykorzystywać również podczas **kołowania**.
 
-## Budowa instrukcji warunkowej
+### Budowa instrukcji warunkowej
 
 Instrukcja warunkowa składa się z:
 1) identyfikatora statku powietrznego, do którego jest skierowana
@@ -15,7 +15,7 @@ Instrukcja warunkowa składa się z:
 
 Kluczowa jest właśnie ta kolejność: załoga nie powinna otrzymywać najpierw instrukcji, a dopiero później warunku, ponieważ mogłoby to prowadzić do wątpliwości, czy instrukcja nie obowiązuje natychmiast.
 
-## Przykłady
+### Przykłady
 
 1) Za samolotem oczekującym na wypychanie kołuje inny statek powietrzny. Zamiast rozdzielać komunikację na dwie osobne transmisje, tj.:
 

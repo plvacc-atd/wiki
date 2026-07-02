@@ -1,20 +1,20 @@
-# Ruch na płycie
+2. Ruch na płycie
 
 Po zakończeniu wypychania lub uruchomienia silników przez załogę zadaniem kontrolera GND jest bezpieczne poprowadzenie statku powietrznego do punktu oczekiwania przed pasem startowym. W przypadku przylotów sytuacja wygląda odwrotnie: samolot należy wówczas bezkolizyjnie doprowadzić z drogi startowej do przydzielonego stanowiska postojowego.
 
 Wydawanie instrukcji kołowania wymaga planowania kilku ruchów naprzód. Dobry kontroler nie zastanawia się, którędy poprowadzić samolot dopiero po otrzymaniu zgłoszenia od załogi, lecz już wcześniej analizuje sytuację na lotnisku, przewiduje możliwe konflikty i wybiera trasę zapewniającą największą możliwą płynność ruchu.
 
-## Kołowanie odlotów
+### Kołowanie odlotów
 
 Po zakończeniu wypychania lub uruchomienia silników załoga zgłasza gotowość do kołowania.
 
-> **Kraków Ground, SP-ABC, ready to taxi.** <br/>
-> **Kraków Ground, SP-ABC, gotowy do kołowania.**
+> **Kraków Ground, SP-ABC, ready to taxi.**  
+> **Kraków Ground, SP-ABC, gotowi do kołowania.**
 
 Kontroler wydaje instrukcję kołowania do właściwego punktu oczekiwania przed pasem startowym.
 
-> **SP-ABC, taxi holding point runway 25 via Z and A.** <br/>
-> **SP-ABC, kołuj do punktu oczekiwania przed pasem 25 drogami Z oraz A.**
+> **SP-ABC, taxi holding point runway 25 via Z and A.**  
+> **SP-ABC, kołujcie do punktu oczekiwania przed pasem 25 drogami Z oraz A.**
 
 :::info
 Wydając instrukcję kołowania należy upewnić się, że:
@@ -29,30 +29,19 @@ Nie zawsze jednak najkrótsza droga jest najlepszym rozwiązaniem. Czasami korzy
 
 Przekazanie statku powietrznego do kontrolera TWR następuje zgodnie z zasadami podanymi w [GND 0 - Przekazanie statku powietrznego do kolejnego kontrolera].
 
-## Kołowanie przylotów
+### Kołowanie przylotów
 
 Po opuszczeniu drogi startowej kontroler TWR przekazuje przylatujący statek powietrzny na częstotliwość GND. Kontroler GND wydaje instrukcję kołowania do stanowiska postojowego.
 
-> **SP-ABC, taxi stand 13 via B, W and T.** <br/>
-> **SP-ABC, kołuj do stanowiska 13 drogami B, W oraz T.**
+> **SP-ABC, welcome to Kraków, taxi to stand 13 via B, W and T.**  
+> **SP-ABC, witamy w Krakowie, kołujcie do stanowiska 13 drogami B, W oraz T.**
 
 Podobnie jak w przypadku odlotów, należy zwrócić uwagę na możliwość wystąpienia konfliktów z ruchem kołującym do startu oraz z samolotami wykonującymi wypychanie.
 
 :::info
-Instrukcja kołowania powinna jednoznacznie określać **miejsce, do którego statek powietrzny ma kołować**, czyli tzw. _clearance limit_. Najczęściej będzie to punkt oczekiwania przed drogą startową lub stanowisko postojowe
+Instrukcja kołowania powinna jednoznacznie określać **miejsce, do którego statek powietrzny ma kołować**, czyli tzw. _clearance limit_. Najczęściej będzie to punkt oczekiwania przed drogą startową lub stanowisko postojowe, np.: "taxi to holding point runway 25 via..." lub "taxi to stand ... via ...". W sytuacji zwiększonego natężenia ruchu kontroler może jednak wydać instrukcję jedynie do miejsca pośredniego, np. przed skrzyżowaniem dróg kołowania: "taxi via W, hold short of B". Po osiągnięciu tego miejsca załoga otrzyma dalsze instrukcje kołowania.
 
-> **SP-ABC, taxi to holding point runway 25 via Z and A.** <br/>
-> **SP-ABC, kołuj do punktu oczekiwania przed pasem 25 drogami Z i A.**
-
- W sytuacji zwiększonego natężenia ruchu kontroler może jednak wydać instrukcję jedynie do miejsca pośredniego, np. przed skrzyżowaniem dróg kołowania
- 
-> **SPABC, taxi via W, hold short of B.** 
-
-Po osiągnięciu tego miejsca załoga otrzyma dalsze instrukcje kołowania.
-Co ważne, należy unikać łączenia obu rodzajów poleceń w jednej transmisji. Niepoprawna będzie zatem instrukcja
-> **SP-ABC, taxi to holding point runway 25 via Z, W, B and A, on W hold short of B.**
-
-zawiera ona dwa różne miejsca zakończenia instrukcji kołowania: punkt oczekiwania przed pasem 25 oraz punkt zatrzymania przed drogą kołowania B. Załoga nie powinien otrzymywać jednocześnie polecenia dojechania do punktu oczekiwania i zatrzymania się wcześniej.
+Co ważne, należy unikać łączenia obu rodzajów poleceń w jednej transmisji. Niepoprawna będzie zatem instrukcja: "taxi to holding point runway 25 via Z, W, B and A, on W hold short of B." - zawiera ona dwa różne miejsca zakończenia instrukcji kołowania: punkt oczekiwania przed pasem 25 oraz punkt zatrzymania przed drogą kołowania B. Załoga nie powinien otrzymywać jednocześnie polecenia dojechania do punktu oczekiwania i zatrzymania się wcześniej.
 :::
 
 ### Progressive taxi
@@ -73,20 +62,17 @@ Następnie:
 
 > **SP-ABC, now turn right onto B and taxi ahead via B.**
 
-Na VATSIM z progressive taxi spotykamy się stosunkowo rzadko, jednak warto pamiętać, że załoga ma pełne prawo poprosić o taką pomoc. Jeżeli sytuacja ruchowa na to pozwala, kontroler powinien udzielić możliwie prostych i jednoznacznych instrukcji, pamiętając jednocześnie, aby nie koncentrować całej uwagi wyłącznie na jednym statku powietrznym.
+Na VATSIM z progressive taxi spotykamy się stosunkowo rzadko, jednak warto pamiętać, że załoga ma pełne prawo poprosić o taką pomoc. Jeżeli sytuacja ruchowa na to pozwala, kontroler powinien udzielić możliwie prostych i jednoznacznych instrukcji, pamiętając jednocześnie, pamiętając jednocześnie, aby nie koncentrować całej uwagi wyłącznie na jednym statku powietrznym.
 
-## Ograniczenia w kołowaniu
+### Ograniczenia w kołowaniu
 
 Nie każda droga kołowania może być wykorzystana przez każdy statek powietrzny. Planując trasę, należy uwzględnić wszystkie ograniczenia opublikowane w dokumentacji lotniska.
 
-### Ograniczenia wynikające z rozpiętości skrzydeł
+##### Ograniczenia wynikające z rozpiętości skrzydeł
 
 Najczęściej spotykane są ograniczenia dotyczące maksymalnej rozpiętości skrzydeł.
 
-Skąd wiadomo, czy dany samolot może korzystać z konkretnej drogi kołowania? Z pomocą przyjdą nam dokumenty przywołane w części [Lotniska - Gdzie szukać informacji?](/docs/test/aerodrome.md#gdzie-szukać-informacji).
-
-
-> DoZro - opis przeniose do 'LOTNISKA', pomysl czy zostawiac to tu
+Skąd wiadomo, czy dany samolot może korzystać z konkretnej drogi kołowania? Z pomocą przyjdą nam dokumenty przywołane w części [LINK 1.1 PODSTAWOWE DANE O LOTNISKACH - GDZIE SZUKAĆ INFORMACJI]. Dla przypomnienia, karty związane z operacjami naziemnymi na lotnisku (karta lotniska, stanowiska, karty ukazujące układ poszczególnych płyt postojowych) zazwyczaj znaleźć można podążając ścieżką: [AIP Polska](https://www.ais.pansa.pl/publikacje/aip-polska/) IFR -> CZĘŚĆ 3 - LOTNISKA (AD) -> KOD_ICAO_LOTNISKA -> KOD_ICAO 2 oraz KOD_ICAO 4. Zawsze warto również zaznajomić się z sekcją opisową KOD_ICAO 1, zwłaszcza częściami od 2.20 do 2.23.
 
 Czego możemy dowiedzieć się np. o lotnisku Kraków-Balice patrząc na w/w karty oraz zapisy?
 - karta EPKK AD 2 to AERODROME CHART, czyli karta przedstawiająca ogólny układ lotniska; zawiera również zapisy o szerokości poszczególnych dróg kołowania;
@@ -96,7 +82,7 @@ Czego możemy dowiedzieć się np. o lotnisku Kraków-Balice patrząc na w/w kar
 
 Zgodnie z zasadą „as real as it gets” na VATSIM staramy się przestrzegać procedur obowiązujących w rzeczywistości. W związku z tym B789 (Dreamliner o rozpiętości skrzydeł przekraczającej 60 m) zaparkowany przy rękawie na stanowisku nr 5 powinien spodziewać się wypchnięcia dziobem na zachód, a następnie kołowania do punktu oczekiwania przed pasem 25 drogami Z, W, B i A, ponieważ drogi Z4, Z5 i Z6 są niedostępne dla samolotów o rozpiętości skrzydeł powyżej 52 m. Stojący obok B738, którego rozpiętość skrzydeł nie przekracza 36 m, może natomiast zostać wypchnięty dziobem na wschód i kołować do tego samego miejsca drogami Z oraz A.
 
-## Low Visibility Procedures (LVP)
+##### Low Visibility Procedures (LVP)
 
 Podczas obowiązywania procedur ograniczonej widzialności (**LVP**) część dróg kołowania może zostać wyłączona z użytkowania, a ruch naziemny odbywa się według specjalnych zasad opublikowanych dla danego lotniska. Na VATSIM procedury LVP stosowane są wtedy, gdy warunki pogodowe rzeczywiście uzasadniają ich wprowadzenie. Kontroler GND powinien wówczas zapoznać się z lokalnymi procedurami i prowadzić ruch zgodnie z opublikowanymi ograniczeniami.
 
@@ -104,7 +90,7 @@ Informacje dotyczące procedur LVP dla poszczególnych lotnisk w Warszawa vFIR m
 
 Kluczowe ograniczenia związane z LVP na lotnisku Kraków-Balice to m.in.: ruch statków powietrznych na płytowych drogach kołowania odbywa się wyłącznie w asyście FOLLOW-ME (nie symulujemy tego aspektu w sieci VATSIM); drogi kołowania C oraz D są niedostępne.
 
-## Dobra praktyka
+### Dobra praktyka
 
 Wydając instrukcję kołowania, warto przez kilka sekund spojrzeć nie tylko na statek powietrzny, z którym prowadzimy korespondencję, ale na całe lotnisko i odpowiedzieć sobie na kilka pytań:
 
