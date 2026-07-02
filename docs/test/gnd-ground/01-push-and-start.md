@@ -11,7 +11,7 @@ Na VATSIM załoga najczęściej zgłasza gotowość do wypychania i uruchomienia
 
 Jeżeli sytuacja na płycie postojowej na to pozwala, kontroler może umożliwić jednoczesne wypychanie i uruchomienie silników, podając przy tym aktualne ciśnienie QNH.
 
-> **SP-ABC, Kraków Ground, QNH 1013, push(back) and start(up) approved (facing east).** <br/>
+> **SP-ABC, Kraków Ground, QNH 1013, pushback and startup approved (facing east).** <br/>
 > **SP-ABC, Kraków Ground, QNH 1013, możesz wypychać i uruchamiać (dziobem na wschód).** 
 
 :::info
