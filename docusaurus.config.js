@@ -34,6 +34,16 @@ const config = {
 
   onBrokenLinks: 'throw',
 
+  headTags: [
+      {
+        tagName: 'meta',
+        attributes: {
+          name: 'algolia-site-verification',
+          content: '41AEE840A3A10275',
+        },
+      },
+    ],
+
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
@@ -118,6 +128,12 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+      },
+      algolia: {
+            apiKey: '972b68a4e642dc6a4caea935df0fe48b',
+            indexName: 'PLVACC wiki crawler',
+            appId: 'NWSV9D8315',
+            contextualSearch: true,
       },
     }),
 };

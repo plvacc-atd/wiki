@@ -47,7 +47,7 @@ Pas drogi startowej z kolei jest tworem bardziej abstrakcyjnym. Nie wyznaczają 
 
 ### Parametry lotniska
 
-> **Kod ICAO lotniska** (*ICAO airport code*) - powszechnie używana nazwa czteroliterowego tzw. wskaźnika lokalizacji lotniska (*location indicator*), wykorzystywana między innymi przez służby ruchu lotniczego do planowania lotów czy adresowania depesz lotniczych. Listę wszystkich wskaźników lokalizacji można znaleźć w dokumencie *DOC7910 - Location indicators*.
+> **Kod ICAO lotniska** (*ICAO airport code*) - powszechnie używana nazwa czteroliterowego tzw. wskaźnika lokalizacji lotniska (*location indicator*), wykorzystywany między innymi przez służby ruchu lotniczego czy operatorów statków powietrznych. Listę wszystkich wskaźników lokalizacji można znaleźć w dokumencie *DOC7910 - Location indicators*.
 
 > **Punkt odniesienia lotniska** (*aerodrome reference point - ARP*) - Punkt określający geograficzną lokalizację lotniska. To właśnie ten punkt znajdzie się w planie lotu, jeśli pilot wpisze *AEPKK*.
 
@@ -73,7 +73,7 @@ Drugi człon kodu określa maksymalną dopuszczalną rozpiętość skrzydeł lub
 | C   | 24m do < 36m                     | BOEING 737-700/AIRBUS A-320/EMBRAER ERJ 190-100           |
 | D   | 36m do < 52m                     | B767 Series/AIRBUS A-310                                  |
 | E   | 52m do < 65m                     | B777 Series/B787 Series/A330 Family                       |
-| F   | 65m do < 8-0m                    | 	BOEING 747-8/AIRBUS A-380-800                            |
+| F   | 65m do < 80m                    | 	BOEING 747-8/AIRBUS A-380-800                            |
  
 
 ### Parametry drogi startowej
