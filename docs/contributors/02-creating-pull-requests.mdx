@@ -3,7 +3,7 @@ sidebar_position: 2
 sidebar_label: 'Dodawanie zmian do Wiki'
 ---
 
-# Dodawanie zmian przez pull requesty
+# Dodawanie zmian do Wiki przez pull requesty
 
 Artykuł przedstawia podstawowy proces wprowadzania zmian do bazy wiedzy - od utworzenia własnej gałęzi (branch), przez dodawanie i modyfikowanie plików oraz katalogów, aż po utworzenie Pull Requesta, który umożliwia recenzję zmian i włączenie treści do głównej wersji repozytorium. Opisany workflow skupia się na dodawaniu zmian z użyciem wyłącznie interfejsu strony GitHub, więc znajomość dodatkowych narzędzi do pracy z Gitem nie jest wymagana.
 
@@ -72,13 +72,18 @@ Klik w `Create pull request` na dole strony ostatecznie kończy proces.
 
 :::tip
 Przydatne informacje:
-- po stworzeniu Pull requesta nadal możesz dodawać zmiany na swojej gałęzi roboczej, pull request zawsze automatycznie zaktualizuje się po wprowadzeniu przez Ciebie zmian
-- warto spojrzeć na podsumowanie zmian wprowadzonych w plikach klikając na `Files changed`
+- po stworzeniu Pull requesta nadal możesz dodawać zmiany na swojej gałęzi roboczej, pull request zawsze automatycznie zaktualizuje się po dodaniu (commitowaniu) przez Ciebie zmian
+- warto spojrzeć na podsumowanie zmian wprowadzonych w plikach klikając na `Files changed`. Jest to świetne narzędzie do ostatecznego sprawdzenia proponowanej przez nas zmiany przed wkroczeniem recenzentów do akcji
   ![Lista zmian w plikach](assets/02-files-changed.png) 
   
-  Jest to świetne narzędzie do ostatecznego sprawdzenia proponowanej przez nas zmiany przed wkroczeniem recenzentów do akcji.
+
 :::
 
 ## Publikacja zmian
 
-Z Twojej strony to wszystko. Gdy uprawniony recenzent zatwierdzi Twoje zmiany, zostaną one automatycznie opublikowane na Wiki. Pamiętaj, żeby posprzątać po sobie i usunąć swoją roboczą gałąź po skończeniu pracy nad danym zagadnieniem.
+Z Twojej strony to prawie wszystko. Poczekaj, aż jeden z recenzentów zapozna się z proponowanymi przez Ciebie zmianami i je zatwierdzi. Warto pamiętać, że recenzent tylko sprawdza Twoje treści i je aprobuje (lub ewentualnie wskazuje miejsca do poprawy). Ostateczne dodanie zmian do głównej gałęzi to zawsze obowiązek proponującego zmianę, czyli Ciebie. Zrobisz to klikając na dole strony pull requesta na `Squash and merge`
+
+![merge](assets/02-squash-and-merge.png)
+
+
+Pamiętaj, żeby posprzątać po sobie i [usunąć swoją roboczą gałąź](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository#deleting-a-branch) po skończeniu pracy nad danym zagadnieniem.
