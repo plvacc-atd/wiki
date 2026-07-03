@@ -24,7 +24,7 @@ Załoga wykonuje wypychanie samodzielnie przy pomocy funkcji dostępnych w symul
 
 Przykładowa frazeologia:
 
-> **SP-ABC, standby, expect one minute delay due traffic taxiing behind.**
+> **SP-ABC, standby, expect one minute delay due traffic taxiing behind.** <br/>
 > **SP-ABC, czekaj, spodziewaj się minuty opóźnienia z powodu ruchu kołującego za tobą**.
 
 Dopiero po przekołowaniu drugiego samolotu można poinformować załogę, że może rozpocząć wypychanie.
@@ -37,12 +37,12 @@ Dla większych samolotów, takich jak **Boeing 787**, wypchnięcie dziobem na za
 
 ## Stanowiska niewymagające wypychania
 
-Warto pamiętać, że nie każde stanowisko wymaga wypychania. Na wielu lotniskach znajdują się tzw. stanowiska przelotowe, na które samolot wjeżdża od jednej strony i po postoju może z nich wykołować "przed siebie" o własnych siłach po uruchomieniu silników. Dotyczy to najczęściej stanowisk oddalonych od terminala. Na lotnisku EPKK są to np. stanowiska 13-16 (samoloty po uruchomieniu silników wykołowują samodzielnie na drogę kołowania Z), 17-21 (po uruchomieniu można kołować drogą kołowania S), 22-25 (kołowanie na drogę kołowania B) oraz 26-30 (wyjazd na drogę kołowania G). W takim przypadku, komunikacja wygląda zazwyczaj następująco:
+Warto pamiętać, że nie każde stanowisko wymaga wypychania. Na wielu lotniskach znajdują się tzw. stanowiska przelotowe (_remote stands_), na które samolot wjeżdża od jednej strony i po postoju może z nich wykołować "przed siebie" o własnych siłach po uruchomieniu silników. Dotyczy to najczęściej stanowisk oddalonych od terminala. Na lotnisku EPKK są to np. stanowiska 13-16 (samoloty po uruchomieniu silników wykołowują samodzielnie na drogę kołowania Z), 17-21 (po uruchomieniu można kołować drogą kołowania S), 22-25 (kołowanie na drogę kołowania B) oraz 26-30 (wyjazd na drogę kołowania G). W takim przypadku, komunikacja wygląda zazwyczaj następująco:
 
-> **Kraków Ground, SP-ABC, ready for startup.**
+> **Kraków Ground, SP-ABC, ready for startup.** <br/>
 > **Kraków Ground, SP-ABC, gotowy do uruchamiania.**
 
-> **SP-ABC, Kraków Ground, QNH 1013, startup approved.**
+> **SP-ABC, Kraków Ground, QNH 1013, startup approved.** <br/>
 > **SP-ABC, Kraków Ground, QNH 1013, możesz uruchamiać.**
 
 :::info
