@@ -1,3 +1,8 @@
+---
+sidebar_position: 2
+sidebar_label: 'Dodawanie zmian do Wiki'
+---
+
 # Dodawanie zmian przez pull requesty
 
 Artykuł przedstawia podstawowy proces wprowadzania zmian do bazy wiedzy - od utworzenia własnej gałęzi (branch), przez dodawanie i modyfikowanie plików oraz katalogów, aż po utworzenie Pull Requesta, który umożliwia recenzję zmian i włączenie treści do głównej wersji repozytorium. Opisany workflow skupia się na dodawaniu zmian z użyciem wyłącznie interfejsu strony GitHub, więc znajomość dodatkowych narzędzi do pracy z Gitem nie jest wymagana.
@@ -50,10 +55,30 @@ Przy wprowadzaniu zmian warto pamiętać o kilku zasadach:
 
 ## Tworzenie pull requesta
 
-Dobrnęliśmy prawie do końca. Wszystkie zmiany są wprowadzone, jesteś gotów do przedstawienia swoich zmian recenzentom. Służy do tego 'Pull request', czyli potocznie propozycja wciągnięcia zmian na główną gałąź. Jeśli dopiero skończyłeś commitować swoje zmiany, to przejdź na główną stronę repozytorium. Powinieneś zobaczyć takie powiadomienie:
+Dobrnęliśmy prawie do końca. Wszystkie zmiany są wprowadzone, jesteś gotów do przedstawienia swoich zmian recenzentom. Służy do tego 'Pull request', czyli potocznie propozycja wciągnięcia zmian na główną gałąź. Jeśli dopiero skończyłeś commitować swoje zmiany, to przejdź na główną stronę repozytorium. W powiadomieniu kliknij `Compare & pull request`.
 
+![tworzenie PR](02-create-pull-request-1.jpg)
 
+Jeśli powiadomienie nie pojawiło się, trzeba będzie stworzyć pull request manualnie. W menu na górze strony znajdź i kliknij `Pull requests`, a na kolejnej stronie `New pull request`
+W oknie które się pojawi, najważniejsze, żebyś wybrał branch docelowy `main` i branch, który chcesz do niego włączyć. Zatwierdź zmiany klikając `Create pull request`.
+
+![manualne tworzenie pr](02-manual-pull-request-creation.png)
+
+Dotarliśmy do ostatniego kroku. W polu `Add a title` dodaj krótką nazwę proponowanej zmiany. Będzie to informacja widoczna w historii repozytorium, więc postaraj się, aby dobrze oddawała charakter zmian. Jeśli chcesz, możesz zostawić dodatkowe informacje kontekstowe w polu `Add a description`.
+
+![tworzenie PR 2](02-create-pull-request-2.jpg)
+
+Klik w `Create pull request` na dole strony ostatecznie kończy proces.
+
+:::tip
+Przydatne informacje:
+- po stworzeniu Pull requesta nadal możesz dodawać zmiany na swojej gałęzi roboczej, pull request zawsze automatycznie zaktualizuje się po wprowadzeniu przez Ciebie zmian
+- warto spojrzeć na podsumowanie zmian wprowadzonych w plikach klikając na `Files changed`
+  ![Lista zmian w plikach](02-files-changed.png) 
+  
+  Jest to świetne narzędzie do ostatecznego sprawdzenia proponowanej przez nas zmiany przed wkroczeniem recenzentów do akcji.
+:::
 
 ## Publikacja zmian
 
-Z Twojej strony to wszystko. Gdy uprawniony recenzent zatwierdzi Twoje zmiany, zostaną one automatycznie opublikowane na Wiki. 
+Z Twojej strony to wszystko. Gdy uprawniony recenzent zatwierdzi Twoje zmiany, zostaną one automatycznie opublikowane na Wiki. Pamiętaj, żeby posprzątać po sobie i usunąć swoją roboczą gałąź po skończeniu pracy nad danym zagadnieniem.
