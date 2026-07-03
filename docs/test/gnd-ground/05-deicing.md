@@ -1,6 +1,6 @@
 # Odladzanie
 
-Operacje **odladzania (de-icing)** stanowią istotny element przygotowania statku powietrznego do odlotu w warunkach sprzyjających występowaniu zjawiska oblodzenia. Ich celem jest zapewnienie, że powierzchnie nośne statku powietrznego są wolne od zanieczyszczeń mogących wpływać negatywnie na ich właściwości aerodynamiczne.
+Operacje **odladzania (de-icing)** oraz **zabezpieczenia przeciwoblodzeniowego (anti-icing)** stanowią istotny element przygotowania statku powietrznego do odlotu w warunkach występowania oblodzenia, opadów śniegu lub marznącego deszczu. Ich celem jest zapewnienie, że powierzchnie nośne statku powietrznego są wolne od zanieczyszczeń mogących wpływać negatywnie na ich właściwości aerodynamiczne.
 
 ### Gdzie odbywa się odladzanie?
 
@@ -15,4 +15,4 @@ Kołowanie do stanowiska przeznaczonego do odladzania prowadzone jest przez kont
 > **SP-ABC, taxi to stand 22 via Z, W and S, report de-icing complete. <br/>
 > SP-ABC, kołuj do stanowiska 22 drogami Z, W oraz S, zgłoś zakończenie odladzania.**
 
-Po zakończeniu odladzania kontroler wydaje dalszą instrukcję kołowania do punktu oczekiwania przed pasem w użyciu.
+Po zakończeniu procedur związanych z odladzaniem i zabezpieczeniem przeciwoblodzeniowym kontroler wydaje dalszą instrukcję kołowania do punktu oczekiwania przed pasem w użyciu.
