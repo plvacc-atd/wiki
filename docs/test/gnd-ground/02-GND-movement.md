@@ -95,6 +95,36 @@ Czego możemy dowiedzieć się np. o lotnisku Kraków-Balice patrząc na w/w kar
 
 Zgodnie z zasadą „as real as it gets” na VATSIM staramy się przestrzegać procedur obowiązujących w rzeczywistości. W związku z tym B789 (Dreamliner o rozpiętości skrzydeł przekraczającej 60 m) zaparkowany przy rękawie na stanowisku nr 5 powinien spodziewać się wypchnięcia dziobem na zachód, a następnie kołowania do punktu oczekiwania przed pasem 25 drogami Z, W, B i A, ponieważ drogi Z4, Z5 i Z6 są niedostępne dla samolotów o rozpiętości skrzydeł powyżej 52 m. Stojący obok B738, którego rozpiętość skrzydeł nie przekracza 36 m, może natomiast zostać wypchnięty dziobem na wschód i kołować do tego samego miejsca drogami Z oraz A.
 
+### Ograniczenia wynikające z tymczasowych ograniczeń infrastruktury
+
+Zdarza się, że drogi kołowania są niedostępne lub mają dodatkowe ograniczenia w związku z różnymi względami operacyjnymi (na przykład prowadzone prace remontowe czy powstanie przeszkody w polu manewrowym). Wszystkie ograniczenia tego typu obowiązujące na Vatsim publikowane są na stronie _Self check-in_ w postaci NOTAMów, przykładowo:
+
+- ograniczenie dostępności dróg kołowania:
+    ```
+    A1617/26 NOTAMR A1604/26 
+    Q) EPWW/QMXLT/IV/M  /A /000/999/5210N02058E005 
+    A) EPWA B) 2606121138 C) 2609112359EST 
+    E) TWY E4, TWY E3, TWY N3 AND SEGMENT OF TWY E2 BTN TWY R AND TWY E4 
+    AVBL FOR ACFT WITH WINGSPAN BELOW 36M. 
+    ```
+
+- zamknięcie dróg kołowania:
+    ```
+    E2314/26 NOTAMN
+    Q) EPWW/QMXLC/IV/BO /A /000/999/5306N01759E005
+    A) EPBY B) 2607030546 C) 2607032359
+    E) TWY E2 CLSD FROM ACFT STAND NR 17 TO TWY C. INTERSECTION OF TWY E
+    AND TWY C AVBL FOR TAXING.
+    ```
+
+- kołowanie tylko w asyscie FOLLOW-ME (niesymulowane na Vatsim):
+    ```
+    H0765/26 NOTAMN
+    Q) EPWW/QMXLT/IV/M  /A /000/999/5106N01653E005
+    A) EPWR B) 2604081330 C) 2607082359 EST
+    E) TWY J2 AND B4 TAXIING WITH FOLLOW ME ASSISTANCE ONLY.
+    ```
+
 ## Low Visibility Procedures (LVP)
 
 Podczas obowiązywania procedur ograniczonej widzialności (**LVP**) część dróg kołowania może zostać wyłączona z użytkowania, a ruch naziemny odbywa się według specjalnych zasad opublikowanych dla danego lotniska. Na VATSIM procedury LVP stosowane są wtedy, gdy warunki pogodowe rzeczywiście uzasadniają ich wprowadzenie. Kontroler GND powinien wówczas zapoznać się z lokalnymi procedurami i prowadzić ruch zgodnie z opublikowanymi ograniczeniami.
