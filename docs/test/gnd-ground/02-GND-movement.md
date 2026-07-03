@@ -84,7 +84,7 @@ Nie każda droga kołowania może być wykorzystana przez każdy statek powietrz
 Najczęściej spotykane są ograniczenia dotyczące maksymalnej rozpiętości skrzydeł.
 
 Skąd wiadomo, czy dany samolot może korzystać z konkretnej drogi kołowania? Z pomocą przyjdą nam dokumenty przywołane w części [Lotniska - Gdzie szukać informacji?](/docs/test/aerodrome.md#gdzie-szukać-informacji).
-Skąd wiadomo, czy dany samolot może korzystać z konkretnej drogi kołowania? Z pomocą przyjdą nam dokumenty przywołane w części [LINK 1.1 PODSTAWOWE DANE O LOTNISKACH - GDZIE SZUKAĆ INFORMACJI]. Dla przypomnienia, karty związane z operacjami naziemnymi na lotnisku (karta lotniska, stanowiska, karty ukazujące układ poszczególnych płyt postojowych) zazwyczaj znaleźć można podążając ścieżką: [AIP Polska](https://www.ais.pansa.pl/publikacje/aip-polska/) IFR -> CZĘŚĆ 3 - LOTNISKA (AD) -> EPKK -> EPKK 2 oraz EPKK 4. Zawsze warto również zaznajomić się z sekcją opisową EPKK 1, zwłaszcza częściami od 2.20 do 2.23.
+Dla przypomnienia, karty związane z operacjami naziemnymi na lotnisku (karta lotniska, stanowiska, karty ukazujące układ poszczególnych płyt postojowych) zazwyczaj znaleźć można podążając ścieżką: [AIP Polska](https://www.ais.pansa.pl/publikacje/aip-polska/) IFR -> CZĘŚĆ 3 - LOTNISKA (AD) -> EPKK -> EPKK 2 oraz EPKK 4. Zawsze warto również zaznajomić się z sekcją opisową EPKK 1, zwłaszcza częściami od 2.20 do 2.23.
 
 Czego możemy dowiedzieć się np. o lotnisku Kraków-Balice patrząc na w/w karty oraz zapisy?
 - karta EPKK AD 2 to AERODROME CHART, czyli karta przedstawiająca ogólny układ lotniska; zawiera również zapisy o szerokości poszczególnych dróg kołowania;
