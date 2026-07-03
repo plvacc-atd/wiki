@@ -55,7 +55,7 @@ Co ważne, należy unikać łączenia obu rodzajów poleceń w jednej transmisji
 zawiera ona dwa różne miejsca zakończenia instrukcji kołowania: punkt oczekiwania przed pasem 25 oraz punkt zatrzymania przed drogą kołowania B. Załoga nie powinien otrzymywać jednocześnie polecenia dojechania do punktu oczekiwania i zatrzymania się wcześniej.
 :::
 
-### Progressive taxi
+## Progressive taxi
 
 Nie każda załoga na VATSIM zna układ dróg kołowania lotniska, na którym wykonuje operacje. Dotyczy to zwłaszcza lotnictwa ogólnego, załóg wykonujących lot na dane lotnisko po raz pierwszy lub użytkowników mniej szczegółowych scenerii. W takiej sytuacji załoga może poprosić o **progressive taxi**, czyli prowadzenie po lotnisku krok po kroku.
 
@@ -84,15 +84,14 @@ Nie każda droga kołowania może być wykorzystana przez każdy statek powietrz
 Najczęściej spotykane są ograniczenia dotyczące maksymalnej rozpiętości skrzydeł.
 
 Skąd wiadomo, czy dany samolot może korzystać z konkretnej drogi kołowania? Z pomocą przyjdą nam dokumenty przywołane w części [Lotniska - Gdzie szukać informacji?](/docs/test/aerodrome.md#gdzie-szukać-informacji).
-
-
-> DoZro - opis przeniose do 'LOTNISKA', pomysl czy zostawiac to tu
+Skąd wiadomo, czy dany samolot może korzystać z konkretnej drogi kołowania? Z pomocą przyjdą nam dokumenty przywołane w części [LINK 1.1 PODSTAWOWE DANE O LOTNISKACH - GDZIE SZUKAĆ INFORMACJI]. Dla przypomnienia, karty związane z operacjami naziemnymi na lotnisku (karta lotniska, stanowiska, karty ukazujące układ poszczególnych płyt postojowych) zazwyczaj znaleźć można podążając ścieżką: [AIP Polska](https://www.ais.pansa.pl/publikacje/aip-polska/) IFR -> CZĘŚĆ 3 - LOTNISKA (AD) -> EPKK -> EPKK 2 oraz EPKK 4. Zawsze warto również zaznajomić się z sekcją opisową EPKK 1, zwłaszcza częściami od 2.20 do 2.23.
 
 Czego możemy dowiedzieć się np. o lotnisku Kraków-Balice patrząc na w/w karty oraz zapisy?
 - karta EPKK AD 2 to AERODROME CHART, czyli karta przedstawiająca ogólny układ lotniska; zawiera również zapisy o szerokości poszczególnych dróg kołowania;
 - karta EPKK AD 4 to AIRCRAFT PARKING CHART, czyli karta dokładniej ukazująca poszczególne stanowiska, wraz z tabelą zawierającą w kolumnie ACFT REF. CODE literę od A do F - jest to litera kodu referencyjnego ICAO (Aircraft Reference Code), określająca maksymalną rozpiętość skrzydeł oraz rozstaw kół podwozia głównego statku powietrznego, dla którego przeznaczone jest dane stanowisko (np. litera C oznacza rozpiętość skrzydeł od 24 do 36 metrów a rozstaw kół podwozia głównego od 6 do 9 m - to najpopularniejsze na Balicach samoloty, np. Airbus A320 czy Boeing 737);
 - w części EPKK AD 2.20 LOKALNE PRZEPISY DLA LOTNISKA odnajdziemy również w punkcie 3.1 PROCEDURY DOTYCZĄCE KOŁOWANIA m.in. następujące informacje:
-> TWY Z4, TWY Z5 i TWY Z6 dostępne dla statków powietrznych o rozpiętości skrzydeł do 52 m. TWY T i TWY S dostępne dla samolotów o rozpiętości skrzydeł 36 m.
+    > TWY Z4, TWY Z5 i TWY Z6 dostępne dla statków powietrznych o rozpiętości skrzydeł do 52 m. <br/>
+    > TWY T i TWY S dostępne dla samolotów o rozpiętości skrzydeł 36 m.
 
 Zgodnie z zasadą „as real as it gets” na VATSIM staramy się przestrzegać procedur obowiązujących w rzeczywistości. W związku z tym B789 (Dreamliner o rozpiętości skrzydeł przekraczającej 60 m) zaparkowany przy rękawie na stanowisku nr 5 powinien spodziewać się wypchnięcia dziobem na zachód, a następnie kołowania do punktu oczekiwania przed pasem 25 drogami Z, W, B i A, ponieważ drogi Z4, Z5 i Z6 są niedostępne dla samolotów o rozpiętości skrzydeł powyżej 52 m. Stojący obok B738, którego rozpiętość skrzydeł nie przekracza 36 m, może natomiast zostać wypchnięty dziobem na wschód i kołować do tego samego miejsca drogami Z oraz A.
 
