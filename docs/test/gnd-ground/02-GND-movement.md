@@ -100,7 +100,7 @@ Zgodnie z zasadą „as real as it gets” na VATSIM staramy się przestrzegać 
 
 Podczas obowiązywania procedur ograniczonej widzialności (**LVP**) część dróg kołowania może zostać wyłączona z użytkowania, a ruch naziemny odbywa się według specjalnych zasad opublikowanych dla danego lotniska. Na VATSIM procedury LVP stosowane są wtedy, gdy warunki pogodowe rzeczywiście uzasadniają ich wprowadzenie. Kontroler GND powinien wówczas zapoznać się z lokalnymi procedurami i prowadzić ruch zgodnie z opublikowanymi ograniczeniami.
 
-Informacje dotyczące procedur LVP dla poszczególnych lotnisk w Warszawa vFIR można znaleźć w dokumencie _Operations Manual vFIR Warszawa_ oraz w przywołanej już powyżej sekcji AIP CZĘŚĆ 3 - LOTNISKA (AD) -> KOD_ICAO_LOTNISKA -> KOD_ICAO 1 -> AD 2.22.
+Informacje dotyczące procedur LVP dla poszczególnych lotnisk w Warszawa vFIR można znaleźć w dokumencie _Operations Manual vFIR Warszawa_ oraz w przywołanej już powyżej sekcji AIP CZĘŚĆ 3 - LOTNISKA (AD) -> EPKK -> EPKK 1 -> AD 2.22.
 
 Kluczowe ograniczenia związane z LVP na lotnisku Kraków-Balice to m.in.: ruch statków powietrznych na płytowych drogach kołowania odbywa się wyłącznie w asyście FOLLOW-ME (nie symulujemy tego aspektu w sieci VATSIM); drogi kołowania C oraz D są niedostępne.
 

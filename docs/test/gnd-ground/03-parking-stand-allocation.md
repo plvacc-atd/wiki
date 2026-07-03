@@ -1,6 +1,10 @@
 # Przydzielanie stanowisk
 
+### Odlatujące statki powietrzne
+
 W realnym świecie stanowiska postojowe przydzielane są liniom lotniczym oraz obsługiwanym przez nie statkom powietrznym z uwzględnieniem wielu czynników, takich jak typ samolotu, przewidywany czas postoju, obsługiwane kierunki lotów (np. Schengen / Non-Schengen) czy chociażby koszty, jakie linia musi ponieść w związku z korzystaniem z konkretnych udogodnień technicznych (np. rękaw). Sieć VATSIM rządzi się swoimi prawami i jako kontroler często nie mamy wpływu na to, na jakim stanowisku postanowi zalogować się dany pilot przed rozpoczęciem swojego lotu. Możemy podjąć interwencję (zwracając się do pilota z prośbą o ponowne zalogowanie się do sieci na prawidłowym stanowisku), jeśli ktoś pojawi się na stanowisku wyraźnie niedopasowanym do typu samolotu wykorzystywanego do danego lotu lub na stanowisku, z którego nie jest możliwe dokołowanie do pasa w użyciu ze względu na ograniczenia dotyczące np. dróg kołowania.
+
+### Przylatujące statki powietrzne
 
 Nieco łatwiej sytuacja wygląda w przypadku przylotów, gdyż wówczas oprogramowanie EuroScope na podstawie umieszczonych w pliku sektora algorytmów automatycznie proponuje stanowisko postojowe, uwzględniając co najmniej kategorię statku powietrznego i ograniczenia zapisane w konfiguracji lotniska, a na lotniskach z wydzielonymi strefami Schengen / Non-Schengen (np. EPWA), bierze pod uwagę również ten czynnik. Numer proponowanego stanowiska pojawia się w kolumnie **Stand** listy **Arrival List**.
 
@@ -10,15 +14,13 @@ Nieco łatwiej sytuacja wygląda w przypadku przylotów, gdyż wówczas oprogram
 
 Oczywiście ostatecznie to kontroler decyduje o przydziale stanowiska - załoga może poprosić o konkretne stanowisko, inne niż to przydzielone przez oprogramowanie, albo może okazać się, że w trakcie kołowania na stanowisku wskazanym przez EuroScope ktoś się zalogował i konieczne będzie sprawne podjęcie samodzielnej decyzji o przydzieleniu nowego miejsca postojowego. Trzeba zatem wiedzieć, jak ręcznie prawidłowo przydzielić stanowisko postojowe.
 
-## Rozpiętość skrzydeł
+## Stanowisko a rozmiar statku powietrznego
 
-W jaki sposób możemy sprawdzić, czy konkretne stanowisko jest odpowiednie dla danego samolotu? Z pomocą przyjdą nam dokumenty przywołane w części [LINK PODSTAWOWE DANE O LOTNISKACH - GDZIE SZUKAĆ INFORMACJI] oraz [LINK GND 2]. Dla przypomnienia, karty związane z operacjami naziemnymi na lotnisku (karta lotniska, stanowiska, karty ukazujące układ poszczególnych płyt postojowych) zazwyczaj znaleźć można podążając ścieżką [AIP Polska](https://www.ais.pansa.pl/publikacje/aip-polska/) `IFR -> CZĘŚĆ 3 - LOTNISKA (AD) -> KOD_ICAO_LOTNISKA -> KOD_ICAO 2 oraz KOD_ICAO 4.` Zawsze warto również zaznajomić się z sekcją opisową KOD_ICAO 1, zwłaszcza częściami od 2.20 do 2.23.
+W jaki sposób możemy sprawdzić, czy konkretne stanowisko jest odpowiednie dla danego samolotu? Z pomocą przyjdą nam dokumenty przywołane w części [LINK PODSTAWOWE DANE O LOTNISKACH - GDZIE SZUKAĆ INFORMACJI] oraz [LINK GND 2]. Dla przypomnienia, karty związane z operacjami naziemnymi na lotnisku (karta lotniska, stanowiska, karty ukazujące układ poszczególnych płyt postojowych) zazwyczaj znaleźć można podążając ścieżką [AIP Polska](https://www.ais.pansa.pl/publikacje/aip-polska/) `IFR -> CZĘŚĆ 3 - LOTNISKA (AD) -> EPKK -> EPKK 2 oraz EPKK 4.` Zawsze warto również zaznajomić się z sekcją opisową EPKK 1, zwłaszcza częściami od 2.20 do 2.23.
 
 Czego możemy dowiedzieć się o lotnisku Kraków-Balice, analizując wspomniane wyżej karty oraz zapisy AIP?
 - karta EPKK AD 2 to AERODROME CHART, czyli karta przedstawiająca ogólny układ lotniska; zawiera również zapisy o szerokości poszczególnych dróg kołowania;
 - karta EPKK AD 4 to AIRCRAFT PARKING CHART, czyli karta dokładniej ukazująca poszczególne stanowiska, wraz z tabelą zawierającą w kolumnie ACFT REF. CODE literę od A do F - jest to litera kodu referencyjnego ICAO (Aircraft Reference Code), określająca maksymalną rozpiętość skrzydeł oraz rozstaw kół podwozia głównego statku powietrznego, dla którego przeznaczone jest dane stanowisko (np. litera C oznacza rozpiętość skrzydeł od 24 do 36 metrów, a rozstaw kół podwozia głównego od 6 do 9 m - to najpopularniejsze na Balicach samoloty, np. Airbus A320 czy Boeing 737)
-- w części EPKK AD 2.20 LOKALNE PRZEPISY DLA LOTNISKA odnajdziemy również w punkcie 3.1 PROCEDURY DOTYCZĄCE KOŁOWANIA m.in. następujące informacje:
-> TWY Z4, TWY Z5 i TWY Z6 dostępne dla statków powietrznych o rozpiętości skrzydeł do 52 m. TWY T i TWY S dostępne dla samolotów o rozpiętości skrzydeł 36 m.
 
 Zgodnie z zasadą „as real as it gets” na VATSIM staramy się przestrzegać procedur obowiązujących w rzeczywistości. W związku z tym B789 (Dreamliner o rozpiętości skrzydeł przekraczającej 60 m), który po lądowaniu na pasie 07 zwolnił pas drogą kołowania A, powinien spodziewać się kołowania do jednego z odpowiednich stanowisk drogami B, W oraz Z, ponieważ drogi Z4, Z5 i Z6 są niedostępne dla samolotów o rozpiętości skrzydeł powyżej 52 m. Z kolei lądujący po nim B738, którego rozpiętość skrzydeł nie przekracza 36 m, może kołować np. do stanowiska nr 5 bezpośrednio drogą Z.
 
