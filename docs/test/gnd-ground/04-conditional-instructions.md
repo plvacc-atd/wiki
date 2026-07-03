@@ -33,8 +33,8 @@ Kluczowa jest właśnie ta kolejność: załoga nie powinna otrzymywać najpierw
 
 2) Instrukcje warunkowe można wykorzystywać również podczas kołowania. Przykładowo, dwa statki powietrzne zbliżają się do skrzyżowania dróg kołowania. Zamiast zatrzymywać jeden z nich i wydawać kolejną instrukcję po minięciu skrzyżowania przez drugi statek powietrzny, kontroler może zawrzeć cały zamiar w jednej transmisji:
 
-    > **SP-ABC, give way to Airbus A320, continue taxi to holding point runway 25 via Z and A. <br/>
-    > SP-ABC, przepuść Airbusa A320 kontynuuj kołowania do punktu oczekiwania przed pasem 25 drogami Z oraz A.**
+    > **SP-ABC, give way to Airbus A320 taxiing from left to right, continue taxi to holding point runway 25 via Z and A. <br/>
+    > SP-ABC, przepuść Airbusa A320 kołującego z lewej na prawą, kontynuuj kołowania do punktu oczekiwania przed pasem 25 drogami Z oraz A.**
 
 :::info
 **Instrukcja warunkowa nie zwalnia kontrolera z obowiązku monitorowania sytuacji.** Jeżeli warunki ruchowe ulegną zmianie, a wykonanie wydanej wcześniej instrukcji może doprowadzić do konfliktu, kontroler powinien niezwłocznie wydać nową instrukcję anulującą lub modyfikującą wcześniejsze polecenie.

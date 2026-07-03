@@ -6,7 +6,7 @@ Operacje **odladzania (de-icing)** oraz **zabezpieczenia przeciwoblodzeniowego (
 **De-icing** obejmuje czynności mające na celu usunięcie zanieczyszczeń zalegających na powierzchni statku powietrznego, podczas gdy **anti-icing** polega na zapobieganiu ich ponownemu tworzeniu się.
 :::
 
-### Gdzie odbywa się odladzanie?
+## Gdzie odbywa się odladzanie?
 
 W przypadku konieczności odladzania **załoga statku powietrznego powinna zgłosić ten fakt najpóźniej w momencie zgłaszania gotowości do wypychania lub uruchamiania silników**. Statek powietrzny po uruchomieniu silników lub wypychaniu otrzymuje instrukcję kołowania do stanowiska odladzania (de-icing pad / de-icing area), jeżeli takie zostało wyznaczone na danym lotnisku. Informacje na ten temat znajdują się w _Operations Manual vFIR Warszawa_ oraz w przywoływanym już w tej serii artykułów dokumencie [AIP Polska](https://www.ais.pansa.pl/publikacje/aip-polska/) `IFR -> CZĘŚĆ 3 - LOTNISKA (AD) -> EPKK -> EPKK 1 -> 2.20 - 2.23`.
 
