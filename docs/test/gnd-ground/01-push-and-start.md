@@ -7,7 +7,7 @@ Jednym z podstawowych zadań kontrolera GND jest wydawanie instrukcji dotyczący
 Na VATSIM załoga najczęściej zgłasza gotowość do wypychania i uruchomienia silników komunikatem:
 
 > **Kraków Ground, SP-ABC, ready for pushback and startup.** <br/>
-> **Kraków Ground, SP-ABC, gotowi do wypychania i uruchamiania.**
+> **Kraków Ground, SP-ABC, gotowy do wypychania i uruchamiania.**
 
 Jeżeli sytuacja na płycie postojowej na to pozwala, kontroler może umożliwić jednoczesne wypychanie i uruchomienie silników, podając przy tym aktualne ciśnienie QNH.
 
