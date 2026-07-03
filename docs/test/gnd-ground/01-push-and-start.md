@@ -25,7 +25,7 @@ Załoga wykonuje wypychanie samodzielnie przy pomocy funkcji dostępnych w symul
 Przykładowa frazeologia:
 
 > **SP-ABC, standby, expect one minute delay due traffic taxiing behind.**
-> **SP-ABC, oczekuj, spodziewaj się wypychania za ok. minutę po przekołowaniu ruchu z tyłu**.
+> **SP-ABC, czekaj, spodziewaj się minuty opóźnienia z powodu ruchu kołującego za tobą**.
 
 Dopiero po przekołowaniu drugiego samolotu można poinformować załogę, że może rozpocząć wypychanie.
 
