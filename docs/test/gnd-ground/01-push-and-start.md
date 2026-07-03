@@ -1,8 +1,8 @@
-# 1. Wypychanie i uruchamianie
+# Wypychanie i uruchamianie
 
 Jednym z podstawowych zadań kontrolera GND jest wydawanie instrukcji dotyczących **wypychania (pushback)** oraz **uruchomienia silników (startup)**. Choć w sieci VATSIM procedury te są znacznie uproszczone w porównaniu z realnymi operacjami lotniczymi (w rzeczywistości wypychanie samolotu jest wykonywane przez obsługę naziemną przy użyciu holownika), warto znać zasady obowiązujące w prawdziwym świecie i stosować je wszędzie tam, gdzie ma to wpływ na bezpieczeństwo oraz płynność ruchu naziemnego.
 
-## Wypychanie i uruchamianie - komunikacja
+## Komunikacja
 
 Na VATSIM załoga najczęściej zgłasza gotowość do wypychania i uruchomienia silników komunikatem:
 
