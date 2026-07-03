@@ -101,7 +101,7 @@ Zdarza się, że drogi kołowania są niedostępne lub mają dodatkowe ogranicze
 
 - ograniczenie dostępności dróg kołowania:
     ```
-    A1617/26 NOTAMR A1604/26 
+    A1604/26 NOTAMN 
     Q) EPWW/QMXLT/IV/M  /A /000/999/5210N02058E005 
     A) EPWA B) 2606121138 C) 2609112359EST 
     E) TWY E4, TWY E3, TWY N3 AND SEGMENT OF TWY E2 BTN TWY R AND TWY E4 
