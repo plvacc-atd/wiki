@@ -8,7 +8,6 @@ W realnym świecie stanowiska postojowe przydzielane są liniom lotniczym oraz o
 
 Nieco łatwiej sytuacja wygląda w przypadku przylotów, gdyż wówczas oprogramowanie EuroScope na podstawie umieszczonych w pliku sektora algorytmów automatycznie proponuje stanowisko postojowe, uwzględniając co najmniej kategorię statku powietrznego i ograniczenia zapisane w konfiguracji lotniska, a na lotniskach z wydzielonymi strefami Schengen / Non-Schengen (np. EPWA), bierze pod uwagę również ten czynnik. Numer proponowanego stanowiska pojawia się w kolumnie **Stand** listy **Arrival List**.
 
-[SCREEN Z ARRIVAL LISTY]
 
 Oczywiście ostatecznie to kontroler decyduje o przydziale stanowiska - załoga może poprosić o konkretne stanowisko, inne niż to przydzielone przez oprogramowanie, albo może okazać się, że w trakcie kołowania na stanowisku wskazanym przez EuroScope ktoś się zalogował i konieczne będzie sprawne podjęcie samodzielnej decyzji o przydzieleniu nowego miejsca postojowego. Trzeba zatem wiedzieć, jak ręcznie prawidłowo przydzielić stanowisko postojowe.
 
