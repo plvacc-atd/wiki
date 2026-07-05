@@ -50,7 +50,7 @@ Instrukcja kołowania powinna jednoznacznie określać **miejsce, do którego st
 
 Po osiągnięciu tego miejsca załoga otrzyma dalsze instrukcje kołowania.
 Co ważne, należy unikać łączenia obu rodzajów poleceń w jednej transmisji. Niepoprawna będzie zatem instrukcja
-> **SP-ABC, taxi to holding point runway 25 via Z, W, B and A, on W hold short of B.**
+> **SP-ABC, taxi holding point runway 25 via Z, W, B and A, on W hold short of B.**
 
 zawiera ona dwa różne miejsca zakończenia instrukcji kołowania: punkt oczekiwania przed pasem 25 oraz punkt zatrzymania przed drogą kołowania B. Załoga nie powinien otrzymywać jednocześnie polecenia dojechania do punktu oczekiwania i zatrzymania się wcześniej.
 :::
