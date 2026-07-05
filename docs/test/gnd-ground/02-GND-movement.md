@@ -97,7 +97,7 @@ Zgodnie z zasadą „as real as it gets” na VATSIM staramy się przestrzegać 
 
 ### Ograniczenia wynikające z tymczasowych ograniczeń infrastruktury
 
-Zdarza się, że drogi kołowania są niedostępne lub mają dodatkowe ograniczenia w związku z różnymi względami operacyjnymi (na przykład prowadzone prace remontowe czy powstanie przeszkody w polu manewrowym). Wszystkie ograniczenia tego typu obowiązujące na Vatsim publikowane są na stronie _Self check-in_ w postaci NOTAMów, przykładowo:
+Zdarza się, że drogi kołowania są niedostępne lub mają dodatkowe ograniczenia w związku z różnymi względami operacyjnymi (na przykład prowadzone prace remontowe czy powstanie przeszkody w polu manewrowym). Wszystkie ograniczenia tego typu obowiązujące na VATSIM publikowane są na stronie _Self check-in_ w postaci NOTAMów, przykładowo:
 
 - ograniczenie dostępności dróg kołowania:
     ```
