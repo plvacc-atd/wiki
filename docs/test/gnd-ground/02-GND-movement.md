@@ -41,7 +41,7 @@ Podobnie jak w przypadku odlotów, należy zwrócić uwagę na możliwość wyst
 :::info
 Instrukcja kołowania powinna jednoznacznie określać **miejsce, do którego statek powietrzny ma kołować**, czyli tzw. _clearance limit_. Najczęściej będzie to punkt oczekiwania przed drogą startową lub stanowisko postojowe
 
-> **SP-ABC, taxi to holding point runway 25 via Z and A.** <br/>
+> **SP-ABC, taxi holding point runway 25 via Z and A.** <br/>
 > **SP-ABC, kołuj do punktu oczekiwania przed pasem 25 drogami Z i A.**
 
  W sytuacji zwiększonego natężenia ruchu kontroler może jednak wydać instrukcję jedynie do miejsca pośredniego, np. przed skrzyżowaniem dróg kołowania
