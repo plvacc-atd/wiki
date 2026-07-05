@@ -32,10 +32,13 @@ W tym miejscu warto zwrócić uwagę na nazewnictwo. Potocznie przyjęło się m
 Warto zauważyć, że droga startowa to nie jest po prostu całość betonowej lub asfaltowej powierzchni, z której startują statki powietrzne. Jest to tylko fragment tej powierzchni oznaczony liniami wymalowanymi w odpowiednim kolorze. Dla przykładu na lotnisku w Katowicach (EPKT) droga startowa to tylko ten fragment powierzchni, który znajduje się wewnątrz obwódki wyznaczonej przez białe linie.
 
 ![Katowice runway 08](assets/epkt-runway.png)
+*Źródło: [Piotr Adamczyk / PR KTW oraz interia.pl](https://geekweek.interia.pl/lotnictwo/news-malowanie-pasa-na-lotnisku-w-katowicach-bo-przesunal-sie-bie,nId,6181092)*
 
 Pas drogi startowej z kolei jest tworem bardziej abstrakcyjnym. Nie wyznaczają go żadne fizyczne granice a jedynie definicja. Powierzchnia wchodząca w skład pasa drogi startowej musi spełniać dodatkowe wymagania, takie jak minimalizacja występowania wysokich przeszkód, wymóg łamliwości i specjalnego oznaczania tych przeszkód, które już w pasie drogi startowej muszą się znaleźć (na przykład anteny systemu ILS). Kształt pasa drogi startowej najlepiej widać na mapach lotniczych, gdzie zaznaczony jest przerywaną linią wokół drogi startowej.
 
 ![Katowice runway strip](assets/rwy-strip.png)
+
+*Źródło: AIP IFR, AD EPKK 2-1, 22.1.2026*
 
 :::
 
