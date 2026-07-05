@@ -1,4 +1,4 @@
-Źródła danych meteorologicznych
+# Źródła danych meteorologicznych
 
 Znajomość podstawowych zjawisk meteorologicznych opisanych w poprzednim rozdziale to dopiero pierwszy krok ku ich właściwemu wykorzystaniu w lotnictwie. W codziennej pracy kontrolera ruchu lotniczego oraz pilota decyzje operacyjne podejmowane są m.in. na podstawie **oficjalnych depesz i prognoz meteorologicznych**, przygotowywanych według jednolitych standardów ICAO oraz Światowej Organizacji Meteorologicznej (WMO).
 
@@ -171,4 +171,5 @@ Zamiast zapamiętywać wszystkie skróty występujące w depeszach meteorologicz
 - [**Załącznik nr 3 do Konwencji o międzynarodowym lotnictwie cywilnym: Służba meteorologiczna dla międzynarodowej żeglugi powietrznej**](https://ulc.gov.pl/_download/prawo/prawo_miedzynarodowe/konwencje/Zalacznik_3_ICAO_zm_82.pdf) – dokument określający międzynarodowe standardy i zalecane metody postępowania w zakresie zapewniania jednolitej służby meteorologicznej dla lotnictwa - link prowadzi do wydania dwudziestego pierwszego, z sierpnia 2025 r.;
 - - [**Awiacja IMGW-PIB**](https://awiacja.imgw.pl/) – serwis pogodowy dla lotnictwa zawierający prognozy oraz depesze meteorologiczne dla Polski;
 - [**METAR/TAF Decoder**](https://www.metar-taf.com/explanation) – czytelne wyjaśnienie struktury depesz, występujących w nich skrótów oraz tłumaczenie ich treści;
-- [**Ogimet**](https://www.ogimet.com]) – archiwalne i bieżące depesze METAR oraz TAF z całego świata.
+- [**Awiacja IMGW-PIB: METAR**](https://awiacja.imgw.pl/uploads/Detailed_description_METAR_84b34cfe19.pdf) – dokładniejsze wyjaśnienie struktury depeszy i skrótów, z uwzględnieniem praktyki IMGW
+- [**Ogimet**](https://www.ogimet.com) – archiwalne i bieżące depesze METAR oraz TAF z całego świata.

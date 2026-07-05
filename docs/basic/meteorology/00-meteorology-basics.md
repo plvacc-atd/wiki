@@ -2,7 +2,7 @@
 
 **Meteorologia** to nauka zajmująca się badaniem atmosfery ziemskiej, jej procesów oraz zjawisk zachodzących w warstwie przyziemnej i wyższych warstwach troposfery. W lotnictwie jej znaczenie jest kluczowe, ponieważ warunki meteorologiczne bezpośrednio wpływają na bezpieczeństwo i organizację ruchu lotniczego oraz na osiągi statków powietrznych.
 
-W środowisku VATSIM, mimo że operujemy w symulacji, zasady interpretacji pogody oraz jej wpływu na ruch lotniczy powinny możliwie wiernie odzwierciedlać realne procedury. Zgodnie bowiem z obowiązującymi wytycznymi [VATSIM CoC] (https://vatsim.net/docs/policy/code-of-conduct) B13:
+W środowisku VATSIM, mimo że operujemy w symulacji, zasady interpretacji pogody oraz jej wpływu na ruch lotniczy powinny możliwie wiernie odzwierciedlać realne procedury. Zgodnie bowiem z obowiązującymi wytycznymi [VATSIM CoC](https://vatsim.net/docs/policy/code-of-conduct) B13:
 
 :::caution
 Piloci **są zachęcani do korzystania z aktualnej, rzeczywistej pogody** (real-world weather) przez cały czas. Piloci **muszą** wykorzystywać co najmniej następujące aktualne parametry meteorologiczne podczas wszystkich faz lotu:  
