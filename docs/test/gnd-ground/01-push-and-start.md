@@ -15,7 +15,7 @@ Jeżeli sytuacja na płycie postojowej na to pozwala, kontroler może umożliwi�
 > **SP-ABC, Kraków Ground, QNH 1013, możesz wypychać i uruchamiać (dziobem na wschód).** 
 
 :::info
-Warto zauważyć, że prawidłowa frazeologia to "pushback and startup approved / możecie wypychać i uruchamiać". Ze względu na specyfikę odpowiedzialności za poszczególne obszary lotniska kontroler GND **nie wydaje zezwolenia** na uruchamianie / wypychanie i uruchamianie, jedynie informuje, że załoga może tę czynność wykonywać.
+Warto zauważyć, że prawidłowa frazeologia to "pushback and startup approved / możesz wypychać i uruchamiać". Ze względu na specyfikę odpowiedzialności za poszczególne obszary lotniska kontroler GND **nie wydaje zezwolenia** na uruchamianie / wypychanie i uruchamianie, jedynie informuje, że załoga może tę czynność wykonywać.
 :::
 
 Jeżeli kierunek wypchnięcia jest oczywisty i wynika z lokalnych procedur, można pominąć informację o kierunku. Warto jednak podawać ją zawsze wtedy, gdy istnieje więcej niż jeden możliwy wariant wypchnięcia lub gdy ma ona znaczenie dla dalszego kołowania.
