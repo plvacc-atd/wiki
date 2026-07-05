@@ -1,3 +1,8 @@
+---
+sidebar_position: 1
+sidebar_label: 'Wytyczne do pisania artykułów'
+---
+
 # Wytyczne do pisania artykułów
 
 ## Nazwa i lokacja pliku
@@ -7,7 +12,12 @@
 - używamy rozszerzenia .mdx
 - pliki i foldery nazywamy po angielsku
 - nazwa pliku zaczyna się od dwucyfrowej liczby (00, 01, 02...), nawet jeśli w folderze znajduje się jeden artykuł: `00-meteorology.mdx`
-- jeśli załączamy obrazy, to powinny znajdować się w tym samym folderze co plik z artykułem
+- jeśli załączamy obrazy, to należy umieścić je w podfolderze `assets` utworzonym w tym samym folderze, co plik z artykułem. Nazwa pliku graficznego powinna zaczynać się od dwucyfrowej liczby odpowiadającej nazwie pliku tekstowego, w którym wystepuje. Nazwy powinna odzwierciedlać zawartość pliku, np.:
+    - `docs/basic/meteorology/assets/00-cold-front.jpg`
+    - `docs/basic/meteorology/assets/00-windshear.jpg`
+    - `docs/s2/identification/assets/03-radar-dome.png` <br/>
+  W takim wypadku link do obrazu w pliku .mdx będzie miał następującą postać:
+    - `![Zimny front](assets/00-cold-front.jpg)`
 
 ## Akapity
 - nie numerujemy akapitów żadnego poziomu
@@ -76,10 +86,16 @@ Artykuły powinny w miarę możliwości odzwierciedlać następujący układ:
 Docusaurus wspiera bloki `:::note`, `:::info`, `:::tip`, `:::caution`, `:::warning`, `:::danger`. Używamy ich zamiast zwykłych akapitów, kiedy chcemy **wyraźnie wyróżnić** dygresję, wyjątek lub coś krytycznego z punktu widzenia bezpieczeństwa:
 
 ```
-:::caution Krytyczne dla separacji
-Jeśli w CTR jest inny ruch VFR, musisz poinformować o nim pilota podchodzącego statku.
+:::caution
+**Ważne:** Jeśli w pobliżu lotniska jest inny ruch VFR, musisz poinformować o nim pilota podchodzącego statku.
 :::
 ```
+
+Da to następujący efekt:
+
+:::caution
+**Ważne:** Jeśli w pobliżu lotniska jest inny ruch VFR, musisz poinformować o nim pilota podchodzącego statku.
+:::
 
 Nie nadużywamy - jeśli w artykule jest więcej niż 3–4 admonicje, prawdopodobnie tekst główny jest źle zorganizowany.
 
@@ -87,14 +103,14 @@ Nie nadużywamy - jeśli w artykule jest więcej niż 3–4 admonicje, prawdopod
 
 Definicje, cytaty i przykłady wyróżniamy po zanku `>`, przykładowo
 
-> SPABC masz zgodę na lot do EPWA (...) <br/>
-> SPABC cleared for flight to EPWA (...)
+> **SPABC masz zgodę na lot do EPWA (...)** <br/>
+> **_SPABC cleared for flight to EPWA (...)_**
 
 :::tip
-Aby wymusić łamanie wiersza należy posiłkować się znacznikami z HTML, tu przyda się <br/>, więc zapis powyższego przykładu powinien w treści wyglądać tak:
+Aby wymusić łamanie wiersza należy posiłkować się znacznikami z HTML, tu przyda się tag `<br/>`, więc zapis powyższego przykładu powinien w treści wyglądać tak:
 ```
-> SPABC masz zgodę na lot do EPWA (...)<br/>
-> SPABC cleared for flight to EPWA (...)
+> **SPABC masz zgodę na lot do EPWA (...)** <br/>
+> **_SPABC cleared for flight to EPWA (...)_**
 ```
 :::
 
