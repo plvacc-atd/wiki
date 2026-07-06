@@ -26,16 +26,16 @@ Praca kontrolera GND kończy się zasadniczo w momencie, gdy odlatujący statek 
 
 Przekazanie może odbywać się na dwa sposoby:
 - Załoga otrzymuje polecenie zmiany częstotliwości i nawiązania łączności z kolejnym kontrolerem.
-> **SP-ABC, contact Kraków Tower, 123.255** <br/>
-> **SP-ABC, nawiąż łączność z Kraków Wieża, 123.255**
+> **ATC:** SP-ABC, contact Kraków Tower, 123.255.<br/>
+**ATC:** SP-ABC, nawiąż łączność z Kraków Wieża, 123.255.
 
 - Załoga zmienia częstotliwość, ale nie wywołuje kontrolera, oczekując na kontakt z jego strony.
-> **SP-ABC, monitor Kraków Tower, 123.255** <br/>
-> **SP-ABC, monitoruj Kraków Wieża, 123.255**
+> **ATC:** SP-ABC, monitor Kraków Tower, 123.255. <br/>
+**ATC:** SP-ABC, monitoruj Kraków Wieża, 123.255.
 
 Może zdarzyć się, że kontroler TWR przy większym natężeniu ruchu będzie chciał ograniczyć czas, przez jaki załoga zajmuje częstotliwość podczas pierwszego kontaktu i poprosi kontrolera GND, aby piloci zgłaszali się do niego wyłącznie znakiem wywoławczym.
-> **SP-ABC, contact Kraków Tower, 123.255,  callsign only** <br/>
-> **SP-ABC, nawiąż łączność z Kraków Wieża, 123.255, tylko znak wywoławczy**
+> **ATC:** SP-ABC, contact Kraków Tower, 123.255,  callsign only. <br/>
+> **ATC:** SP-ABC, nawiąż łączność z Kraków Wieża, 123.255, tylko znak wywoławczy.
 
 ## Dobra praktyka kontrolera GND
 
