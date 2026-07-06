@@ -1,6 +1,6 @@
 # Wprowadzenie do prawa lotniczego
 
-Celem sieci VATSIM jest możliwie wierne symulowanie rzeczywistego ruchu lotniczego (*as real as it gets*). Oczywiście nie wszystko może działać "tak samo", jak naprawdę. Nie latamy prawidzwymi samolotami, nie obsługujemy prawdziwej przestrzeni powietrznej, nie nadajemy przez prawdziwe radio, a zarówno załogi, jak i kontrolerzy nie przechodzą przez równie rygorystyczny proces szkolenia. W żadnym wypadku nie oznacza to jednak, że na VATSIM nie obowiązują reguły. Część z nich jest wprost oparta na obowiązującym prawie lotniczym, a część została ustalona specjalnie dla potrzeb naszej społeczności.
+Celem sieci VATSIM jest możliwie wierne symulowanie rzeczywistego ruchu lotniczego (*as real as it gets*). Oczywiście nie wszystko może działać "tak samo", jak naprawdę. Nie latamy prawdziwymi samolotami, nie obsługujemy prawdziwej przestrzeni powietrznej, nie nadajemy przez prawdziwe radio, a zarówno załogi, jak i kontrolerzy nie przechodzą przez równie rygorystyczny proces szkolenia. W żadnym wypadku nie oznacza to jednak, że na VATSIM nie obowiązują reguły. Część z nich jest wprost oparta na obowiązującym prawie lotniczym, a część została ustalona specjalnie dla potrzeb naszej społeczności.
 
 ## Źródła reguł obowiązujących na VATSIM
 
