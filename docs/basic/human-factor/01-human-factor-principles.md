@@ -1,17 +1,10 @@
----
-id: human-factor
-title: Czynniki ludzkie
-slug: /basic/human-factor
-sidebar_position: 0
----
-
-# Czynniki ludzkie
+# Podejście do innych użytkowników
 
 Jedną z największych różnic pomiędzy rzeczywistą służbą kontroli ruchu lotniczego a sprawowaniem tejże w sieci VATSIM jest poziom wyszkolenia początkujących pilotów w sieci. Obok pilotów z wieloletnim stażem regularnie pojawiają się osoby wykonujące swój pierwszy lot online, uczące się zarówno zasad komunikacji radiowej, jak i obsługi symulatora czy też wybranego przez siebie statku powietrznego - nierzadko jest to B737 czy A320. O ile kontrolerzy przechodzą wieloetapowe szkolenie zanim zaczną samodzielnie obsadzać pozycje w ramach danego vFIR, o tyle od pilotów nie wymaga się przechodzenia obowiązkowego szkolenia przed rozpoczęciem lotów w sieci.
 
 Rolą kontrolera nie jest wyłącznie prowadzenie ruchu lotniczego zgodnie z obowiązującymi procedurami. Równie istotne jest zachowanie profesjonalnego i przyjaznego podejścia do każdego użytkownika sieci, niezależnie od jego doświadczenia. VATSIM jako organizacja kładzie szczególny nacisk na kulturę komunikacji, cierpliwość oraz umiejętność odróżnienia zwykłego błędu od świadomego łamania zasad.
 
-## Błąd ludzki vs świadome łamanie zasad
+## Błąd ludzki a świadome łamanie zasad
 
 Każdy pilot, podobnie zresztą jak każdy kontroler, może popełnić błąd. Pomyłka w odczytaniu zezwolenia, wykonanie skrętu w lewo zamiast w prawo, niezamierzone naruszenie przestrzeni kontrolowanej czy przypadkowe zajęcie niewłaściwego stanowiska na płycie są naturalnym elementem procesu nauki i mogą zdarzyć się nawet doświadczonym użytkownikom. Takie sytuacje nie oznaczają automatycznie naruszenia przepisów VATSIM.
 
