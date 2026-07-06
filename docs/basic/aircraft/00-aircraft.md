@@ -68,7 +68,7 @@ Choć opisane klasyfikacje dotyczą tych samych statków powietrznych, każda z 
 - **Kategoria prędkości podejścia** ma znaczenie przy projektowaniu procedur instrumentalnych, określaniu minimów operacyjnych oraz przewidywania zachowań statków powietrznych;
 - **Kod referencyjny ICAO** określa wymagania dotyczące infrastruktury lotniskowej.
 
-Kontroler nie musi znać szczegółowych parametrów **każdego** typu statku powietrznego. W trakcie szkolenia oczekuje się jednak znajomości kategorii WTC oraz kodów referencyjnych ICAO najczęściej spotykanych statków powietrznych w sieci VATSIM. Wiedza ta ułatwia stosowanie właściwych minimów separacji, organizację ruchu naziemnego oraz planowanie operacji na lotnisku. Przede wszystkim jednak kontroler powinien rozumieć, dlaczego poszczególne klasyfikacje istnieją i jakie mają znaczenie dla bezpiecznego prowadzenia ruchu lotniczego.
+Nie jest wymagana znajomość szczegółowych parametrów każdego typu statku powietrznego. W trakcie szkolenia należy jednak poznać kategorie WTC oraz kody referencyjne ICAO najczęściej spotykanych statków powietrznych w sieci VATSIM. Wiedza ta ułatwia stosowanie właściwych minimów separacji, organizację ruchu naziemnego oraz planowanie operacji na lotnisku. Kluczowe jest jednak zrozumienie celu stosowania poszczególnych klasyfikacji oraz ich znaczenia dla bezpiecznego prowadzenia ruchu lotniczego.
 
 ## Turbulencja w śladzie aerodynamicznym
 
@@ -117,6 +117,6 @@ W codziennej pracy kontrolera ruchu lotniczego zagrożenie turbulencją w śladz
 - startów wykonywanych jeden po drugim;
 - podejść do lądowania;
 - wykonywania procedury odlotu z intersekcji (a nie z pełnej długości pasa);
-- operacji z udziałem statków powietrznych L lub M wykonujących lot za statkiem kategorii H lub J.
+- operacji wykonywanych za statkiem powietrznym należącym do wyższej kategorii WTC (np. Cessna 152 wykonująca konwojera po starcie Airbusa 320).
 
 Na VATSIM większość symulatorów nie odwzorowuje obecnie w pełni skutków turbulencji w śladzie aerodynamicznym. Nie zmienia to jednak faktu, że kontroler powinien stosować obowiązujące minima separacji zgodnie z dokumentacją ICAO oraz lokalnymi procedurami. Dzięki temu ruch prowadzony jest zgodnie z rzeczywistymi zasadami służb kontroli ruchu lotniczego, co wypełnia przesłanki głównego hasła VATSIM: _"as real as it gets"_.
