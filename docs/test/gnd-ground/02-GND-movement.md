@@ -8,13 +8,11 @@ Wydawanie instrukcji kołowania wymaga planowania kilku ruchów naprzód. Dobry 
 
 Po zakończeniu wypychania lub uruchomienia silników załoga zgłasza gotowość do kołowania.
 
-> **Kraków Ground, SP-ABC, ready to taxi.** <br/>
-> **Kraków Ground, SP-ABC, gotowy do kołowania.**
+> **Pilot**: Kraków Ground, SP-ABC, ready to taxi. <br/>**Pilot**: Kraków Ground, SP-ABC, gotowy do kołowania.
 
 Kontroler wydaje instrukcję kołowania do właściwego punktu oczekiwania przed pasem startowym.
 
-> **SP-ABC, taxi holding point runway 25 via Z and A.** <br/>
-> **SP-ABC, kołuj do punktu oczekiwania przed pasem 25 drogami Z oraz A.**
+> **ATC**: SP-ABC, taxi holding point runway 25 via Z and A. <br/>**ATC**: SP-ABC, kołuj do punktu oczekiwania przed pasem 25 drogami Z oraz A.
 
 :::info
 Wydając instrukcję kołowania należy upewnić się, że:
@@ -33,24 +31,21 @@ Przekazanie statku powietrznego do kontrolera TWR następuje zgodnie z zasadami 
 
 Po opuszczeniu drogi startowej kontroler TWR przekazuje przylatujący statek powietrzny na częstotliwość GND. Kontroler GND wydaje instrukcję kołowania do stanowiska postojowego.
 
-> **SP-ABC, taxi stand 13 via B, W and T.** <br/>
-> **SP-ABC, kołuj do stanowiska 13 drogami B, W oraz T.**
+> **ATC**: SP-ABC, taxi stand 13 via B, W and T. <br/>**ATC**: SP-ABC, kołuj do stanowiska 13 drogami B, W oraz T.
 
 Podobnie jak w przypadku odlotów, należy zwrócić uwagę na możliwość wystąpienia konfliktów z ruchem kołującym do startu oraz z samolotami wykonującymi wypychanie.
 
 :::info
-Instrukcja kołowania powinna jednoznacznie określać **miejsce, do którego statek powietrzny ma kołować**, czyli tzw. _clearance limit_. Najczęściej będzie to punkt oczekiwania przed drogą startową lub stanowisko postojowe
+Instrukcja kołowania powinna jednoznacznie określać **miejsce, do którego statek powietrzny ma kołować**, czyli tzw. _clearance limit_. Najczęściej będzie to punkt oczekiwania przed drogą startową lub stanowisko postojowe.
+> **ATC**: SP-ABC, taxi holding point runway 25 via Z and A. <br/>**ATC**: SP-ABC, kołuj do punktu oczekiwania przed pasem 25 drogami Z i A.
 
-> **SP-ABC, taxi holding point runway 25 via Z and A.** <br/>
-> **SP-ABC, kołuj do punktu oczekiwania przed pasem 25 drogami Z i A.**
-
- W sytuacji zwiększonego natężenia ruchu kontroler może jednak wydać instrukcję jedynie do miejsca pośredniego, np. przed skrzyżowaniem dróg kołowania
- 
-> **SPABC, taxi via W, hold short of B.** 
+ W sytuacji zwiększonego natężenia ruchu kontroler może jednak wydać instrukcję jedynie do miejsca pośredniego, np. przed skrzyżowaniem dróg kołowania.
+ > **ATC**: SPABC, taxi via W, hold short of B. 
 
 Po osiągnięciu tego miejsca załoga otrzyma dalsze instrukcje kołowania.
-Co ważne, należy unikać łączenia obu rodzajów poleceń w jednej transmisji. Niepoprawna będzie zatem instrukcja
-> **SP-ABC, taxi holding point runway 25 via Z, W, B and A, on W hold short of B.**
+
+Co ważne, należy unikać łączenia obu rodzajów poleceń w jednej transmisji. Niepoprawna będzie zatem instrukcja:
+> **ATC**: SP-ABC, taxi holding point runway 25 via Z, W, B and A, on W hold short of B.
 
 zawiera ona dwa różne miejsca zakończenia instrukcji kołowania: punkt oczekiwania przed pasem 25 oraz punkt zatrzymania przed drogą kołowania B. Załoga nie powinien otrzymywać jednocześnie polecenia dojechania do punktu oczekiwania i zatrzymania się wcześniej.
 :::
@@ -59,19 +54,16 @@ zawiera ona dwa różne miejsca zakończenia instrukcji kołowania: punkt oczeki
 
 Nie każda załoga na VATSIM zna układ dróg kołowania lotniska, na którym wykonuje operacje. Dotyczy to zwłaszcza lotnictwa ogólnego, załóg wykonujących lot na dane lotnisko po raz pierwszy lub użytkowników mniej szczegółowych scenerii. W takiej sytuacji załoga może poprosić o **progressive taxi**, czyli prowadzenie po lotnisku krok po kroku.
 
-> **Kraków Ground, SP-ABC, request progressive taxi.**
+> **Pilot**: Kraków Ground, SP-ABC, request progressive taxi.
 
 Zamiast wydawać jedną długą instrukcję kołowania, kontroler prowadzi statek powietrzny kolejnymi poleceniami, np.:
-
-> **SP-ABC, taxi ahead on Z, I will advise when to turn onto W.**
+> **ATC**: SP-ABC, taxi ahead on Z, I will advise when to turn onto W.
 
 Po osiągnięciu wskazanego miejsca:
-
-> **SP-ABC, turn right onto W.**
+> **ATC**: SP-ABC, turn right onto W.
 
 Następnie:
-
-> **SP-ABC, now turn right onto B and taxi ahead via B.**
+> **ATC**: SP-ABC, now turn right onto B and taxi ahead via B.
 
 Na VATSIM z progressive taxi spotykamy się stosunkowo rzadko, jednak warto pamiętać, że załoga ma pełne prawo poprosić o taką pomoc. Jeżeli sytuacja ruchowa na to pozwala, kontroler powinien udzielić możliwie prostych i jednoznacznych instrukcji, pamiętając jednocześnie, aby nie koncentrować całej uwagi wyłącznie na jednym statku powietrznym.
 
