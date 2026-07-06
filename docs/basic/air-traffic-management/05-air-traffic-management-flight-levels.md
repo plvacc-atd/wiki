@@ -19,7 +19,9 @@ Podczas wykonywania lotów poziomy lotu są przydzielane zgodnie z zasadą pół
 | **IFR** | westbound = even<br/><br/>eastbound = odd | Poziomy lotu przydzielane zgodnie z zasadą półkulową. Statkom powietrznym lecącym zasadniczo na zachód (180°–359°) przydziela się parzyste poziomy lotu (np. FL140, FL180), natomiast lecącym na wschód (000°–179°) – poziomy nieparzyste (np. FL150, FL190). System ten zapewnia podstawową, kierunkową separację pionową ruchu IFR. |
 | **VFR** | westbound = even + 500 ft<br/><br/>eastbound = odd + 500 ft | Stosowana jest ta sama zasada kierunkowa co w IFR, jednak z przesunięciem o 500 ft. Ma to na celu zwiększenie separacji pionowej pomiędzy ruchem IFR a VFR oraz zmniejszenie ryzyka konfliktów na tych samych „nominalnych” poziomach. |
 
-Warto w ramach ciekawostki zaznaczyć, że istnieją kraje w Europie (np. Szwajcaria, Francja, Hiszpania czy Portugalia), w których zasada półkulowa wygląda nieco inaczej, tj. **northbound = even, southbound = odd**. Tam statki powietrzne wykonujące loty w kierunku północnym lecą na parzystym poziomie lotu, a te lecące w kierunku południowym obierają poziom lotu nieparzysty.
+Dwie ciekawostki:
+- powyżej przestrzeni RVSM, tj. powyżej FL410, [system przydzielania poziomów lotu wygląda inaczej](/docs/basic/air-traffic-management/05-air-traffic-management-flight-levels.md#RVSM);
+- istnieją kraje w Europie (np. Szwajcaria, Francja, Hiszpania czy Portugalia), w których zasada półkulowa wygląda nieco inaczej, tj. **northbound = even, southbound = odd**. Tam statki powietrzne wykonujące loty w kierunku północnym lecą na parzystym poziomie lotu, a te lecące w kierunku południowym obierają poziom lotu nieparzysty.
 
 :::info
 Nie wszystkie loty VFR wykonywane są na wysokościach wynikających z zasady półkulowej. Podczas lotów w kręgu nadlotniskowym, lotów szkolnych czy wykonywania zadań specjalnych kontroler może wydać inne instrukcje dotyczące wysokości.
@@ -51,14 +53,14 @@ Zmiana nastaw odbywa się w dwóch punktach odniesienia: **TA i TL**.
 W Polsce typowo **TL = FL80** jednak gdy QNH na dowolnym lotnisku w naszym kraju spada poniżej **995 hPa**, wtedy **TL = FL90**.
 
 Kontroler wydając zniżanie poniżej TL, wydaje je instrukcją zawierającą **wysokość** oraz zawsze **wartość QNH**, jaką należy podczas zniżania ustawić na wysokościomierzu, np.:
-> **SP-ABC, descend altitude 6,000 ft by QNH 1020<br/>
-SP-ABC, zniżaj wysokość 6 000 stóp, QNH 1020**
+> **ATC**: SP-ABC, descend altitude 6,000 ft by QNH 1020.<br/>
+**ATC**: SP-ABC, zniżaj wysokość 6 000 stóp, QNH 1020.
 
 ### Warstwa przejściowa (Transition Layer)
 
 Pomiędzy TA a TL znajduje się **warstwa przejściowa**.
 
-Nie jest ona używana operacyjnie przez statki powietrzne jako „poziom”, lecz stanowi bufor separacyjny, w którym jedne statki powietrzne lecą jeszcze na QNH, a inne już na QNE. Zapobiega to konfliktom wynikającym z różnych nastaw wysokościomierzy.
+Nie zaleca się wykorzystywania jej przez statki powietrzne ze względu na ryzyko naruszenia separacji. Stanowi bufor separacyjny, w którym jedne statki powietrzne lecą jeszcze na QNH, a inne już na QNE. Zapobiega to konfliktom wynikającym z różnych nastaw wysokościomierzy.
 
 :::tip
 Podsumowując, w praktyce system wysokości w lotnictwie opiera się na dwóch reżimach ciśnieniowych:
