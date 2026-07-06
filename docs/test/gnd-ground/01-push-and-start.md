@@ -6,13 +6,11 @@ Jednym z podstawowych zadań kontrolera GND jest wydawanie instrukcji dotyczący
 
 Na VATSIM załoga najczęściej zgłasza gotowość do wypychania i uruchomienia silników komunikatem:
 
-> **Kraków Ground, SP-ABC, ready for pushback and startup.** <br/>
-> **Kraków Ground, SP-ABC, gotowy do wypychania i uruchamiania.**
+> **Pilot**: Kraków Ground, SP-ABC, ready for pushback and startup. <br/>**Pilot**: Kraków Ground, SP-ABC, gotowy do wypychania i uruchamiania.
 
 Jeżeli sytuacja na płycie postojowej na to pozwala, kontroler może umożliwić jednoczesne wypychanie i uruchomienie silników, podając przy tym aktualne ciśnienie QNH.
 
-> **SP-ABC, Kraków Ground, QNH 1013, pushback and startup approved (facing east).** <br/>
-> **SP-ABC, Kraków Ground, QNH 1013, możesz wypychać i uruchamiać (dziobem na wschód).** 
+> **ATC**: SP-ABC, Kraków Ground, QNH 1013, pushback and startup approved (facing east). <br/>**ATC**: SP-ABC, Kraków Ground, QNH 1013, możesz wypychać i uruchamiać (dziobem na wschód). 
 
 :::info
 Warto zauważyć, że prawidłowa frazeologia to "pushback and startup approved / możesz wypychać i uruchamiać". Ze względu na specyfikę odpowiedzialności za poszczególne obszary lotniska kontroler GND **nie wydaje zezwolenia** na uruchamianie / wypychanie i uruchamianie, jedynie informuje, że załoga może tę czynność wykonywać.
@@ -24,8 +22,7 @@ Załoga wykonuje wypychanie samodzielnie przy pomocy funkcji dostępnych w symul
 
 Przykładowa frazeologia:
 
-> **SP-ABC, standby, expect one minute delay due traffic taxiing behind.** <br/>
-> **SP-ABC, czekaj, spodziewaj się minuty opóźnienia z powodu ruchu kołującego za tobą**.
+> **ATC**: SP-ABC, standby, expect one minute delay due traffic taxiing behind. <br/>**ATC**: SP-ABC, czekaj, spodziewaj się minuty opóźnienia z powodu ruchu kołującego za tobą.
 
 Dopiero po przekołowaniu drugiego samolotu można poinformować załogę, że może rozpocząć wypychanie.
 
@@ -39,11 +36,9 @@ Dla większych samolotów, takich jak **Boeing 787**, wypchnięcie dziobem na za
 
 Warto pamiętać, że nie każde stanowisko wymaga wypychania. Na wielu lotniskach znajdują się tzw. stanowiska przelotowe (_remote stands_), na które samolot wjeżdża od jednej strony i po postoju może z nich wykołować "przed siebie" o własnych siłach po uruchomieniu silników. Dotyczy to najczęściej stanowisk oddalonych od terminala. Na lotnisku EPKK są to np. stanowiska 13-16 (samoloty po uruchomieniu silników wykołowują samodzielnie na drogę kołowania Z), 17-21 (po uruchomieniu można kołować drogą kołowania S), 22-25 (kołowanie na drogę kołowania B) oraz 26-30 (wyjazd na drogę kołowania G). W takim przypadku, komunikacja wygląda zazwyczaj następująco:
 
-> **Kraków Ground, SP-ABC, ready for startup.** <br/>
-> **Kraków Ground, SP-ABC, gotowy do uruchamiania.**
+> **Pilot**: Kraków Ground, SP-ABC, ready for startup. <br/>**Pilot**: Kraków Ground, SP-ABC, gotowy do uruchamiania.
 
-> **SP-ABC, Kraków Ground, QNH 1013, startup approved.** <br/>
-> **SP-ABC, Kraków Ground, QNH 1013, możesz uruchamiać.**
+> **ATC**: SP-ABC, Kraków Ground, QNH 1013, startup approved. <br/>**ATC**: SP-ABC, Kraków Ground, QNH 1013, możesz uruchamiać.
 
 :::info
 W odróżnieniu od załóg samolotów komunikacyjnych, piloci małych i średnich samolotów lotnictwa ogólnego (GA) często proszą najpierw o uruchomienie silnika, a dopiero później o wydanie zezwolenia na lot. Pozwala to ograniczyć czas pracy urządzeń pokładowych zasilanych z akumulatora przed uruchomieniem silnika, kiedy to akumulator nie jest jeszcze doładowywany przez alternator lub generator.
