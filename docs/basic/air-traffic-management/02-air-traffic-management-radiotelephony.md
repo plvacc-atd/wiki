@@ -119,7 +119,7 @@ Najczęściej spotykaną odpowiedzią jest:
 ## Readback i Hearback
 
 Jednym z najważniejszych elementów komunikacji radiowej jest procedura **readback**, polegająca na powtórzeniu przez pilota otrzymanego zezwolenia lub instrukcji. Równie istotny jest jednak **hearback**, czyli **obowiązek kontrolera** polegający na wysłuchaniu readbacku i sprawdzeniu, czy pilot prawidłowo zrozumiał przekazany komunikat. W praktyce szczególnie dobrze widać to podczas przekazywania **zezwolenia na lot**, które zawiera wiele elementów wymagających poprawnego odczytania. Jeżeli kontroler stwierdzi, że readback pilota jest prawidłowy, potwierdza to słowami:
-> **ATC**: SP-ABC, readback correct / clearance copied correct.<br/>**ATC**: SP-ABC, odczyt poprawny / zezwolenie zapisano poprawnie.
+> **ATC**: SP-ABC, readback correct / clearance copied correct.<br/>**ATC**: SP-ABC, odczyt prawidłowy / zezwolenie zapisano prawidłowo.
 
 Bezpieczeństwo komunikacji radiowej zależy więc od obu stron - pilot musi prawidłowo odczytać otrzymaną transmisję, a kontroler zweryfikować poprawność tego odczytu.
 
