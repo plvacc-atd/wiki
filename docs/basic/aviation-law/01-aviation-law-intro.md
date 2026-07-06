@@ -24,7 +24,7 @@ Z perspektywy kontrolera w sieci VATSIM istotne są wszystkie trzy wymienione cz
 
 ### VATEUD Division Policies
 
-[Dokumenty](https://core.vateud.net/division/policies) udostepniane przez europejską dywizję VATSIM, czyli VATEUD, precyzują reguły obowiązujące w należących do niej subdywizjach, czyli także w PLVACC. Najistotniejsze są trzy:
+[Dokumenty](https://core.vateud.net/division/policies) udostępniane przez europejską dywizję VATSIM, czyli VATEUD, precyzują reguły obowiązujące w należących do niej subdywizjach, czyli także w PLVACC. Najistotniejsze są trzy:
 * *VATEUD Division Policy* określa zasady działania subdywizji. 
 * *VATEUD Division Training Policy (DTP)* dotyczy podstawowych zasad prowadzenia szkoleń oraz precyzuje, w jakim zakresie subdywizje mają swobodę w definiowaniu ich programów, czasu trwania itp.
 * *VATEUD CPT Guidelines* to dokument definiujący kryteria oceny egzaminów na stopnie S2, S3 i C1.
