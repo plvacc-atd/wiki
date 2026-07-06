@@ -20,7 +20,7 @@ Z perspektywy kontrolera w sieci VATSIM istotne są wszystkie trzy wymienione cz
 
 ### Air Traffic Control Frequency and Information Management Policy
 
-[*Air Traffic Control Frequency and Information Management Policy*](https://vatsim.net/docs/policy/air-traffic-control-frequency-and-information-management-policy) określa zasady wykorzystywania wirtualnych częstotliwości radiowych. Konfiguracja oprogramowania udostępniana kontrolerom PLVACC pozwala im podłączać się do sieci z zachowaniem zasad wynikających z tego dokumentu. Chodzi to zwłaszcza o reguły dotyczące użycia częstotliwości przypisanych do poszczególnych pozycji, udostępniania informacji ATIS oraz poprawnego formatowania tekstowej informacji o kontrolerze.
+[*Air Traffic Control Frequency and Information Management Policy*](https://vatsim.net/docs/policy/air-traffic-control-frequency-and-information-management-policy) określa zasady wykorzystywania wirtualnych częstotliwości radiowych. Konfiguracja oprogramowania udostępniana kontrolerom PLVACC pozwala im podłączać się do sieci z zachowaniem zasad wynikających z tego dokumentu. Chodzi tu zwłaszcza o reguły dotyczące użycia częstotliwości przypisanych do poszczególnych pozycji, udostępniania informacji ATIS oraz poprawnego formatowania tekstowej informacji o kontrolerze.
 
 ### VATEUD Division Policies
 
