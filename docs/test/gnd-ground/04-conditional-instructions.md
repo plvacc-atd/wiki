@@ -19,22 +19,18 @@ Kluczowa jest właśnie ta kolejność: załoga nie powinna otrzymywać najpierw
 
 1) Za samolotem oczekującym na wypychanie kołuje inny statek powietrzny. Zamiast rozdzielać komunikację na dwie osobne transmisje, tj.:
 
-    > **SP-ABC, standby.<br/>
-    > SP-ABC, oczekuj.**
-    
+    > **ATC**: SP-ABC, standby.<br/>**ATC**: SP-ABC, oczekuj.
+
     I po chwili:
-    > **SP-ABC, QNH 1013 pushback and startup approved, facing east.<br/>
-    > SP-ABC, QNH 1013, możesz wypychać i uruchamiać, dziobem na wschód**
-    
+    > **ATC**: SP-ABC, QNH 1013, pushback and startup approved, facing east.<br/>**ATC**: SP-ABC, QNH 1013, możesz wypychać i uruchamiać, dziobem na wschód.
+
     Kontroler może wydać instrukcję warunkową:
-    > **SP-ABC, give way to Ryanair Boeing 737 taxiing behind you, then pushback and startup approved facing east, QNH 1013 <br/>
-    > SP-ABC, przepuść Boeinga 737 Ryanair kołującego z tyłu, następnie możesz wypychać i uruchamiać dziobem na wschód, QNH 1013**
+    > **ATC**: SP-ABC, give way to Ryanair Boeing 737 taxiing behind you, then pushback and startup approved facing east, QNH 1013. <br/>**ATC**: SP-ABC, przepuść Boeinga 737 Ryanair kołującego z tyłu, następnie możesz wypychać i uruchamiać dziobem na wschód, QNH 1013.
 
 
 2) Instrukcje warunkowe można wykorzystywać również podczas kołowania. Przykładowo, dwa statki powietrzne zbliżają się do skrzyżowania dróg kołowania. Zamiast zatrzymywać jeden z nich i wydawać kolejną instrukcję po minięciu skrzyżowania przez drugi statek powietrzny, kontroler może zawrzeć cały zamiar w jednej transmisji:
 
-    > **SP-ABC, give way to Airbus A320 taxiing from left to right, next continue taxi to holding point runway 25 via Z and A. <br/>
-    > SP-ABC, przepuść Airbusa A320 kołującego z lewej na prawą, następnie kontynuuj kołowania do punktu oczekiwania przed pasem 25 drogami Z oraz A.**
+    > **ATC**: SP-ABC, give way to Airbus A320 taxiing from left to right, next continue taxi to holding point runway 25 via Z and A. <br/>**ATC**: SP-ABC, przepuść Airbusa A320 kołującego z lewej na prawą, następnie kontynuuj kołowanie do punktu oczekiwania przed pasem 25 drogami Z oraz A.
 
 :::info
 **Instrukcja warunkowa nie zwalnia kontrolera z obowiązku monitorowania sytuacji.** Jeżeli warunki ruchowe ulegną zmianie, a wykonanie wydanej wcześniej instrukcji może doprowadzić do konfliktu, kontroler powinien niezwłocznie wydać nową instrukcję anulującą lub modyfikującą wcześniejsze polecenie.
