@@ -107,7 +107,15 @@ Lotniska możemy podzielić na kategorie w zależności od różnych czynników.
 
 ## Gdzie szukać informacji
 
-  Najlepszą, publicznie dostępną i darmową bazą danych na temat lotnisk w Polsce jest [Zbiór Informacji Lotniczych AIP Polska](https://www.ais.pansa.pl/publikacje/aip-polska/). Podzielony jest on na części IFR, VFR i MIL, gdzie znajdziesz informacje na temat odpowiednio lotnisk kontrolowanych, niekontrolowanych i wojskowych. Informacje o lotniskach znajdują się w Części 3 - LOTNISKA (AD).
+Najlepszą, publicznie dostępną i darmową bazą danych na temat lotnisk w Polsce jest [Zbiór Informacji Lotniczych AIP Polska](https://www.ais.pansa.pl/publikacje/aip-polska/). Podzielony jest on na części IFR, VFR i MIL, gdzie znajdziesz informacje na temat odpowiednio lotnisk kontrolowanych, niekontrolowanych i wojskowych. Informacje o lotniskach znajdują się w Części 3 - LOTNISKA (AD). Każde z lotnisk posiada dedykowaną sekcję podzieloną na tematyczne rozdziały. Na przykładzie Krakowa najważniejsze rozdziały to  to:
+1. EPKK 1 - Tekstowy opis lotniska, infrastruktury, dostępnych usług oraz procedur stosowanych w Krakowie. Warto przejrzeć całość dostępnych informacji, a szczególną uwagę zwrócić na następujące podrozdziały:
+   1. 2.2 Dane geograficzne i administracyjne lotniska
+   2. 2.8 Szczegółowe dane dotyczące pola manewrowego: rozmiary i parametry dróg kołowania i płyt postojowych
+   3. 2.12, 2.13, 2.14 Parametry drogi startowej: wymiary, deklarowane długości, światła podejścia
+   4. 
+
+
+
 
   Poza oficjalnymi źródłami dostępne są też inne alternatywy dedykowane bezpośrednio do symulacji lotniczych. Płatne, jak [Navigraph](https://navigraph.com/), lub darmowe: [Little Navmap](https://albar965.github.io/) czy [Chartfox](https://chartfox.org/).
 
