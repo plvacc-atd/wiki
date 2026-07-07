@@ -107,17 +107,21 @@ Lotniska możemy podzielić na kategorie w zależności od różnych czynników.
 
 ## Gdzie szukać informacji
 
-Najlepszą, publicznie dostępną i darmową bazą danych na temat lotnisk w Polsce jest [Zbiór Informacji Lotniczych AIP Polska](https://www.ais.pansa.pl/publikacje/aip-polska/). Podzielony jest on na części IFR, VFR i MIL, gdzie znajdziesz informacje na temat odpowiednio lotnisk kontrolowanych, niekontrolowanych i wojskowych. Informacje o lotniskach znajdują się w Części 3 - LOTNISKA (AD). Każde z lotnisk posiada dedykowaną sekcję podzieloną na tematyczne rozdziały. Na przykładzie Krakowa najważniejsze rozdziały to  to:
-1. EPKK 1 - Tekstowy opis lotniska, infrastruktury, dostępnych usług oraz procedur stosowanych w Krakowie. Warto przejrzeć całość dostępnych informacji, a szczególną uwagę zwrócić na następujące podrozdziały:
-   1. 2.2 Dane geograficzne i administracyjne lotniska
-   2. 2.8 Szczegółowe dane dotyczące pola manewrowego: rozmiary i parametry dróg kołowania i płyt postojowych
-   3. 2.12, 2.13, 2.14 Parametry drogi startowej: wymiary, deklarowane długości, światła podejścia
-   4. 
+Najlepszą, publicznie dostępną i darmową bazą danych na temat lotnisk w Polsce jest [Zbiór Informacji Lotniczych AIP Polska](https://www.ais.pansa.pl/publikacje/aip-polska/). Podzielony jest on na części IFR, VFR i MIL, gdzie znajdziesz informacje na temat odpowiednio lotnisk kontrolowanych, niekontrolowanych i wojskowych. Informacje o lotniskach znajdują się w Części 3 - LOTNISKA (AD). Dla każdego lotniska struktura i numeracja rozdziałów będą ustandaryzowane i takie same, dzięki temu w zbiorze bardzo łatwo poruszać się bez względu na lokalizację, która nas interesuje. Z naszej perspektywy, na przykładzie Krakowa, najważniejszymi rozdziałami będą:
+- **EPKK 1** - Tekstowy opis parametrów lotniska, infrastruktury, dostępnych usług oraz procedur stosowanych w Krakowie. Warto przejrzeć całość dostępnych informacji, a szczególną uwagę zwrócić na następujące podrozdziały:
+   - **2.2** - Dane geograficzne i administracyjne lotniska;
+   - **2.8** - Szczegółowe dane dotyczące pola ruchu naziemnego, takie jak rozmiary i parametry dróg kołowania i płyt postojowych;
+   - **2.12, 2.13, 2.14** - Parametry drogi startowej, takie jak wymiary, deklarowane długości, rodzaje świateł podejścia;
+   - **2.20** - Lokalne przepisy. Z tego rozdziału dowiemy się, jak uzyskać zezwolenie na lot, jak powinny wyglądać manewry takie jak uruchamianie, wypychanie, kołowanie, start i lądowanie, ale także w jaki sposób i gdzie preprowadzane jest odladzanie statków powietrznych;
+   - **2.22** - Procedury lotu. Tu poznamy specyficzne dla Krakowa procedury obowiązujące loty IFR, VFR oraz VFR specjalne, dowiemy się co robić w przypadku utraty łączności ze statkiem powietrznym, czy jak postępować w przypadku wprowadzenia procedur LVP (_Low Visibility Procedures_).
+- **EPKK 2** - ogólna mapa lotniska obrazująca najważniejsze elementy infrastruktury, takie jak oznaczenia i rozmiar drogi startowej, oznaczenia dróg kołowania i stanowisk postojowych, częstotliwosci, identyfikatory i lokacje zainstalowanych urządzeń radionawigacyjnych oraz elementy topografii terenu w najbliższej okolicy.
+- **EPKK 8** - Mapy procedur standardowych odlotów instrumentalnych (_SID - Standard Instrument Departure_).
+- **EPKK 10** - Mapy procedur standardowych dolotów instrumentalnych (_STAR - Standard Instrument Arrivals_).
+- **EPKK 12** - Mapy procedur podejścia do lądowania, w tym ILS, LOC, VOR, RNP.
+- **EPKK 13** - Mapa rejonu lotniska dla operacji VFR, zawierająca struktury przestrzeni powietrznej, opublikowane trasy VFR, punkty oczekiwania w locie, strefy ograniczone, zakazane, niebezpieczne oraz lokalną topografię terenu.
 
 
-
-
-  Poza oficjalnymi źródłami dostępne są też inne alternatywy dedykowane bezpośrednio do symulacji lotniczych. Płatne, jak [Navigraph](https://navigraph.com/), lub darmowe: [Little Navmap](https://albar965.github.io/) czy [Chartfox](https://chartfox.org/).
+Poza oficjalnymi źródłami dostępne są też inne alternatywy dedykowane bezpośrednio do symulacji lotniczych. Płatne, jak [Navigraph](https://navigraph.com/), lub darmowe: [Little Navmap](https://albar965.github.io/) czy [Chartfox](https://chartfox.org/).
 
 ## Źródła
 - [Ustawa prawo lotnicze z 3 lipca 2002 roku](https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20021301112/U/D20021112Lj.pdf)
