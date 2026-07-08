@@ -14,7 +14,7 @@ CTR ma zabezpieczać manewry podejścia do lądowania, startu i nabrania wysoko�
 
 > **obszar kontrolowany** (*control area* lub *CTA*) - kontrolowana przestrzeń powietrzna rozciągająca się w górę od określonej granicy nad ziemią.
 
-Obszar kontrolowany nie musi sięgać powierzchni ziemi i z reguły tak nie jest. Przykład obszaru kontrolowanego jest rejon kontrolowany lotniska (*Terminal Maneuvering Area* lub *TMA*), który ustanawia się w pobliżu jednego lub kilku lotnisk. Do obszarów kontrolowanych zaliczamy także *drogi lotnicze* stałe (*airway*) lub warunkowe (*conditional route*), przy czym na VATSIM obecnie nie symulujemy warunkowego charakteru tych ostatnich.
+Obszar kontrolowany nie musi sięgać powierzchni ziemi i z reguły tak nie jest. Przykładem obszaru kontrolowanego jest rejon kontrolowany lotniska (*Terminal Maneuvering Area* lub *TMA*), który ustanawia się w pobliżu jednego lub kilku lotnisk. Do obszarów kontrolowanych zaliczamy także *drogi lotnicze* stałe (*airway*) lub warunkowe (*conditional route*), przy czym na VATSIM obecnie nie symulujemy warunkowego charakteru tych ostatnich.
 
 Obszarem kontrolowanym na terenie Polski jest też niewchodząca w skład innych kategorii przestrzeń rozciągająca się od FL95 do FL660 (z wyjątkami specyficznymi dla ruchu wojskowego, których tu nie omawiamy).
 
