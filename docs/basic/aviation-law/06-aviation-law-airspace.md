@@ -144,7 +144,7 @@ W ramach ćwiczenia opisz w podobny sposób punkty o 2 do 5. Kiedy już się z t
 
 ## Gdzie szukać informacji
 
-  Tak jak w przypadku lotnisk, najlepiej szukać informacji w publicznie dostępnej i darmowej bazie danych na temat lotnisk w Polsce jest [Zbiór Informacji Lotniczych AIP Polska](https://www.ais.pansa.pl/publikacje/aip-polska/). Podzielony jest on na części IFR, VFR i MIL, gdzie znajdziesz informacje na temat odpowiednio lotnisk kontrolowanych, niekontrolowanych i wojskowych. Informacje o przestrzeni powietrznej znajdziesz w części ENR (zwłaszcza ENR 2 i ENR 6) oraz, w zakresie CTR, w części AD 2. Szczególnie przydatne są mapy trasowe (ENR 6) i mapy dla lotów z widocznością (AD).
+  Tak jak w przypadku lotnisk, najlepiej szukać informacji w publicznie dostępnej i darmowej bazie danych na temat lotnisk w Polsce, jaką jest [Zbiór Informacji Lotniczych AIP Polska](https://www.ais.pansa.pl/publikacje/aip-polska/). Podzielony jest on na części IFR, VFR i MIL, gdzie znajdziesz informacje na temat odpowiednio lotnisk kontrolowanych, niekontrolowanych i wojskowych. Informacje o przestrzeni powietrznej znajdziesz w części ENR (zwłaszcza ENR 2 i ENR 6) oraz, w zakresie CTR, w części AD 2. Szczególnie przydatne są mapy trasowe (ENR 6) i mapy dla lotów z widocznością (AD).
 
   Poza oficjalnymi źródłami dostępne są też inne alternatywy dedykowane bezpośrednio do symulacji lotniczych. Płatne, jak [Navigraph](https://navigraph.com/), lub darmowe: [Little Navmap](https://albar965.github.io/) czy [Chartfox](https://chartfox.org/).
 
