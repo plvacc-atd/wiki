@@ -30,7 +30,7 @@ ATZ to przestrzeń niekontrolowana, wyznaczona nad lotniskiem niekontrolowanym o
 
 > **strefa niebezpieczna** (*D* lub *danger zone*) - przestrzeń powietrzna o określonych wymiarach, w której w danym czasie mogą odbywać się działania niebezpieczne dla lotów statków powietrznych
 
-> **strefa ograniczona** (*R* lub *restricted area*) - przestrzeń powietrzną o określonych wymiarach nad obszarami lądowymi lub wodami terytorialnymi państwa, w której loty statków powietrznych są ograniczone zgodnie z pewnymi określonymi warunkami
+> **strefa ograniczona** (*R* lub *restricted area*) - przestrzeń powietrzna o określonych wymiarach nad obszarami lądowymi lub wodami terytorialnymi państwa, w której loty statków powietrznych są ograniczone zgodnie z pewnymi określonymi warunkami.
 
 :::info
 Na terenie Polski strefy, o których tu mowa, rozpoznasz na mapach po skrócie w formacie EPXn, gdzie *X* to typ strefy, a *n* to jej numer. Przykładowo, EPP20 to strefa zakazana wyznaczona wokół muzeum KL Auschwitz-Birkenau, EPD24 to strefa niebezpieczna wokół poligonu w Drawsku Pomorskim, a EPR14, niedaleko na północ od lotniska Kraków-Balice, to strefa ograniczona chroniąca Ojcowski Park Narodowy.
