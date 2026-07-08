@@ -28,7 +28,7 @@ ATZ to przestrzeń niekontrolowana, wyznaczona nad lotniskiem niekontrolowanym o
 
 > **strefa zakazana** (*P* lub *prohibited area*) - przestrzeń powietrzna o określonych wymiarach nad obszarami lądowymi lub wodami terytorialnymi państwa, w której loty statków powietrznych są zabronione.
 
-> **strefa niebezpieczna** (*D* lub *danger zone*) - przestrzeń powietrzna o określonych wymiarach, w której w danym czasie mogą odbywać się działania niebezpieczne dla lotów statków powietrznych
+> **strefa niebezpieczna** (*D* lub *danger zone*) - przestrzeń powietrzna o określonych wymiarach, w której w danym czasie mogą odbywać się działania niebezpieczne dla lotów statków powietrznych (np. ćwiczenia na poligonie wojskowym).
 
 > **strefa ograniczona** (*R* lub *restricted area*) - przestrzeń powietrzna o określonych wymiarach nad obszarami lądowymi lub wodami terytorialnymi państwa, w której loty statków powietrznych są ograniczone zgodnie z pewnymi określonymi warunkami.
 
