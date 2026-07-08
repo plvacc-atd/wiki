@@ -44,7 +44,7 @@ Na terenie Polski strefy, o których tu mowa, rozpoznasz na mapach po skrócie w
 
 Załogi wykonujące lot w RMZ mają obowiązek ciągle nasłuchiwać łączność na wskazanej częstotliwości. W rzeczywistości taki status ma wiele elementów przestrzeni kontrolowanej, przy czym strefy RMZ obowiązują, gdy nie jest zapewniana służba kontroli ruchu lotniczego. W realiach VATSIM znaczenie RMZ jest ograniczone, ponieważ większość stref pokrywa się z przestrzeniami, w których zapewniana jest służba kontroli ruchu lotniczego zgodnie z zasadą *top-down*. Wyjątki to RMZ Warszawa (sięgająca przestrzeni niekontrolowanej pod TMA Warszawa) i RMZ DORSZ (w okolicach Rzeszowa). Tam załogi mają obowiązek nasłuchiwać częstotliwości zalogowanego kontrolera, który na danym obszarze zapewnia służbę informacji powietrznej.
 
-> **strefa obowiązkowego używania transpondera** (*TMZ*) - przestrzeń powietrzna o określonych wymiarach, w której obowiązkowe jest posiadanie na wyposażeniu działających transponderów informujących o wysokości ciśnieniowej
+> **strefa obowiązkowego używania transpondera** (*TMZ*) - przestrzeń powietrzna o określonych wymiarach, w której obowiązkowe jest posiadanie na wyposażeniu działających transponderów informujących o wysokości ciśnieniowej.
 
 Obecnie granice tych stref pokrywają się z granicami przestrzeni kontrolowanej. Dlatego w realiach VATSIM, w związku z zasadą *top-down*, nie symulujemy stref TMZ.
 
