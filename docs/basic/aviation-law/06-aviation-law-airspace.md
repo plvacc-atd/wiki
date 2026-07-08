@@ -10,7 +10,7 @@ Na terenie Polski przestrzeń niekontrolowana obejmuje przestrzeń od powierzchn
 
 > **strefa kontrolowana lotniska** (*control zone* lub *CTR*) - kontrolowana przestrzeń powietrzna rozciągająca się od powierzchni ziemi do określonej górnej granicy.
 
-CTR ma zabezpieczać manewry podejścia do lądowania, startu i nabrania wysokości. Dlatego obejmuje lotnisko i bezpośrednio otaczającą je przestrzeń i z definicji sięga do powierzchni ziemi. Górna granica CTR wyznaczana jest indywidualnie. Przykładowo, CTR lotniska Kraków-Balice sięga do wysokości 2300 stóp.
+CTR ma zabezpieczać manewry podejścia do lądowania, startu i nabrania wysokości. Dlatego obejmuje lotnisko i bezpośrednio otaczającą je przestrzeń i z definicji rozciąga się od powierzchni ziemi. Górna granica CTR wyznaczana jest indywidualnie. Przykładowo, CTR lotniska Kraków-Balice sięga do wysokości 2300 stóp.
 
 > **obszar kontrolowany** (*control area* lub *CTA*) - kontrolowana przestrzeń powietrzna rozciągająca się w górę od określonej granicy nad ziemią.
 
