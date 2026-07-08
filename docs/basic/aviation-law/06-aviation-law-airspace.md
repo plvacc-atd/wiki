@@ -4,7 +4,7 @@ Przestrzeń powietrzna to po prostu wycinek atmosfery. Ruch statków powietrznyc
 
 ## Definicje
 
-> **przestrzeń powietrzna kontrolowana** (*controlled airspace*) - przestrzeń powietrzna o określonych wymiarach, w której służba kontroli ruchu lotniczego jest zapewniana zgodnie z klasyfikacją przestrzeni powietrznej 
+> **przestrzeń powietrzna kontrolowana** (*controlled airspace*) - przestrzeń powietrzna o określonych wymiarach, w której służba kontroli ruchu lotniczego jest zapewniana zgodnie z klasyfikacją przestrzeni powietrznej. 
 
 Na terenie Polski przestrzeń niekontrolowana obejmuje przestrzeń od powierzchni ziemi do FL95 oprócz tych elementów, które stanowią przestrzeń kontrolowaną (w realiach VATSIM: CTR i TMA). Pomijamy tu wyjątki specyficzne dla ruchu wojskowego.
 
