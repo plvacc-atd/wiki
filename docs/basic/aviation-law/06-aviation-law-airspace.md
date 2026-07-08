@@ -26,7 +26,7 @@ Zarówno CTR, jak i obszary kontrolowane (w tym TMA) z definicji zaliczamy do pr
 
 ATZ to przestrzeń niekontrolowana, wyznaczona nad lotniskiem niekontrolowanym oraz przylegającym terenem. W Polsce znajdziesz takie przestrzenie wokół niewielkich lotnisk takich jak Pobiednik Wielki (EPKP) czy Babice (EPBC).
 
-> **strefa zakazana** (*P* lub *prohibited area*) - przestrzeń powietrzna o określonych wymiarach nad obszarami lądowymi lub wodami terytorialnymi państwa, w której loty statków powietrznych są zabronione
+> **strefa zakazana** (*P* lub *prohibited area*) - przestrzeń powietrzna o określonych wymiarach nad obszarami lądowymi lub wodami terytorialnymi państwa, w której loty statków powietrznych są zabronione.
 
 > **strefa niebezpieczna** (*D* lub *danger zone*) - przestrzeń powietrzna o określonych wymiarach, w której w danym czasie mogą odbywać się działania niebezpieczne dla lotów statków powietrznych
 
