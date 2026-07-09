@@ -11,7 +11,7 @@ W największym uproszczeniu: koordynacja jest potrzebna wtedy, kiedy w danej syt
 Koordynacja może dotyczyć jednorazowej sytuacji, albo określać zasady współpracy w bardziej ogólny sposób. 
 
 :::info
-Przykładem jednorazowej koordynacji może być uzgodnienie przez kontrolera APP z kontrolerem ACC, że dany statek powietrzny zostanie skierowany bezpośrednio do punktu znajdującego się w obszarze odpowiedzialności APP (skrót). Kontroler ACC nie może podjąć tej decyzji samodzielnie, ponieważ taki skrót wpływa na sytuację kontrolera APP. Z kolei kontroler GND może ustalić z kontrolerem TWR, że na czas danej sesji (np. do zakończenia eventu) statki powietrze będą od GND otrzymywać polecenie monitorowania częstotliwości TWR, a nie nawiązywania łączności.
+Przykładem jednorazowej koordynacji może być uzgodnienie przez (i, co do zasady, z inicjatywy) kontrolera APP z kontrolerem ACC, że dany statek powietrzny zostanie skierowany bezpośrednio do punktu znajdującego się w obszarze odpowiedzialności APP (tzw. skrót). Kontroler ACC nie może podjąć tej decyzji samodzielnie, ponieważ taki skrót wpływa na sytuację kontrolera APP. Z kolei kontroler GND może ustalić z kontrolerem TWR, że na czas danej sesji (np. do zakończenia eventu) statki powietrze będą od GND otrzymywać polecenie monitorowania częstotliwości TWR, a nie nawiązywania łączności (inicjatywa również powinna wyjść od kontrolera TWR).
 :::
 
 Nie ma wyczerpującej listy zagadnień, które powinny być koordynowane. Warto jednak pamiętać, że koordynacja jest nieodzowna w każdym przypadku współpracy z innym kontrolerem. 
