@@ -31,7 +31,7 @@ Z perspektywy kontrolera w sieci VATSIM istotne są wszystkie trzy wymienione cz
 
 ### Polish VACC Policy
 
-Choć PLVACC obecnie nie ma osobowości prawnej, to [*Polish VACC Policy*](https://plvacc.pl/vacc/policies/6) jest funkcjonalnie odpowiednikiem statutu stowarzyszenia. Określa zasady funkcjonowania naszej subdywizji, prawa i obowiązki jej członków, zasady przenoszenia uprawnień kontrolerskich z innych subdywizji lub pełnienia funkcji kontrolera wizytującego, a także reguły obsadzania pozycji kontrolerskich w vFIR EPWW.
+Choć PLVACC obecnie nie ma osobowości prawnej, to [*Polish VACC Policy*](https://plvacc.pl/vacc/policies) jest funkcjonalnie odpowiednikiem statutu stowarzyszenia. Określa zasady funkcjonowania naszej subdywizji, prawa i obowiązki jej członków, zasady przenoszenia uprawnień kontrolerskich z innych subdywizji lub pełnienia funkcji kontrolera wizytującego, a także reguły obsadzania pozycji kontrolerskich w vFIR EPWW.
 
 ## Istotne na VATSIM źródła reguł obowiązujących w rzeczywistym lotnictwie
 
