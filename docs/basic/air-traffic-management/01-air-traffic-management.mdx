@@ -26,7 +26,8 @@ Służby ruchu lotniczego to pojęcie ogólne, w skład którego wchodzą:
 >     - statków powietrznych na polu manewrowym: z przeszkodami i innymi statkami powietrznymi; i
 >   - usprawniania i utrzymywania uporządkowanego przepływu ruchu lotniczego.
 
-W skład służby kontroli ruchu lotniczego wchodzą służba kontroli obszaru, służba kontroli zbliżania i służba kontroli lotniska. Definicje są bardzo oczywiste więc nie ma potrzeby ich tu przywoływać. Warto jednak zwrócić uwagę, że możliwe są tu delegacje odpowiedzialności, tzn. służba kontroli zbliżania może być zapewniana przez kontrolera wieżowego (przykładem są występujące w Polsce lotniska z proceduralną kontrolą zbliżania), a służba kontroli obszaru może być zapewniana przez kontrolera zbliżania (potrzebne źródło). 
+W skład służby kontroli ruchu lotniczego wchodzą służba kontroli obszaru, służba kontroli zbliżania i służba kontroli lotniska. Warto zwrócić uwagę, że możliwe są tu delegacje odpowiedzialności, tzn. służba kontroli zbliżania może być zapewniana przez kontrolera wieżowego (przykładem są występujące w Polsce lotniska z proceduralną kontrolą zbliżania), a służba kontroli obszaru może być zapewniana przez kontrolera zbliżania (potrzebne źródło). 
+Dokładne opisy konkretnych służb dostępne są w odpowiednich modułach szkoleniowych.
 > **Służba informacji powietrznej** (_Flight information service_): Służba ustanowiona w celu udzielania wskazówek i informacji użytecznych dla bezpiecznego i sprawnego wykonywania lotów.
 
 > **Służba alarmowa** (_Alerting service_). Służba ustanowiona w celu zawiadamiania właściwych organizacji o statkach powietrznych potrzebujących pomocy w zakresie poszukiwania i ratownictwa oraz w celu współdziałania z tymi organizacjami w razie potrzeby.
@@ -36,7 +37,7 @@ W skład służby kontroli ruchu lotniczego wchodzą służba kontroli obszaru, 
 W tym miejscu warto przytoczyć jeszcze jedną definicję, która pozwoli uszczegółowić zakres służb pełnionych przez kontrolę ruchu lotniczego:
 > **Rejon informacji powietrznej** (_Flight Information Region, FIR_) - przestrzeń powietrzna o określonych wymiarach, w której zapewniona jest służba informacji powietrznej i służba alarmowa
 
-Z definicji tej wynika, że w FIR Warszawa kontrolerzy zapewniają nie tylko służbę kontroli ruchu lotniczego, ale też służbę informacji powietrznej oraz służbę alarmową. O ile służba ATC i FIS zapewniana jest tylko w ramach przestrzeni odpowiedzialności danego kontrolera, o tyle służbę alarmową pełni się wobec wszystkich statków powietrznych, o których wiadomo, że znajdują się w niebezpieczeństwie. W związku z tym kontroler nie może zignorować sytuacji niebezpiecznej o której wie, nawet jeżeli zagrożony statek powietrzny znajduje się poza jego sektorem.
+Z definicji tej wynika, że w FIR Warszawa kontrolerzy zapewniają nie tylko służbę kontroli ruchu lotniczego, ale też służbę informacji powietrznej oraz służbę alarmową. O ile służba ATC i FIS zapewniana jest tylko w ramach przestrzeni odpowiedzialności danego kontrolera, o tyle służbę alarmową pełni się wobec wszystkich statków powietrznych, o których wiadomo, że znajdują się w niebezpieczeństwie. W związku z tym kontroler nie może zignorować sytuacji niebezpiecznej, o której wie, nawet jeżeli zagrożony statek powietrzny znajduje się poza jego sektorem.
 
 :::info
 Warto rozróżnić pojęcia służby kontroli ruchu lotniczego od organu kontroli ruchu lotniczego:
@@ -56,18 +57,21 @@ Najprościej mówiąc służba ATFM odpowiada za zapewnienienie maksymalnej prze
 - zarządzanie przepływem ruchu w przypadku wydarzeń losowych, takich jak awarie infrastruktury czy zjawiska pogodowe
 - współpraca z krajowymi organami zapewniającymi służby ruchu lotniczego w celu optymalizacji struktur przestrzeni powietrznej i dopasowanie do potoków ruchu lotniczego
 
-Dużo ciekawych informacji (w tym aktualne restrykcje i poziom obciążenia poszczególnych sektorów) można znaleźć na stronie [Network Managera](https://www.public.nm.eurocontrol.int/PUBPORTAL/gateway/spec/index.html) - jednostki ATFM działającej z ramienia Eurocontrol i sprawującej nadzór nad europejską przestrzenią powietrzną.
+Dużo ciekawych informacji (w tym aktualne restrykcje i poziom obciążenia poszczególnych sektorów) można znaleźć na stronie [Network Manager Operations Centre](https://www.public.nm.eurocontrol.int/PUBPORTAL/gateway/spec/index.html) - organu ATFM działającego z ramienia Eurocontrol i sprawującego nadzór nad europejską przestrzenią powietrzną.
 
-Na Vatsim ATFM działa w zdecydowanie bardziej ograniczonej formie, ale jest w fazie bardzo dynamicznego rozwoju. Podejmowane są inicjatywy mające na celu ponadnarodową koordynację przy regulacji ruchu lotniczego w sieci. 
+Na Vatsim ATFM działa w zdecydowanie bardziej ograniczonej formie, ale jest w fazie bardzo dynamicznego rozwoju. Część państw, w tym Polska, dołączyła do inicjatywy VATSIM Spain i korzystania z narzędzia vIFF symulującego zarządzanie przepływem ruchu lotniczego w sieci. Więcej informacji można znaleźć na stronie projektu: [https://cdm.vatsimspain.es/](https://cdm.vatsimspain.es/)
 
 :::info
-Na Vatsim (przynajmniej w vFIR Warszawa) przepływ ruchu lotniczego, a co za tym idzie przydzielanie slotów, realizowane jest przez plugin CDM. Powoduje to niefortunne pomieszanie pojęć i odpowiedzialności za poszczególne obszary. Warto wobec tego rozróżnić:
+Na Vatsim przepływ ruchu lotniczego, a co za tym idzie przydzielanie slotów, realizowane jest przez plugin CDM. Powoduje to niefortunne pomieszanie pojęć i odpowiedzialności za poszczególne obszary. Warto wobec tego rozróżnić:
 
-**ACDM** (_Airport Collaborative Decision Making_) jest systemem lokalnym działającym w ramach jednego lotniska. Jego celem jest optymalizacja obsługi naziemnejstatków powietrznych poprzez włączenie wszystkich zaangażowanych podmiotów (handling, dyspozytorzy, kontrola ruchu lotniczego itp.) w proces decyzyjny. 
+**ACDM** (_Airport Collaborative Decision Making_) jest systemem lokalnym działającym w ramach jednego lotniska. Jego celem jest optymalizacja obsługi naziemnej statków powietrznych poprzez włączenie wszystkich zaangażowanych podmiotów (handling, dyspozytorzy, kontrola ruchu lotniczego itp.) w proces decyzyjny.
 
-**ATFM** działa w skali międzynarodowej, w przypadku wystąpienia utrudnień lub przewidywanych przekroczeń pojemności sektorowych reguluje ruch między innymi przez przydzielanie 
+**ATFM** działa w skali międzynarodowej. W przypadku wystąpienia utrudnień lub przewidywanych przekroczeń pojemności sektorowych reguluje ruch między innymi przez przydzielanie czasów CTOT. Wynika z tego, że czas CTOT może otrzymać statek powietrzny odlatujący z lotniska, na którym nie funkcjonuje system ACDM.
 :::
+
 ## Zarządzanie przestrzenią powietrzną
+
+Ostatnim elementem systemu ATM jest słuzba zarządzania przestrzenią powietrzną. Odpowiada ona za projektowanie struktur przestrzeni powietrznej tak, żeby 
 
 ciekawostka - 4444 atm de facto opisuje sluzby ruchu lotniczego, analogicznie jak zalacznik 11 do konwencji chicagowskiej  
 
