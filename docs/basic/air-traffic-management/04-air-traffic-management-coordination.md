@@ -17,7 +17,7 @@ Przykładem jednorazowej koordynacji może być uzgodnienie przez kontrolera APP
 Nie ma wyczerpującej listy zagadnień, które powinny być koordynowane. Warto jednak pamiętać, że koordynacja jest nieodzowna w każdym przypadku współpracy z innym kontrolerem. 
 
 :::caution
-Można kierować się prostą zasadą: jeśli masz wątpliwości, czy to, co robisz jest niestandardowe i czy wpływa na sytuację innego kontrolera, to założ, że trzeba to skoordynować.
+Można kierować się prostą zasadą: jeśli masz wątpliwości, czy to, co robisz jest niestandardowe i czy wpływa na sytuację innego kontrolera, to załóż, że trzeba to skoordynować.
 :::
 
 Przykłady podane poniżej należą do najczęstszych w realiach VATSIM. Ilekroć podawana jest konkretna pozycja, należy uwzględnić możliwość pełnienia tych samych zadań przez innnego kontrolera zgodnie z regułą *top-down* (np. kontroler TWR może koordynować zagadnienia, które w innych warunkach ustalałby zalogowany kontroler TWR).
