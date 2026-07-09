@@ -12,6 +12,14 @@ Na ogół dozwolone jest, aby piloci zgłaszali sytuacje awaryjne podczas lotu *
 
 Ty jako kontroler możesz natomiast z dowolnego powodu **odmówić** przyjęcia awaryjnej operacji oraz **nakazać zakończenie sytuacji awaryjnej** lub **rozłączenie się pilota z sieci**. W takiej sytuacji pilot zobowiązany jest do wykonania takiego polecenia **natychmiast**.
 
+Jeżeli pilot nie wykonuje Twojego polecenia, rozłączenia się czy przerwania sytuacji niebezpiecznej, masz całkowite prawo do wysłania zgłoszenia do Supervisora.
+
+_*"If, for any reason, air traffic control requests the pilot to terminate the emergency, then the pilot shall do so IMMEDIATELY or disconnect from the network."*_ - Code of Conduct B6
+
+:::caution
+jak będzie opisane co i jak z .wallopem i zgłaszaniem do SUP, to podlinkować do "wysłania zgłoszenia do Supervisora" (linijka wyżej)
+:::
+
 <u>**Zabrania się**</u> symulowania sytuacji bezprawnej ingerencji (*hijack*) w jakikolwiek sposób.
 
 ## **Szczególne kody transpondera**
@@ -79,6 +87,22 @@ W zależności od możliwości i czasu dostępnego załodze komunikat powinien z
 > **PILOT:** MAYDAY MAYDAY MAYDAY, KRAKÓW WIEŻA, SP-ABC, POŻAR SILNIKA, PRÓBUJĘ WYLĄDOWAĆ NA TWOIM LOTNISKU, POZYCJA 3 MILE NA POŁUDNIE OD BALIC, ALTITUDE 2000 STÓP KURS 360.  
 > **ATC:** SP-ABC KRAKÓW WIEŻA PRZYJĄŁEM MAYDAY, ZEZWALAM NA LĄDOWANIE PAS 25, WIATR 260 STOPNI 10 WĘZŁÓW QNH 1013.  
 > **PILOT:** ZEZWALASZ NA LĄDOWANIE PAS 25 QNH 1013, SP-ABC
+
+:::tip ASSIST, czyli pierwsze działania kontrolera
+
+Dobrym sposobem zapamiętania kolejności działań po odebraniu zgłoszenia **MAYDAY** jest zasada **ASSIST**, lub zmienioną wersję na potrzeby VATSIM zasada **ASSISTED**.
+
+- **Acknowledge** - potwierdź odebranie zgłoszenia i upewnij pilota, że jego sytuacja została zrozumiana.
+- **Separate** - zapewnij separację od pozostałego ruchu oraz pozostaw załodze wystarczająco dużo przestrzeni do wykonywania manewrów.
+- **Silence** - ogranicz korespondencję na częstotliwości. Jeżeli jest to możliwe, przenieś ruch na inną częstotliwość lub nakaż pozostałym statkom powietrznym zachowanie **ciszy radiowej**.
+- **Inform** - poinformuj odpowiednie organy ATS oraz służby, które mogą udzielić pomocy. W razie potrzeby przekaż również informacje innym zainteresowanym podmiotom.
+- **Support** - wspieraj załogę we wszystkich możliwych działaniach. Rozważ alternatywne lotniska, odpowiednią drogę dolotu, wektorowanie lub inne rozwiązania, które mogą ułatwić bezpieczne zakończenie lotu.
+- **Time** - daj załodze czas. Nie zasypuj pilota pytaniami, gdy wykonuje listy kontrolne lub rozwiązuje problem. Dobrze podjęte decyzje wymagają czasu.
+===
+- **Else, Disconnect** jeżeli sytuacja niebezpieczeństwa przerasta Ciebie, na przykład ze względu na Twój workload i nie jesteś w stanie zapewnić bezpiecznego prowadzenia kontroli ruchu lotniczego, bądź wpłynęło by to na jakość kontroli, jak wcześniej wspomniane masz prawo nakazać rozłączenia się pilotowi.
+
+Pamiętaj, że najważniejszym zadaniem kontrolera jest **odciążenie załogi**, a nie zwiększanie jej obciążenia dodatkowymi pytaniami czy instrukcjami.
+:::
 
 Jeżeli sytuacja na to pozwala, należy zapytać pilota o:
 
@@ -250,6 +274,10 @@ Częstotliwość Guard jest przeznaczona wyłącznie do komunikacji związanej z
 ## **Służba alarmowa**
 
 Służba alarmowa (*Alerting Service*) jest jedną ze służb zapewnianych przez służby ruchu lotniczego (ATS). Jej zadaniem jest powiadamianie odpowiednich służb ratowniczych oraz wspieranie działań mających na celu udzielenie pomocy statkom powietrznym znajdującym się w sytuacji wymagającej interwencji.
+
+:::caution 
+Zgodnie z [Operations Manual vFIR Warszawa (INOP) 8.2 - Alert Serivce](https://cv.plvacc.pl/storage/app/public/documents/LEXOwPWErxBUuafeiyNadFpm2dWazjOimSiJiWoP.pdf), służba alarmowa nie jest symulowana na VATSIM.
+:::
 
 Zgodnie z **ICAO Annex 11 - Air Traffic Services** wyróżnia się trzy podstawowe fazy alarmowe:
 
