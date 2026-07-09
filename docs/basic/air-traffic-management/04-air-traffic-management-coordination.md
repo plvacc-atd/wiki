@@ -34,7 +34,7 @@ Przykłady podane poniżej należą do najczęstszych w realiach VATSIM. Ilekro�
 1. Poinformowanie kontrolera APP przez kontrolera TWR o zamiarze zmiany pasa w użyciu.
 1. Ustalenie przez kontrolera DEL z kontrolerem APP możliwości odlotu na niestandardowych zasadach, np. z pominięciem standardowej procedury odlotu SID albo z pasa innego, niż będący w użyciu.
 1. Poinformowanie kontrolera TWR przez kontrolera APP, że przylatujący statek powietrzny wykonuje podejście inne niż standardowe (np. podejście z widocznością).
-1. Poinformowanie kontrolera TWR przez kontrolera APP o niestandardowych instrukcjach dla przylatującego statku powietrznego w razie nieudanego podejścia, gdy takie instrukcje nie zostały opublikowane.
+1. Poinformowanie kontrolera TWR przez kontrolera APP o niestandardowych instrukcjach dla przylatującego statku powietrznego w razie nieudanego podejścia, gdy takie instrukcje nie zostały opublikowane lub różnią się od opublikowanych.
 1. Poinformowanie kontrolera APP przez kontrolera TWR o nieudanym podejściu.
 1. Uzgodnienie między kontrolerem TWR i APP postępowania z odlotami (np. wstrzymanie odlotów w związku z ryzykiem kolizji po starcie, wznowienie odlotów po nieudanym podejściu) i przylotami (np. zwiększenie odstępów między przylotami w celu umożliwienia innych operacji na pasie).
 
