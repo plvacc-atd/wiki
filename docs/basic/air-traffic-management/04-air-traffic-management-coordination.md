@@ -73,7 +73,7 @@ W realiach VATSIM do koordynacji używamy kilku narzędzi.
 
 * komunikacja głosowa przez Discord
 
-    Dostępne dla kontrolerów kanały głosowe ATC mogą posłużyć do koordynacji głosowej. Podłączanie się do tych kanałów nie jest obowiązkowe, ale jest zalecane szczególnie w przypadku większego ruchu i zalogowanej większej liczby pozycji (np. podczas wydarzeń). Połączenie przez Discorda jest trwałe, a na tym samym kanale mogą przebywać kontrolerzy mniej i bardziej obciążeni ruchem. Dla tych ostatnich prowadzenie rozmów "w tle" może być znacznym utrudniniem, gdy jednocześnie muszą prowadzić korespondencję radiową z załogami.
+    Dostępne dla kontrolerów kanały głosowe ATC mogą posłużyć do koordynacji głosowej. Podłączanie się do tych kanałów nie jest obowiązkowe, ale jest zalecane szczególnie w przypadku większego ruchu i zalogowanej większej liczby pozycji (np. podczas wydarzeń). Połączenie przez Discorda jest trwałe, a na tym samym kanale mogą przebywać kontrolerzy mniej i bardziej obciążeni ruchem. Dla tych ostatnich prowadzenie rozmów "w tle" może być znacznym utrudnieniem, gdy jednocześnie muszą prowadzić korespondencję radiową z załogami.
 
 * komunikacja głosowa przez VACS
 
@@ -115,7 +115,7 @@ Specyfika VATSIM sprawia, że niekiedy nie jest zalogowany kontroler, na któreg
 :::info
 Przykładowo, gdy zalogowany jest samotny kontroler TWR, a nie ma kontrolera APP, to TWR nie może wydać zezwolenia obejmującego niestandardowe warunki odlotu, takiego jak odlot z kursem pasa z wznoszeniem do 6000 stóp. Załoga powinna wtedy wznowić własną nawigację po opuszczeniu przestrzeni, za którą odpowiada TWR. Przykładowo, dla lotu EPKK-EPKT, który zamierza wznosić do FL100, a trasa obejmuje tylko punkt KAX:
 
-> **LOT123, you are cleared to Katowice, departure runway 25, after departure resume own navigation, squawk 1000**
+> **ATC**: LOT123, you are cleared to Katowice, departure runway 25, after departure resume own navigation, squawk 1000. <br/>**ATC**: LOT123, zezwalam na lot do Katowic, odlot z pasa 25, po odlocie wykonuj z własną nawigacją, squawk 1000.
 
 Podobnie kontroler APP lub ACC nie może wydać instrukcji wykonywania lotu bezpośrednio do punktu leżącego w przestrzeni powietrznej, za którą odpowiadałby inny kontroler.
 :::
