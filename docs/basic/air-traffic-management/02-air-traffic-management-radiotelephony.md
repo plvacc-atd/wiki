@@ -10,6 +10,10 @@ W przypadku braku możliwości prowadzenia przez pilota łączności głosowej (
 - **/R** (Receive) - oznacza możliwość odbierania przez pilota transmisji głosowych od kontrolera, przy jednoczesnym prowadzeniu przez pilota korespondencji zwrotnej wyłącznie w formie tekstowej na czacie danej częstotliwości;
 - **/T** (Text) - oznacza brak możliwości prowadzenia łączności głosowej w obu kierunkach; cała komunikacja pomiędzy pilotem a kontrolerem odbywa się wyłącznie w formie tekstowej na czacie danej częstotliwości.
 
+:::tip
+Komunikację tekstową można sobie ułatwić poznając tzw. `aliasy`, czyli skróty do najczęściej wykorzystywanych zezwoleń i poleceń. W oficjalnej "paczce" z sektorem PL-VACC znajdują się one w pliku tekstowym `alias.txt` w katalogu `EPWW\Alias`. Warto je poznać, gdyż zamiast mozolnie wystukiwać na klawiaturze elementy zezwolenia na lot IFR w języku angielskim wystarczy kliknąć na statek powietrzny i wpisać w oknie czatu częstotliwości `.ifr` a zamiast trzymać pilota już na prostej do pasa w niepewności pisząc w tym samym czasie na klawiaturze zezwolenie na lądowanie, można po prostu wpisać `.land`. Ciekawych aliasów jest o wiele więcej i są dostępne zarówno w języku angielskim, jak i polskim - naprawdę warto zapoznać się tym plikiem.
+:::
+
 ## Tryb SIMPLEX
 
 Łączność lotnicza prowadzona jest w trybie **simplex**, co oznacza, że w danym momencie na jednej częstotliwości skutecznie może być prowadzona tylko jedna transmisja. Jeżeli dwie osoby rozpoczną nadawanie jednocześnie, ich sygnały nałożą się na siebie i w praktyce żadna z transmisji nie będzie czytelna. 
