@@ -1,0 +1,91 @@
+# Zezwolenie na lot
+Po wcześniejszym zatwierdzeniu planu lotu oraz na zgłoszenie gotowości przez pilota, kontroler ruchu lotniczego wydaje zezwolenie na lot.
+
+:::caution
+Należy pamiętać, że zezwolenie może zostać wydane maksymalnie 30 minut przed EOBT.
+:::
+
+Zezwolenie na lot składa się z następujących elementów:
+- znak wywoławczy,
+- granicę zezwolenia (zazwyczaj będzie to lotnisko przylotu),
+- Standard Instrument Departure (SID) lub niestandardowe instrukcje odlotowe,
+- zezwolony poziom lotu lub wysokość bezwzględna,
+- przydzielony kod SSR,
+- wszelkie dodatkowe instrukcje lub informacje.
+
+## IFR
+Przykładowe zezwolenie.
+:::danger
+skopiowane z 03-air-traffic-management-ATC-transmissions.md więc tam proponuje usunąć
+:::
+> **ATC**: LOT123, Kraków Tower, cleared to Gdańsk via flight planned route, NAVUR 6J departure, runway 25, initial climb altitude 6,000 ft, squawk 1000, information A.<br/>
+> **PILOT**: Cleared to Gdańsk via flight planned route, NAVUR 6J departure, runway 25, initial climb altitude 6,000 ft, squawk 1000, information A, LOT123<br/>
+> **ATC**: LOT123, readback correct.
+
+> **ATC**: LOT123, Kraków Wieża, zezwalam na lot do Gdańska drogą planowaną, procedura odlotowa NAVUR 6J z pasa 25, początkowe wznoszenie altitude 6 000 stóp, squawk 1000, informacja A.
+> **PILOT**: Zezwalasz na lot do Gdańska drogą planowaną, procedura odlotowa NAVUR 6J z pasa 25, początkowe wznoszenie altitude 6 000 stóp, squawk 1000, informacja A, LOT123.<br/>
+> **ATC**: LOT123, zezwolenie zapisano prawidłowo.
+
+Można je rozłożyć na następujące części:
+|Element|Przykład|Znaczenie|
+|---|---|---|
+|**Aircraft Identification**|LOT123|znak wywoławczy statku powietrznego|
+|**Clearance Limit**|Gdańsk|[granica zezwolenia](\docs\basic\air-traffic-management\03-air-traffic-management-ATC-transmissions.md#granica-zezwolenia-clearance-limit)|
+|**Departure Procedure**|NAVUR 6J|procedura odlotowa SID|
+|**Route**|Flight planned route|dalsza trasa lotu|
+|**Initial Climb**|6,000 ft|wysokość początkowego wznoszenia|
+|**SSR Code**|1000|kod transpondera|
+
+
+## VFR
+Przykładowe zezwolenie:
+
+> **ATC**: SP-ABC, Kraków Tower, cleared for VFR flight in the CTR of Kraków, not higher than altitude 2,000 ft, departure runway 25, squawk 7401, information A.<br/>
+> **PILOT**: cleared for VFR flight in the CTR of Krakow, not higher than altitude 2,000 ft, departure runway 25, squawk 7401, information A, SP-ABC.<br/>
+> **ATC**: SP-ABC, readback correct.
+
+> **ATC**: SP-ABC, Kraków Wieża, zezwalam na lot VFR w CTR Krakowa, nie wyżej niż altitude 2 000 stóp, odlot pas 25, squawk 7401, informacja A.<br/>
+> **PILOT**: Zezwalasz na lot VFR w CTR Krakowa, nie wyżej niż altitude 2 000 stóp, odlot pas 25, squawk 7401, informacja A, SP-ABC.<br/>
+> **ATC**: SP-ABC, zezwolenie zapisano prawidłowo.
+
+Można je rozłożyć na następujące części:
+|Element|Przykład|Znaczenie|
+|---|---|---|
+|**Aircraft Identification**|SP-ABC|znak wywoławczy statku powietrznego|
+|**Clearance Limit**|CTR of Kraków|[granica zezwolenia](\docs\basic\air-traffic-management\03-air-traffic-management-ATC-transmissions.md#granica-zezwolenia-clearance-limit) - w tym wypadku jest to CTR Krakowa|
+|**Cleared level**|not higher than altitude 2,000 ft|SP może wykonywać lot nie wyżej niż altitude 2 000 stóp|
+|**Departure runway**|25|odlot z pasa 25|
+|**SSR Code**|7401|kod transpondera|
+|**ATIS information**|A|aktualny znacznik informacji pogodowej|
+
+W przypadku wydawania zezwolenia na wlot do przestrzeni kontrolowanej będzie ono miało następującą postać:
+
+> **ATC**: SP-ABC, Kraków Tower, cleared for VFR flight in the CTR of Kraków, not higher than altitude 2,000 ft, *squawk 7401*, information A, QNH 1012.<br/>
+> **PILOT**: cleared for VFR flight in the CTR of Kraków, not higher than altitude 2,000 ft, *squawk 7401*, information A, QNH 1012, SP-ABC.<br/>
+> **ATC**: SP-ABC, readback correct.
+
+> **ATC**: SP-ABC, Kraków Wieża, zezwalam na lot VFR w CTR Krakowa, nie wyżej niż altitude 2 000 stóp, *squawk 7401*, informacja A, QNH 1012.<br/>
+> **PILOT**: Zezwalasz na lot VFR w CTR Krakowa, nie wyżej niż altitude 2 000 stóp, *squawk 7401*, informacja A, QNH 1012, SP-ABC.<br/>
+> **ATC**: SP-ABC, zezwolenie zapisano prawidłowo.
+
+Zasadnicza treść zezwolenia nie ulega modyfikacji. Przydział kodu SSR (squawk) zostaje pominięty, jeżeli statek powietrzny posiada już kod nadany przez inny organ kontroli ruchu lotniczego lub służbę informacji powietrznej, a jego zmiana nie jest wymagana.
+
+:::tip
+Dobrą praktyką jest każdorazowe podawanie pilotowi aktualnego ciśnienia QNH w treści wydawanego zezwolenia lub zaraz po nim. Gwarantuje to pewność, że statek powietrzny będzie wykonywał lot na właściwej wysokości. Choć formalnie wymóg ten jest zniesiony w sytuacji, gdy załoga potwierdza zapoznanie się z bieżącą informacją ATIS (która to ciśnienie zawiera), bezpośrednie przekazanie QNH zmniejsza ryzyko błędu. Pozwala to np. wyeliminować ryzyko zaistnienia sytuacji, w której w trakcie nawiązywania łączności przez pilota opublikowana została nowa informacja ATIS, z którą załoga nie zdążyła się jeszcze zapoznać.
+:::
+
+## SVFR
+Jeżeli są spełnione minima dla lotów specjalnych VFR, można wydać zezwolenie na wykonanie lotu specjalnego VFR: 
+- na wlot do strefy kontrolowanej lotniska w celu wylądowania,
+- startu lub odlotu z/do strefy kontrolowanej lotniska, 
+- przelotu przez strefę kontrolowaną lotniska lub wykonania lotu w strefie kontrolowanej lotniska.
+
+> **ATC**: SP-ABC, Kraków Tower, cleared for special VFR flight in the CTR of Kraków, not higher than altitude 2,000 ft, departure runway 25, squawk 7401, information A.<br/>
+> **PILOT**: cleared for special VFR flight in the CTR of Kraków, not higher than altitude 2,000 ft, departure runway 25, squawk 7401, information A, SP-ABC.<br/>
+> **ATC**: SP-ABC, readback correct.
+
+> **ATC**: SP-ABC, Kraków Wieża, zezwalam na lot VFR SPEC w CTR Krakowa, nie wyżej niż altitude 2 000 stóp, odlot pas 25, squawk 7401, informacja A.<br/>
+> **PILOT**: Zezwalasz na lot VFR SPEC w CTR Krakowa, nie wyżej niż altitude 2 000 stóp, odlot pas 25, squawk 7401, informacja A, SP-ABC.<br/>
+> **ATC**: SP-ABC, zezwolenie zapisano prawidłowo.
+
+Jak widać zezwolenie na taki lot nie różni się zbytnio od zezwolenia na zwykły lot VFR.
