@@ -7,17 +7,15 @@ Należy pamiętać, że zezwolenie może zostać wydane maksymalnie 30 minut prz
 
 Zezwolenie na lot składa się z następujących elementów:
 - znak wywoławczy,
-- granica zezwolenia (zazwyczaj będzie to lotnisko przylotu),
+- [granica zezwolenia](\docs\basic\air-traffic-management\03-air-traffic-management-ATC-transmissions.md#granica-zezwolenia-clearance-limit) (zazwyczaj będzie to lotnisko przylotu),
 - Standard Instrument Departure (SID) lub niestandardowe instrukcje odlotowe,
 - zezwolony poziom lotu lub wysokość bezwzględna,
 - przydzielony kod SSR,
 - wszelkie dodatkowe instrukcje lub informacje.
 
 ## IFR
-Przykładowe zezwolenie.
-:::danger
-skopiowane z 03-air-traffic-management-ATC-transmissions.md więc tam proponuje usunąć
-:::
+Przykładowe zezwolenie:
+
 > **ATC**: LOT123, Kraków Tower, cleared to Gdańsk via flight planned route, NAVUR 6J departure, runway 25, initial climb altitude 6,000 ft, squawk 1000, information A.<br/>
 > **PILOT**: Cleared to Gdańsk via flight planned route, NAVUR 6J departure, runway 25, initial climb altitude 6,000 ft, squawk 1000, information A, LOT123<br/>
 > **ATC**: LOT123, readback correct.
@@ -27,14 +25,14 @@ skopiowane z 03-air-traffic-management-ATC-transmissions.md więc tam proponuje 
 > **ATC**: LOT123, zezwolenie zapisano prawidłowo.
 
 Można je rozłożyć na następujące części:
-|Element|Przykład|Znaczenie|
-|---|---|---|
-|**Aircraft Identification**|LOT123|znak wywoławczy statku powietrznego|
-|**Clearance Limit**|Gdańsk|[granica zezwolenia](\docs\basic\air-traffic-management\03-air-traffic-management-ATC-transmissions.md#granica-zezwolenia-clearance-limit)|
-|**Departure Procedure**|NAVUR 6J|procedura odlotowa SID|
-|**Route**|Flight planned route|dalsza trasa lotu|
-|**Initial Climb**|6,000 ft|wysokość początkowego wznoszenia|
-|**SSR Code**|1000|kod transpondera|
+|Element|Znaczenie|
+|---|---|
+|LOT123|znak wywoławczy statku powietrznego|
+|Gdańsk|[granica zezwolenia](\docs\basic\air-traffic-management\03-air-traffic-management-ATC-transmissions.md#granica-zezwolenia-clearance-limit)|
+|NAVUR 6J|standardowy odlot SID|
+|flight planned route|dalsza trasa lotu|
+|altitude 6,000 ft|wysokość początkowego wznoszenia|
+|1000|kod transpondera|
 
 
 ## VFR
@@ -49,14 +47,14 @@ Przykładowe zezwolenie:
 > **ATC**: SP-ABC, zezwolenie zapisano prawidłowo.
 
 Można je rozłożyć na następujące części:
-|Element|Przykład|Znaczenie|
-|---|---|---|
-|**Aircraft Identification**|SP-ABC|znak wywoławczy statku powietrznego|
-|**Clearance Limit**|CTR of Kraków|[granica zezwolenia](\docs\basic\air-traffic-management\03-air-traffic-management-ATC-transmissions.md#granica-zezwolenia-clearance-limit) - w tym wypadku jest to CTR Krakowa|
-|**Cleared level**|not higher than altitude 2,000 ft|SP może wykonywać lot nie wyżej niż altitude 2 000 stóp|
-|**Departure runway**|25|odlot z pasa 25|
-|**SSR Code**|7401|kod transpondera|
-|**ATIS information**|A|aktualny znacznik informacji pogodowej|
+|Element|Znaczenie|
+|---|---|
+|SP-ABC|znak wywoławczy statku powietrznego|
+|CTR of Kraków|[granica zezwolenia](\docs\basic\air-traffic-management\03-air-traffic-management-ATC-transmissions.md#granica-zezwolenia-clearance-limit) - w tym wypadku jest to CTR Krakowa|
+|not higher than altitude 2,000 ft|SP może wykonywać lot nie wyżej niż altitude 2 000 stóp|
+|25|odlot z pasa 25|
+|7401|kod transpondera|
+|A|aktualny znacznik informacji pogodowej|
 
 W przypadku wydawania zezwolenia na wlot do przestrzeni kontrolowanej będzie ono miało następującą postać:
 
