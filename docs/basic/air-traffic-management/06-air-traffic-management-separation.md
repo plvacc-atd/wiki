@@ -5,18 +5,18 @@ Jednym z głównych zadań służb kontroli ruchu lotniczego jest zapewnienie od
 ## Separacja lotniskowa
 
 Separacja lotniskowa obejmuje organizację ruchu na drodze startowej oraz w jej bezpośrednim sąsiedztwie. Jej naczelną zasadą jest zapewnienie, że droga startowa jest dostępna do wykonania określonej operacji. Kontroler przed wydaniem zezwolenia powinien upewnić się, że:
-- droga startowa jest wolna od innych statków powietrznych i pojazdów, vide:
+- droga startowa jest wolna od innych statków powietrznych i pojazdów, patrz:
   1) ICAO Doc 4444 7.9.3. dla startów;
   2) ICAO Doc 4444 7.10. dla lądowań;
 - zachowane zostały wymagane minima wynikające z turbulencji w śladzie aerodynamicznym;
 - nie istnieją inne okoliczności uniemożliwiające wydanie zezwolenia.
 
 W praktyce separacja lotniskowa obejmuje między innymi:
-- wydanie zezwolenia na lądowanie i inne operacje na pasie (np. niski przelot, konwojer);
+- wydanie zezwolenia na operację na pasie (np. lądowanie, niski przelot, konwojer);
 - kolejność startów;
 - operacje mieszane (start po lądowaniu lub lądowanie po starcie);
 - wykorzystanie intersekcji;
-- wykorzystanie jednej drogi startowej przez kilka statków powietrznych, vide:
+- wykorzystanie jednej drogi startowej przez kilka statków powietrznych, patrz:
   1) ICAO Doc 4444, 7.11. zmniejszone minima separacji na drodze startowej - RRSM - _Reduced Runway Separation Minima_;
   2) ICAO Doc 7030, 6.5.3. wielokrotne zajęcie pozycji na tej samej drodze startowej.
 
