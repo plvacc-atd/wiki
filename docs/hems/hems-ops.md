@@ -6,7 +6,7 @@
 
 W vFIR Warszawa operacje HEMS prowadzone są zgodnie z obowiązującymi procedurami opublikowanymi przez Polish VACC. Podstawowym dokumentem regulującym zasady wykonywania takich lotów jest **HEMS FLIGHT RULES IN vFIR WARSZAWA – ATCO and pilots manual**, dostępny w systemie [CORE PL-VACC](https://cv.plvacc.pl/documents) w zakładce _Operational documents_. Dokument ten stanowi obowiązujące źródło procedur zarówno dla pilotów, jak i kontrolerów pełniących służbę w polskiej przestrzeni VATSIM.
 
-Z punktu widzenia służb ruchu lotniczego lot HEMS należy co do zasady traktować jako **lot VFR**. Oznacza to, że stosuje się do niego standardowe zasady wykonywania lotów z widocznością, z uwzględnieniem kilku wyjątków wynikających ze specyfiki misji ratowniczych. Należy jednak podkreślić jedną z najważniejszych zasad obowiązujących na VATSIM: **lot HEMS nie ma automatycznie priorytetu wobec pozostałego ruchu lotniczego**. Pilot nie może samodzielnie nadać sobie pierwszeństwa wyłącznie z racji wykonywania lotu ratowniczego. Zezwolenie na wykonanie lotu HEMS wydaje aktualnie aktywny organ kontroli ruchu lotniczego, który przed jego wydaniem powinien ocenić, czy jest w stanie bezpiecznie przeprowadzić statek powietrzny przez kontrolowaną przestrzeń powietrzną bez powodowania nieuzasadnionych zakłóceń pozostałego ruchu. Jednocześnie należy pamiętać o charakterze takich operacji. Jeżeli sytuacja ruchowa na to pozwala, dobrą praktyką jest zapewnienie lotowi HEMS możliwie najkrótszej trasy do miejsca przeznaczenia. Wynika to z obowiązującej na VATSIM zasady _as real as it gets_.
+Z punktu widzenia służb ruchu lotniczego lot HEMS należy co do zasady traktować jako **lot VFR**. Oznacza to, że stosuje się do niego standardowe zasady wykonywania lotów z widocznością, z uwzględnieniem kilku wyjątków wynikających ze specyfiki misji ratowniczych. Należy jednak podkreślić jedną z najważniejszych zasad obowiązujących na VATSIM, wynikającą z punktu B6 [VATSIM Code of Conduct](https://vatsim.net/docs/policy/code-of-conduct): **lot HEMS nie ma automatycznie priorytetu wobec pozostałego ruchu lotniczego**. Pilot nie może bowiem samodzielnie nadać sobie pierwszeństwa wyłącznie z racji wykonywania lotu ratowniczego. Zezwolenie na wykonanie lotu HEMS wydaje aktualnie aktywny organ kontroli ruchu lotniczego, który przed jego wydaniem powinien ocenić, czy jest w stanie bezpiecznie przeprowadzić statek powietrzny przez kontrolowaną przestrzeń powietrzną bez powodowania nieuzasadnionych zakłóceń pozostałego ruchu. Jednocześnie należy pamiętać o charakterze takich operacji. Jeżeli sytuacja ruchowa na to pozwala, dobrą praktyką jest zapewnienie lotowi HEMS możliwie najkrótszej trasy do miejsca przeznaczenia. Wynika to z obowiązującej na VATSIM zasady _as real as it gets_.
 
 Spora część lotów HEMS wykonywana jest poza lotniskami, z wykorzystaniem lądowisk przyszpitalnych lub miejsc przygodnych. W takich przypadkach kontroler odpowiada wyłącznie za prowadzenie ruchu w kontrolowanej przestrzeni powietrznej. **Nie wydaje on zezwolenia na lądowanie poza lotniskiem** - odpowiedzialność za wybór miejsca lądowania oraz bezpieczeństwo wykonania tej operacji spoczywa na dowódcy statku powietrznego. W praktyce oznacza to, że zadaniem kontrolera jest przede wszystkim:
 
@@ -35,7 +35,7 @@ W przypadku gdy pilot zgłasza zamiar wykonania lotu HEMS poniżej minimów dla 
 
 Przykład sytuacji:
 
-> **Pilot**: Wrocław Wieża, Ratownik 13, aktywny, informacja H, odlot na północ do miejsca zdarzenia. <br/>**ATC**: Ratownik 13, Wrocław Wieża, podstawy chmur 400 stóp, widzialność 3 kilometry. Potwierdź możliwość wykonania lotu w tych warunkach.<br/> **Pilot**: Potwierdzam, Ratownik 13. <br/>**ATC**: Ratownik 13, zezwalam na lot w CTR Wrocław, nie wyżej niż 1500 stóp. Wiatr cisza. Zgłoś w powietrzu.
+> **Pilot**: Wrocław Wieża, Ratownik 13, aktywny, informacja H, odlot na północ do miejsca zdarzenia. <br/>**ATC**: Ratownik 13, Wrocław Wieża, podstawy chmur 400 stóp, widzialność 3 kilometry. Potwierdź możliwość wykonania lotu w tych warunkach.<br/> **Pilot**: Potwierdzam, Ratownik 13. <br/>**ATC**: Ratownik 13, zezwalam na lot w CTR Wrocław, nie wyżej niż altitude 1500 stóp. Wiatr cisza. Zgłoś w powietrzu.
 
 Po otrzymaniu takiego potwierdzenia kontroler może kontynuować standardową obsługę lotu VFR, nie podając jednak rodzaju lotu (np. VFR, VFR specjalny), na który wydaje zezwolenie. **Należy pamiętać, że poniżej określonych minimów odpowiedzialność za możliwość wykonania lotu pozostaje po stronie dowódcy statku powietrznego. Rolą ATC jest zapewnienie bezpiecznej organizacji ruchu, a nie podejmowanie decyzji za załogę.**
 
@@ -128,37 +128,36 @@ Obsługa lotów HEMS przez kontrolera nie wymaga tworzenia odrębnych procedur k
 - informację, czy lot będzie opuszczał kontrolowaną przestrzeń powietrzną.
 
 Korespondencja może zatem wyglądać następująco:
-> **Pilot**: Kraków Wieża, Ratownik 6, **aktywny** i squawk 0001, informacja L, 1600 stóp na ciśnieniu 1005, wykonujemy do miejsca zdarzenia na autostradzie A4 ok. 5 km na zachód od węzła Balice, za około minutę granica CTRu.
+> **Pilot**: Kraków Wieża, Ratownik 6, **aktywny**, informacja L, 1600 stóp, wykonujemy do miejsca zdarzenia na autostradzie A4 ok. 5 km na zachód od węzła Balice, za około minutę granica CTRu.
 
 Zezwolenie na lot w kontrolowanej przestrzeni powietrznej wydawane jest na takich samych zasadach jak dla każdego innego lotu VFR, czyli:
-> **ATC**: Ratownik 6, Kraków Wieża, zezwalam na lot VFR w CTR Krakowa, nie wyżej niż 2000 stóp, QNH 1005.
+> **ATC**: Ratownik 6, Kraków Wieża, **zidentyfikowany**, zezwalam na lot VFR w CTR Krakowa, nie wyżej niż altitude 2000 stóp, QNH 1005, squawk 0001.
 
-W przypadku lotu do miejsca znajdującego się poza lotniskiem kontrolowanym kontroler nie wydaje zgody na lądowanie. Zamiast tego może jedynie przekazać informacje pomocne pilotowi:
+_(zasady identyfikacji radarowej opisane są w odrębnym artykule)_
+
+W przypadku lotu do miejsca znajdującego się poza lotniskiem kontrolowanym kontroler nie wydaje zezwolenia na lądowanie. Zamiast tego może jedynie przekazać informacje pomocne pilotowi:
 > **Pilot**: Kraków Wieża, Ratownik 6, w dolocie do miejsca zdarzenia. <br/>**ATC**: Ratownik 6, Kraków Wieża, wiatr z Balic 240 stopni 14 węzłów, lądowanie we własnym zakresie, zgłoś na ziemi.
 
 Po wykonaniu lądowania w terenie przygodnym pilot powinien ponownie uzyskać odpowiednie zezwolenie przed wejściem w kontrolowaną przestrzeń powietrzną:
-> **Pilot**: Kraków Wieża, Ratownik 6, przed odlotem z miejsca zdarzenia, będziemy wykonywać do szpitala Rydygiera. <br/>**ATC**: Ratownik 6, Kraków Wieża, zezwalam wykonywać jako VFR w CTR Krakowa, wiatr z Balic 240 stopni 14 węzłów, start we własnym zakresie, następnie wykonuj bezpośrednio do szpitala, zgłoś w dolocie.
+> **Pilot**: Kraków Wieża, Ratownik 6, przed odlotem z miejsca zdarzenia, będziemy wykonywać do szpitala Rydygiera. <br/>**ATC**: Ratownik 6, Kraków Wieża, zezwalam wykonywać jako VFR w CTR Krakowa nie wyżej niż altitude 2000 stóp, wiatr z Balic 240 stopni 14 węzłów, start we własnym zakresie, następnie wykonuj bezpośrednio do szpitala, zgłoś w dolocie.
 
 W przypadku VATSIM należy również pamiętać o zasadzie top-down. Przed opuszczeniem przestrzeni kontrolowanej (np. jeśli miejsce zdarzenia znajduje się poza CTRem) pilot powinien zostać przekazany do właściwego organu zapewniającego FIS, zgodnie z aktualnym pokryciem stanowisk ATC. Przykładowa frazeologia może wyglądać następująco:
 > **ATC**: Ratownik 6, Kraków Wieża, opuszczasz przestrzeń kontrolowaną Krakowa, służba kontroli ruchu lotniczego zakończona, służba informacji powietrznej dostępna na Kraków Zbliżanie, 121.075.
 
-Szczególnej uwagi wymagają operacje HEMS wykonywane w pobliżu osi podejścia do pasa. Dobrym przykładem jest CTR Krakowa, gdzie kilka lądowisk przyszpitalnych (m.in. Szpital Rydygiera czy Szpital im. św Jana Pawła II) znajduje się w bezpośrednim sąsiedztwie przedłużonej osi podejścia do pasa 25. W praktyce oznacza to, że śmigłowce wykonujące loty ratownicze na te lądowiska bardzo często przecinają oś podejścia lub wykonują lot w jej bezpośrednim sąsiedztwie, gdy na podejściu znajduje się np. samolot rejsowy.
+Szczególnej uwagi wymagają operacje HEMS wykonywane w pobliżu osi podejścia do pasa. Dobrym przykładem jest CTR Krakowa, gdzie kilka lądowisk przyszpitalnych (m.in. Szpital Rydygiera czy Szpital im. św Jana Pawła II) znajduje się w bezpośrednim sąsiedztwie osi podejścia do pasa 25. W praktyce oznacza to, że śmigłowce wykonujące loty ratownicze na te lądowiska bardzo często przecinają oś podejścia lub wykonują lot w jej bezpośrednim sąsiedztwie, gdy na podejściu znajduje się np. samolot rejsowy.
 
-W takich sytuacjach kontroler powinien przekazać obu załogom informacje o ruchu, uzyskać od pilota HEMS potwierdzenie kontaktu wzrokowego z ruchem, jeżeli planowane jest zastosowanie separacji wzrokowej, oraz odpowiednio zaplanować moment przecięcia osi podejścia.
+W takich sytuacjach kontroler powinien przekazać obu załogom informacje o ruchu oraz odpowiednio zaplanować moment przecięcia osi podejścia. Może również zalecić pilotowi HEMS utrzymywanie własnej separacji.
 
 **W zależności od sytuacji ruchowej kontroler może na przykład:**
 - zezwolić na przecięcie osi podejścia po minięciu ruchu IFR;
-- zastosować separację wzrokową po potwierdzeniu kontaktu wzrokowego przez pilota HEMS;
+- polecić pilotowi HEMS wykonywać za podchodzącym (po potwierdzeniu przez niego kontaktu wzrokowego);
 - ostrzec o turbulencji w śladzie aerodynamicznym;
 - polecić oczekiwanie przed osią podejścia do czasu minięcia ruchu.
 
 Przykładowa frazeologia:
-* _"za podchodzącym Boeingiem 737 możesz przeciąć oś podejścia"_;
-* _"kontynuuj z własną separacją za podchodzącym"_;
-* _"z uwagą na turbulencję w śladzie aerodynamicznym, ruch kategoria średni"_;
-* _"oczekuj po północnej stronie osi podejścia"_.
+> **ATC**: Ratownik 6, za podchodzącym Boeingiem 737 możesz przeciąć oś podejścia. <br/>**ATC**: Ratownik 6, wykonuj z uwagą za podchodzącym. <br/>**ATC**: Ratownik 6, z uwagą na turbulencję w śladzie aerodynamicznym, ruch kategoria średni. <br/>**ATC**: Ratownik 6, oczekuj po północnej stronie osi podejścia.
 
-Można również wydać załodze statku powietrznego IFR instrukcję odejścia na drugi krąg. Wybór rozwiązania powinien zawsze wynikać z bieżącej sytuacji ruchowej i zapewniać zachowanie bezpiecznej separacji.
+Można również wydać załodze statku powietrznego IFR instrukcję odejścia na drugi krąg. Wybór rozwiązania powinien zawsze wynikać z bieżącej sytuacji ruchowej i zapewniać bezpieczeństwo operacji.
 
 :::tip
 **Dobra praktyka kontrolera**
