@@ -69,19 +69,19 @@ W realiach VATSIM do koordynacji używamy kilku narzędzi.
 
 * komunikacja tekstowa przez EuroScope
 
-Wysłanie prywatnej wiadomości do innego kontrolera po otwarciu okienka czatu przez dwukrotne kliknięcie na znak wywoławczy na liście zalogowanych pozycji. W praktyce ta metoda najlepiej sprawdza się w sytuacjach najmniej skomplikowanych albo niewymagających natychmiastowej reakcji (np. informacja o pasach w użyciu). Można też odwołać się do niej, gdy zawodzą inne metody (np. kontroler nie reaguje na zgłoszenia "cichej" koordynacji w EuroScope lub nie jest w danym momencie dostępny na kanale głosowym).
+    Wysłanie prywatnej wiadomości do innego kontrolera po otwarciu okienka czatu przez dwukrotne kliknięcie na znak wywoławczy na liście zalogowanych pozycji. W praktyce ta metoda najlepiej sprawdza się w sytuacjach najmniej skomplikowanych albo niewymagających natychmiastowej reakcji (np. informacja o pasach w użyciu). Można też odwołać się do niej, gdy zawodzą inne metody (np. kontroler nie reaguje na zgłoszenia "cichej" koordynacji w EuroScope lub nie jest w danym momencie dostępny na kanale głosowym).
 
 * komunikacja głosowa przez Discord
 
-Dostępne dla kontrolerów kanały głosowe ATC mogą posłużyć do koordynacji głosowej. Podłączanie się do tych kanałów nie jest obowiązkowe, ale jest zalecane szczególnie w przypadku większego ruchu i zalogowanej większej liczby pozycji (np. podczas wydarzeń). Połączenie przez Discorda jest trwałe, a na tym samym kanale mogą przebywać kontrolerzy mniej i bardziej obciążeni ruchem. Dla tych ostatnich prowadzenie rozmów "w tle" może być znacznym utrudniniem, gdy jednocześnie muszą prowadzić korespondencję radiową z załogami.
+    Dostępne dla kontrolerów kanały głosowe ATC mogą posłużyć do koordynacji głosowej. Podłączanie się do tych kanałów nie jest obowiązkowe, ale jest zalecane szczególnie w przypadku większego ruchu i zalogowanej większej liczby pozycji (np. podczas wydarzeń). Połączenie przez Discorda jest trwałe, a na tym samym kanale mogą przebywać kontrolerzy mniej i bardziej obciążeni ruchem. Dla tych ostatnich prowadzenie rozmów "w tle" może być znacznym utrudniniem, gdy jednocześnie muszą prowadzić korespondencję radiową z załogami.
 
 * komunikacja głosowa przez VACS
 
-VACS to program symulujący system komunikacji głosowej (*VCS* lub *Voice Communication System*) o interfejsie podobnym do systemów wykorzystywanych w rzeczywistości przez kontrolerów ruchu lotniczego. Pozwala nawiązać kontakt z innym zalogowanym do VACS kontrolerem. Stosowanie VACS nie jest obowiązkowe, ale jest zalecane nie tylko ze względu na zwiększony realizm symulacji, ale także możliwość uniknięcia opisanych powyżej wad koordynacji przez Discord.
+    VACS to program symulujący system komunikacji głosowej (*VCS* lub *Voice Communication System*) o interfejsie podobnym do systemów wykorzystywanych w rzeczywistości przez kontrolerów ruchu lotniczego. Pozwala nawiązać kontakt z innym zalogowanym do VACS kontrolerem. Stosowanie VACS nie jest obowiązkowe, ale jest zalecane nie tylko ze względu na zwiększony realizm symulacji, ale także możliwość uniknięcia opisanych powyżej wad koordynacji przez Discord.
 
 * "cicha" koordynacja przez funkcje EuroScope
 
-Interaktywne listy i etykiety (TAGi) w EuroScope pozwalają wysyłać oraz akceptować żądania dotyczące poszczególnych statków powietrznych. Obecnie jest to możliwe tylko jeśli adresatem żądania jest sąsiedni ("poprzedni") kontroler. Przykładowo, kontroler Gdańsk Approach nie może wysłać żądania bezpośrednio do Kraków Approach, gdy pomiędzy nimi jest jeszcze Warszawa Radar. W takim wypadku konieczne jest dodatkowe uzgodnienie z zainteresowanymi kontrolerami czy to głosowo, czy to przez komunikator tekstowy.
+    Interaktywne listy i etykiety (TAGi) w EuroScope pozwalają wysyłać oraz akceptować żądania dotyczące poszczególnych statków powietrznych. Obecnie jest to możliwe tylko jeśli adresatem żądania jest sąsiedni ("poprzedni") kontroler. Przykładowo, kontroler Gdańsk Approach nie może wysłać żądania bezpośrednio do Kraków Approach, gdy pomiędzy nimi jest jeszcze Warszawa Radar. W takim wypadku konieczne jest dodatkowe uzgodnienie z zainteresowanymi kontrolerami czy to głosowo, czy to przez komunikator tekstowy.
 
 ## Frazeologia w koordynacji głosowej
 
