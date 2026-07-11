@@ -1,3 +1,7 @@
+---
+sidebar_label: 'Umiejętności praktyczne'
+---
+
 # Podstawowe umiejętności praktyczne znajdujące zastosowanie w ruchu lotniczym
 
 Znajomość procedur, frazeologii oraz przepisów stanowi oczywiście podstawę pracy kontrolera ruchu lotniczego; sama wiedza nie wystarczy jednak do sprawnego i bezpiecznego prowadzenia ruchu. W praktyce równie istotne są umiejętności, których nie da się w pełni opisać za pomocą przepisów ICAO, a które każdego dnia decydują o jakości świadczonej służby. Do najważniejszych z nich należą:
