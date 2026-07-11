@@ -1,1 +1,0 @@
-# Czynniki ludzkie
