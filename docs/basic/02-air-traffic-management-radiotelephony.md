@@ -1,6 +1,6 @@
 # Radiotelefonia i frazeologia
 
-Komunikacja radiowa jest jednym z podstawowych elementów zapewnienia bezpieczeństwa ruchu lotniczego. W odróżnieniu od zwykłej rozmowy, każda transmisja radiowa ma określoną strukturę, wykorzystuje ustandaryzowaną frazeologię oraz podlega ścisłym zasadom określonym przez dokument **ICAO Doc 9432 – Manual of Radiotelephony**. Celem tych zasad jest zapewnienie, aby każda informacja została przekazana **krótko, jednoznacznie i bez możliwości błędnej interpretacji**.
+Komunikacja radiowa jest jednym z podstawowych elementów zapewnienia bezpieczeństwa ruchu lotniczego. W odróżnieniu od zwykłej rozmowy, każda transmisja radiowa ma określoną strukturę, wykorzystuje ustandaryzowaną frazeologię oraz podlega ścisłym zasadom określonym przez dokument **ICAO Doc 4444 - Zarządzanie ruchem lotniczym**. Celem tych zasad jest zapewnienie, aby każda informacja została przekazana **krótko, jednoznacznie i bez możliwości błędnej interpretacji**. Dobre praktyki i przykłady zastosowania frazeologii można znaleźć w podręczniku **ICAO Doc 9432 – Manual of Radiotelephony**
 
 ## Tryb SIMPLEX
 
