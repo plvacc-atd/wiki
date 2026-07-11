@@ -25,7 +25,7 @@ Wydając instrukcję kołowania należy upewnić się, że:
 Nie zawsze jednak najkrótsza droga jest najlepszym rozwiązaniem. Czasami korzystniejsze będzie poprowadzenie samolotu nieco dłuższą trasą, jeżeli pozwoli to uniknąć zatrzymywania go na skrzyżowaniu dróg kołowania, oczekiwania na przejazd innego statku powietrznego lub sytuacji, w której dwa statki powietrzne spotkają się na odcinku drogi kołowania uniemożliwiającym bezpieczne minięcie.
 :::
 
-Przekazanie statku powietrznego do kontrolera TWR następuje zgodnie z zasadami podanymi w [GND 0 - Przekazanie statku powietrznego do kolejnego kontrolera](/docs/test/gnd-ground/00-GND-duties.md).
+Przekazanie statku powietrznego do kontrolera TWR następuje zgodnie z zasadami podanymi w [GND 0 - Przekazanie statku powietrznego do kolejnego kontrolera](/docs/s1/ground/00-GND-duties.md).
 
 ## Kołowanie przylotów
 
