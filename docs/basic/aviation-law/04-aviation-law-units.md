@@ -70,7 +70,7 @@ Znając GS i tempo zniżania można ustalić, czy statek powietrzny zniża po ty
 
 ### stopień 
 
-Stopień (**degree**) to dokładnie ta sama miara, której używamy w geometrii do mierzenia kątów. W lotnictwie może służyć do wyznaczenia kursu (**heading**, czyli kąta między północą a osią samolotu, czyli w dużym uproszczeniu "gdzie jest skierowany dziób"), linii drogi (**track**, w polskiej frazeologii **trak**, czyli kąta między północą a trasą, statku powietrznego, a zatem "w którym kierunku leci z uwzględnieniem wiatru") czy radialu (kąta między północą a kierunkiem od radiolatarni).
+Stopień (**degree**) to dokładnie ta sama miara, której używamy w geometrii do mierzenia kątów. W lotnictwie może służyć do wyznaczenia kursu (**heading**, czyli kąta między północą a osią samolotu, czyli w dużym uproszczeniu "gdzie jest skierowany dziób"), linii drogi (**track**, w polskiej frazeologii **trak**, czyli kąta między północą a trasą statku powietrznego, a zatem "w którym kierunku leci z uwzględnieniem wiatru") czy radialu (kąta między północą a kierunkiem od radiolatarni).
 
 ## Pozostałe przypadki
 
