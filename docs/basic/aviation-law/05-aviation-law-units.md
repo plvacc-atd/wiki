@@ -25,14 +25,14 @@ W takich sytuacjach bardzo pomocna jest umiejętność szybkiego szacowania prę
 
 :::info
 Musisz pamiętać, że w lotnictwie nie ma jednego uniwersalnego parametru określającego prędkość! Najczęściej stosowane są trzy wartości:
-* **IAS** (*Indicated Airspeed* lub *prędkość przyrządowa*) - czyli ta prędkość, którą mierzy prędkościomierz. Ponieważ jednak działanie prędkościomierza opiera się na sprawdzaniu, ile cząsteczek powietrza opływa samolot, IAS jest wartością zawodną. Im wyżej, tym rzadsze powietrze, a zatem wartość prędkości przyrządowej mocniej odbiega od rzeczywistej prędkości. Co istotne, obecnie **VATSIM nie wyświetla kontrolerom tej wartości, a zatem można ją poznać tylko pytając załogę**. To jednak tej wartości używają kontrolerzy zbliżania i obszaru, by sterować prędkościami. 
+* **IAS** (*Indicated Airspeed* lub *prędkość przyrządowa*) - czyli ta prędkość, którą mierzy prędkościomierz. Ponieważ jednak działanie prędkościomierza opiera się na sprawdzaniu, ile cząsteczek powietrza opływa samolot, IAS jest wartością zawodną. Im wyżej, tym rzadsze powietrze, a zatem wartość prędkości przyrządowej mocniej odbiega od rzeczywistej prędkości. Jednocześnie, IAS dobrze oddaje siły działające na samolot w trakcie lotu, więc to właśnie ta prędkość jest podstawowym parametrem pilotażowym dla pilota To tej wartości używają kontrolerzy zbliżania i obszaru, by sterować prędkościami. Co istotne, obecnie **VATSIM nie wyświetla kontrolerom tej wartości, a zatem można ją poznać tylko pytając załogę**. 
 * **TAS** (*True Airspeed* lub *prędkość rzeczywista*) - czyli prędkość, z którą statek powietrzny rzeczywiście porusza się względem powietrza. Ta wartość nie bierze pod uwagę ruchu powietrza, czyli wiatru. TAS nie można zmierzyć - można ją tylko policzyć.
 * **GS** (*Ground Speed* lub *prędkość względem powietrzchni ziemi*) - czyli prędkość, która jest wypadkową TAS i wiatru. **Symulowane radary w sieci VATSIM wyświetlają jedynie GS**. Jeśli statek powietrzny wydaje się podejrzanie szybki lub podejrzanie wolny, zwłaszcza w trakcie podejścia, przyczyną nie musi być błąd załogi. Warto przynajmniej przed rozpoczęciem sesji sprawdzić, jakie warunki panują na wysokości 3000-4000 ft.
 :::
 
 ### liczba Macha 
 
-Najprościej mówiąc, liczba Macha (**Mach number**, **M** lub **Ma**) to ułamek będący wynikiem dzielenia prędkości danego obiektu, na przykład statku powietrznego, do prędkości dźwięku w danych warunkach. Jeśli zatem statek powietrzny utrzymuje liczbę Macha 0.8, to oznacza, że jego prędkość względem otaczającego go powietrza (inaczej TAS), wynosi 80% prędkości dźwięku na danej wysokości.
+Najprościej mówiąc, liczba Macha (**Mach number**, **M** lub **Ma**) to ułamek będący wynikiem dzielenia prędkości danego obiektu, na przykład statku powietrznego, do prędkości dźwięku w danych warunkach. Jeśli zatem statek powietrzny utrzymuje liczbę Macha 0.8, to oznacza, że jego prędkość względem otaczającego go powietrza (TAS), wynosi 80% prędkości dźwięku na danej wysokości.
 
 :::info
 Ujmując ściśle, liczba Macha nie jest jednostką, tylko wielkością bezwymiarową (bo nie jest wyrażana w żadnych jednostkach). Dlatego podając liczbę Macha, podajemy jej wartość jako drugą, odwrotnie niż przy podawaniu prędkości w węzłach (**Mach 0.78** czytane jako **Mach decimal seven eight**).
@@ -60,12 +60,12 @@ Na (bardzo) starych mapach, a także w procedurach obowiązujących w niektóryc
 
 ### stopy na minutę
 
-Stóp na minutę (**feet per minute**, **ft/min.**), przeważnie w tysiącach (np. 2000 ft/min.) używamy do oznaczenia prędkości pionowej podczas wznoszenia lub zniżania.
+Stóp na minutę (**feet per minute**, **ft/min.** lub **fpm**), przeważnie w tysiącach (np. 2000 ft/min.) używamy do oznaczenia prędkości pionowej podczas wznoszenia lub zniżania.
 
 > **ATC**: LOT123, rate of descent 2000 feet per minute or greater. <br/>**ATC**: LOT123, tempo zniżania 2000 stóp na minutę lub większe.
 
 :::info
-Znając GS i tempo zniżania można ustalić, czy statek powietrzny zniża po typowej ścieżce o nachyleniu 3 stopni. Jest tak, jeżeli tempo zniżania jest zbliżone do pięciokrotności GS. Wyższe tempo zniżania oznacza bardziej stromą ścieżkę, co w praktyce przekłada się na większą prędkość i utrudnienie (lub wręcz brak możliwości) jej redukcji.
+Znając GS i tempo zniżania można ustalić, czy statek powietrzny zniża po typowej ścieżce o nachyleniu 3 stopni. Jest tak, jeżeli tempo zniżania jest zbliżone do pięciokrotności GS (ten sam wynik uzyskasz dzieląc GS przez 2 i do uzyskanej liczby dodając 0). Przykładowo, dla statku powietrznego, którego GS wynosi 150 kts, tempo zniżania po trzystopniowej ścieżce wyniesie 750 ft/min. Wyższe tempo zniżania oznacza bardziej stromą ścieżkę, co w praktyce przekłada się na większą prędkość i utrudnienie (lub wręcz brak możliwości) jej redukcji.
 :::
 
 ### stopień 
