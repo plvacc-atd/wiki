@@ -32,7 +32,7 @@ Musisz pamiętać, że w lotnictwie nie ma jednego uniwersalnego parametru okre�
 
 ### liczba Macha 
 
-Najprościej mówiąc, liczba Macha (**Mach number**, **M** lub **Ma**) to ułamek będący wynikiem dzielenia prędkości danego obiektu, na przykład statku powietrznego, do prędkości dźwięku w danych warunkach. Jeśli zatem statek powietrzny utrzymuje liczbę Macha 0.8, to oznacza, że jego prędkość względem powietrza, czyli TAS, wynosi 80% prędkości dźwięku na danej wysokości.
+Najprościej mówiąc, liczba Macha (**Mach number**, **M** lub **Ma**) to ułamek będący wynikiem dzielenia prędkości danego obiektu, na przykład statku powietrznego, do prędkości dźwięku w danych warunkach. Jeśli zatem statek powietrzny utrzymuje liczbę Macha 0.8, to oznacza, że jego prędkość względem otaczającego go powietrza (inaczej TAS), wynosi 80% prędkości dźwięku na danej wysokości.
 
 :::info
 Ujmując ściśle, liczba Macha nie jest jednostką, tylko wielkością bezwymiarową (bo nie jest wyrażana w żadnych jednostkach). Dlatego podając liczbę Macha, podajemy jej wartość jako drugą, odwrotnie niż przy podawaniu prędkości w węzłach (**Mach 0.78** czytane jako **Mach decimal seven eight**).
