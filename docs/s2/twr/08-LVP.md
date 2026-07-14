@@ -41,6 +41,6 @@ Przykładem są procedury obowiązujące na lotnisku Kraków-Balice:
 
 _Źródło: AIP IFR, AD 2 EPKK - EPKK AD 2.23, 12.07.2026_
 
-::info
+:::info
 Podczas obowiązywania LVP szczególnego znaczenia nabiera potwierdzenie, że droga startowa została rzeczywiście zwolniona. Kontroler nie może opierać się na przypuszczeniu, że statek powietrzny **powinien już opuścić pas** – kolejne zezwolenie może zostać wydane dopiero wtedy, gdy istnieje uzasadniona pewność, że droga startowa została **faktycznie zwolniona** zgodnie z obowiązującymi procedurami.
 :::
