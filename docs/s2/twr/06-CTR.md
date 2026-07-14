@@ -24,6 +24,7 @@ W przestrzeni klasy D zapewnia się służbę kontroli ruchu lotniczego wszystki
 Obsługa lotów VFR w CTR omówiona jest całościowo w odrębnym artykule.
 
 :::danger
+ToDo
 Wstawić link do artykułu, gdy będzie gotowy.
 :::
 
