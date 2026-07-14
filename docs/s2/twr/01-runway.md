@@ -25,6 +25,11 @@ Podstawowym czynnikiem wpływającym na wybór pasa jest wiatr. Zasadniczo prefe
 
 Na VATSIM wybór drogi startowej powinien możliwie wiernie odzwierciedlać rzeczywistą konfigurację lotniska, o ile nie koliduje to z zapewnieniem sprawnej i bezpiecznej obsługi ruchu oraz nie wynika z okoliczności, które nie są odwzorowywane w sieci.
 
+::tip 
+Jeśli wiatr przyziemny nie wskazuje jednoznacznie optymalnego kierunku operacji, pomocne jest sprawdzenie siły i kierunku wiatru na ścieżce podejścia na wysokości 2000-4000 stóp.
+Takie informacje można uzyskać z serwisów [IMGW](https://awiacja.imgw.pl/) czy [Windy](https://www.windy.com/). 
+:::
+
 ## Zmiana pasa w użyciu
 
 Zmiana pasa w użyciu jest decyzją operacyjną, która powinna być podejmowana po ocenie wszystkich czynników mających wpływ na bezpieczeństwo i płynność ruchu. Zmiana może być konieczna między innymi w przypadku:
