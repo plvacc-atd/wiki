@@ -75,7 +75,7 @@ Przy następujących po sobie odlotach statków powietrznych z różnych kategor
 |MEDIUM (M)|LIGHT (L)|3 min|
 
 :::tip
-Znajomość kategorii WTC najpopularniejszych statków powietrznych oraz uwzględnienie wymaganych separacji podczas zarządzania ich odlotami pozwala na usprawnienie przepływu ruchu lotniczego na lotnisku. Jest to istotne zwłaszcza podczas organizacji wydarzeń, które cechują się większym niż zwykle natężeniem ruchu (np. Poland Sunday). Aby osiągnąć optymalny przepływ ruchu lotniczego w dużym jego natężeniu, należy jako kontroler ADC brać pod uwagę kategorię WTC statku powietrznego, planowany punkt rozpoczęcia rozbiegu oraz procedurę SID, jaką wykonywał będzie dany lot.
+Znajomość kategorii turbulencji w śladzie aerodynamicznym (WTC – _Wake Turbulence Category_) najpopularniejszych statków powietrznych oraz uwzględnienie wymaganych separacji podczas zarządzania ich odlotami pozwala na usprawnienie przepływu ruchu lotniczego na lotnisku. Jest to istotne zwłaszcza podczas organizacji wydarzeń, które cechują się większym niż zwykle natężeniem ruchu (np. Poland Sunday). Aby osiągnąć optymalny przepływ ruchu lotniczego w dużym jego natężeniu, należy jako kontroler ADC brać pod uwagę kategorię turbulencji w śladzie statku powietrznego, planowany punkt rozpoczęcia rozbiegu oraz procedurę SID, jaką wykonywał będzie dany lot.
 :::
 
 ### Separacja w locie VFR
