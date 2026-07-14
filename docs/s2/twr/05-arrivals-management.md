@@ -74,7 +74,7 @@ Płynność ruchu można zwiększyć także odpowiednio kierując statkami powie
 
 > **ATC**: LOT123, expedite vacating. <br/>**ATC**: LOT123, przyspiesz zwolnienie pasa.
 
-Załoga może też otrzymać instrukcję zwolnienia pasa w określoną drogę kołowania. Tego typu instrukcje należy jednak przekazać z wyprzedzeniem, aby załoga mogła się odpowiednio przygotować. Taki komunikat można przekazać załodze nawet tuż po przekazaniu statku powietrznego przez kontrolera APP. Spóźnione byłoby przekazanie go dopiero wraz z zezwoleniem na lądowanie.
+Załoga może też otrzymać instrukcję zwolnienia pasa w określoną drogę kołowania. Tego typu instrukcje należy jednak przekazać z wyprzedzeniem, aby załoga mogła się odpowiednio przygotować (nawet tuż po przekazaniu statku powietrznego przez kontrolera APP), a w każdym wypadku nie później niż przy zezwoleniu na lądowanie.
 
 > **ATC**: LOT123, Kraków Tower, continue approach, plan to vacate via Delta. <br/>**ATC**: LOT123, Kraków Wieża, kontynuuj podejście, zaplanuj zwolnienie pasa przez Delta.
 
