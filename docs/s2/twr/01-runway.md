@@ -1,6 +1,6 @@
 # Droga startowa
 
-Droga startowa (_runway_), zwana potocznie _pasem startowym_, jest jednym z najważniejszych elementów [infrastruktury lotniska](/docs/s1/aerodrome/00-aerodromes.mdx), ponieważ to właśnie na niej wykonywane są najbardziej krytyczne fazy lotu – start i lądowanie. Przed wydaniem każdego zezwolenia dotyczącego drogi startowej kontroler powinien upewnić się, że jego wykonanie nie spowoduje konfliktu z innym ruchem.
+Droga startowa (_runway_), zwana potocznie _pasem startowym_, jest jednym z najważniejszych elementów [infrastruktury lotniska](/docs/s1/00-aerodromes.mdx), ponieważ to właśnie na niej wykonywane są najbardziej krytyczne fazy lotu – start i lądowanie. Przed wydaniem każdego zezwolenia dotyczącego drogi startowej kontroler powinien upewnić się, że jego wykonanie nie spowoduje konfliktu z innym ruchem.
 
 Kontroler TWR powinien stale monitorować:
 - zajętość drogi startowej;

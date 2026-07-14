@@ -24,19 +24,20 @@ Przykładem są procedury obowiązujące na lotnisku Kraków-Balice:
 [AIP Polska](https://www.ais.pansa.pl/publikacje/aip-polska/) IFR -> CZĘŚĆ 3 - LOTNISKA (AD) -> EPKK -> EPKK 1 -> 2.22 PROCEDURY LOTU - 6 "OPERACJE W WARUNKACH OGRANICZONEJ WIDZIALNOŚCI (LVO)".
 
 <code>
-6.2.1. LVP wprowadzane są najpóźniej, gdy którykolwiek RVR spadnie poniżej 550 m i/lub pułap chmur obniży się do lub poniżej 200 ft.<br/>
-6.2.2. LVP zakończone są najwcześniej, gdy wszystkie RVR wzrosną do lub powyżej 550 m i pułap chmur podniesie się powyżej 200 ft z tendencją do dalszej poprawy.<br/>
-6.2.3. Podczas obowiązywania LVP:<br/>
-- stosowane będą specjalne zasady kontroli ruchu lotniczego mogące mieć wpływ na przepustowość lotniska;<br/>
-- dopuszczone są operacje ACFT kodu E i mniejszych;<br/>
-- nie są dopuszczalne starty, lądowania oraz ruch po polu ruchu naziemnego śmigłowców na płozach;<br/>
-- ruch ACFT na płytowych drogach kołowania odbywa się wyłącznie w asyście FOLLOW ME;<br/>
-- dostępne są następujące elementy pola manewrowego lotniska: RWY 07/25, TWY: A, W1-3, Z1-6, B1-6, F, G, S, T;<br/>
-- zwalnianie RWY po lądowaniu lub przerwanym starcie możliwe jest wyłącznie w TWY A lub TWY F;<br/>
-- możliwe są zarówno starty jak i lądowania;<br/>
-- po otrzymaniu zezwolenia na start ATC oczekuje od załóg natychmiastowego rozpoczęcia rozbiegu;<br/>
-- zgłoszenie faktu zwolnienia RWY ma krytyczne znaczenie dla bezpieczeństwa operacji w LVP i powinno być przekazywane do ATC, gdy ACFT faktycznie zwolni RWY;<br/>
+6.2.1. LVP wprowadzane są najpóźniej, gdy którykolwiek RVR spadnie poniżej 550 m i/lub pułap chmur obniży się do lub poniżej 200 ft.
+6.2.2. LVP zakończone są najwcześniej, gdy wszystkie RVR wzrosną do lub powyżej 550 m i pułap chmur podniesie się powyżej 200 ft z tendencją do dalszej poprawy.
+6.2.3. Podczas obowiązywania LVP:
+- stosowane będą specjalne zasady kontroli ruchu lotniczego mogące mieć wpływ na przepustowość lotniska;
+- dopuszczone są operacje ACFT kodu E i mniejszych;
+- nie są dopuszczalne starty, lądowania oraz ruch po polu ruchu naziemnego śmigłowców na płozach;
+- ruch ACFT na płytowych drogach kołowania odbywa się wyłącznie w asyście FOLLOW ME;
+- dostępne są następujące elementy pola manewrowego lotniska: RWY 07/25, TWY: A, W1-3, Z1-6, B1-6, F, G, S, T;
+- zwalnianie RWY po lądowaniu lub przerwanym starcie możliwe jest wyłącznie w TWY A lub TWY F;
+- możliwe są zarówno starty jak i lądowania;
+- po otrzymaniu zezwolenia na start ATC oczekuje od załóg natychmiastowego rozpoczęcia rozbiegu;
+- zgłoszenie faktu zwolnienia RWY ma krytyczne znaczenie dla bezpieczeństwa operacji w LVP i powinno być przekazywane do ATC, gdy ACFT faktycznie zwolni RWY;
 - zezwolenie na lądowanie jest wydawane najpóźniej na 2 NM od THR.
+</code>
 
 _Źródło: AIP IFR, AD 2 EPKK - EPKK AD 2.23, 12.07.2026_
 
