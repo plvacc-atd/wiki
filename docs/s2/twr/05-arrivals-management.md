@@ -4,14 +4,16 @@ Bezpieczne zarządzanie ruchem przylatującym jest jednym z zadań kontrolera TW
 
 ## Prędkość statków powietrznych na podejściu
 
-Kontroler TWR ma bardzo ograniczone możliwości samodzielnego wpływania na prędkość statku powietrznego wykonującego podejście. W praktyce jedyną instrukcją dotyczącą prędkości, jaką może wydać, jest polecenie jej zredukowania do minimalnej prędkości podejścia. Instrukcja ta wykorzystywana jest przede wszystkim wtedy, gdy konieczne jest zwiększenie odstępu czasowego od poprzedzającego ruchu lub stworzenie możliwości wykonania dodatkowej operacji na drodze startowej.
+Kontroler TWR ma bardzo ograniczone możliwości wpływania na prędkość statku powietrznego wykonującego podejście. W praktyce jedyną instrukcją dotyczącą prędkości, jaką może wydać, jest polecenie jej zredukowania do minimalnej prędkości podejścia. Instrukcja ta wykorzystywana jest przede wszystkim wtedy, gdy konieczne jest zwiększenie odstępu czasowego od poprzedzającego ruchu lub stworzenie możliwości wykonania dodatkowej operacji na drodze startowej.
 
 > **ATC**: SP-ABC, Kraków Tower, reduce to minimum approach speed. <br/>**ATC**: SP-ABC, Kraków Wieża, zredukuj do minimalnej prędkości podejścia.
 
-Instrukcji tej należy używać ostrożnie, a jej wydanie musi być zawsze poprzedzone oceną sytuacji w powietrzu. W szczególności: 
-- instrukcja wydana zbyt wcześnie (np. na dziesięć mil od progu pasa) może zakłócić zaplanowaną przez kontrolera APP organizację ruchu na podejściu,
-- instrukcja wydana w przypadku, gdy w niedużej odległości (np. pięć mil wcześniej) na podejściu znajduje się kolejny, szybszy statek powietrzny może doprowadzić do załamania separacji,
-- instrukcja wydana niewielkiemu statkowi powietrznemu (np. jednemu z popularnych na VATSIM *business jetów*) może spowodować bardzo istotną redukcję prędkości (np. do 100 kts), a przez to zaburzyć płynność ruchu lub wręcz spowodować załamanie separacji z kolejnym, szybszym podchodzącym statkiem powietrznym.
+Jednocześnie, to kontroler APP (jeśli jest zalogowany) jest odpowiedzialny za separację statków powietrznych na podejściu oraz za ich prędkości. Odpowiedzialność ta dotyczy także statków powietrznych znajdujących się już w przestrzeni CTR. Z tego względu, pomijając ewidentne przypadki minimalnego ruchu (np. samotny przylot), wydanie przez TWR instrukcji dotyczącej redukcji prędkości wymaga koordynacji z kontrolerem APP. 
+
+W każdym wypadku konieczna jest ocena sytuacji w powietrzu z uwagi na konsekwencje nieprzemyślanej redukcji prędkości, w szczególności: 
+- jeżeli instrukcja jest wydana zbyt wcześnie (np. na dziesięć mil od progu pasa), może zakłócić zaplanowaną przez kontrolera APP organizację ruchu na podejściu,
+- jeżeli instrukcja jest wydana, gdy w niedużej odległości (np. pięć mil wcześniej) na podejściu znajduje się kolejny, szybszy statek powietrzny, łatwo doprowadzi do załamania separacji,
+- jeżeli instrukcja jest wydana niewielkiemu statkowi powietrznemu (np. jednemu z popularnych na VATSIM *business jetów*), to z reguły spowoduje znaczną redukcję prędkości (np. do 100 kts), co może zaburzyć płynność ruchu lub wręcz spowodować załamanie separacji z kolejnym, szybszym podchodzącym statkiem powietrznym.
 
 :::tip
 Wielu problemów opisanych powyżej można uniknąć dzięki odpowiedniej koordynacji. Przykładowo, kontroler TWR może uzgodnić z kontrolerem APP zwiększenie odstępów między podchodzącymi samolotami, odsunięcie w czasie przylotu albo wręcz nakazanie przylatującemu samolotowi przerwanie podejścia zanim zostanie przekazany kontrolerowi TWR. Wymaga to jednak dobrej świadomości sytuacyjnej i działania z wyprzedzeniem.
