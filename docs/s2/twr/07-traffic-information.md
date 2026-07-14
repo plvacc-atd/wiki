@@ -26,6 +26,6 @@ Zakres przekazywanych informacji powinien być dostosowany do sytuacji ruchowej.
 
 Jeżeli pilot ma wykonywać lot z własną separacją za poprzedzającym statkiem powietrznym, kontroler powinien przekazać ostrzeżenie o możliwej turbulencji w śladzie aerodynamicznym wraz z informacją o kategorii WTC poprzedzającego ruchu. Dotyczy to przede wszystkim operacji wykonywanych z własną separacją za statkiem powietrznym wyższej kategorii WTC, w szczególności lotów VFR oraz innych sytuacji, w których pilot odpowiada za zachowanie odpowiedniego odstępu od poprzedzającego ruchu zgodnie z obowiązującymi przepisami dotyczącymi turbulencji w śladzie aerodynamicznym.
 
-:::  
+:::info  
 **Dobra informacja o ruchu nie polega na przekazaniu wszystkich dostępnych informacji, lecz wyłącznie tych, które pomogą pilotowi szybko odnaleźć właściwy statek powietrzny i ocenić rozwój sytuacji.** Im bardziej precyzyjna i jednoznaczna jest informacja, tym większa jest jej wartość operacyjna.
 :::
