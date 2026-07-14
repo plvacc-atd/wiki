@@ -15,7 +15,7 @@ Podstawowym obowiązkiem kontrolera TWR jest zapewnienie, aby wszystkie operacje
 :::info
 **Kontrola proceduralna** (wymaga osobnego endorsementu S2-PE):
 
-Na niektórych lotniskach obowiązki kontrolera TWR zaczynają się w momencie, w którym samolot wlatuje do danego TMA. Przed wlotem kontrola obszaru wydaje załodze takiego statku powietrznego polecenie nawiązania łączności właśnie z wieżą. Kontroler TWR zapewnia wówczas służbę kontroli ruchu lotniczego w oparciu o meldunki pozycyjne przekazywane przez załogę, bez wykorzystania dozorowania radarowego. Z kolei przy odlotach z tych samych lotnisk służba kontroli TWR kończy się na krótko przed granicą TMA.
+Na niektórych lotniskach obowiązki kontrolera TWR są rozszerzone do zapewniania proceduralnej służby kontroli zbliżania w danym TMA. Przed wlotem kontrola obszaru wydaje załodze takiego statku powietrznego polecenie nawiązania łączności właśnie z wieżą. Kontroler TWR zapewnia wówczas służbę kontroli zbliżania w oparciu o meldunki pozycyjne przekazywane przez załogę, bez wykorzystania dozorowania radarowego. Z kolei przy odlotach z tych samych lotnisk służba kontroli lotniska przechodzi w TMA w służbę kontroli zbliżania i kończy się krótko przed granicą TMA.
 :::
 
 ## Współpraca z innymi kontrolerami
