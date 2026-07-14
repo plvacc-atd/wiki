@@ -4,7 +4,7 @@ Bezpieczne zarządzanie ruchem przylatującym jest jednym z zadań kontrolera TW
 
 ## Prędkość statków powietrznych na podejściu
 
-Kontroler TWR ma bardzo ograniczone możliwości wpływania na prędkość statku powietrznego wykonującego podejście. W praktyce jedyną instrukcją dotyczącą prędkości, jaką może wydać, jest polecenie jej zredukowania do minimalnej prędkości podejścia. Instrukcja ta wykorzystywana jest przede wszystkim wtedy, gdy konieczne jest zwiększenie odstępu czasowego od poprzedzającego ruchu lub stworzenie możliwości wykonania dodatkowej operacji na drodze startowej.
+Kontroler TWR ma bardzo ograniczone możliwości samodzielnego wpływania na prędkość statku powietrznego wykonującego podejście. W praktyce jedyną instrukcją dotyczącą prędkości, jaką może wydać, jest polecenie jej zredukowania do minimalnej prędkości podejścia. Instrukcja ta wykorzystywana jest przede wszystkim wtedy, gdy konieczne jest zwiększenie odstępu czasowego od poprzedzającego ruchu lub stworzenie możliwości wykonania dodatkowej operacji na drodze startowej.
 
 > **ATC**: SP-ABC, Kraków Tower, reduce to minimum approach speed. <br/>**ATC**: SP-ABC, Kraków Wieża, zredukuj do minimalnej prędkości podejścia.
 
