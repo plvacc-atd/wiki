@@ -50,7 +50,7 @@ W przypadku operacji innej niż lądowanie (np. konwojer, niski przelot), razem 
 
 > **ATC**: SP-ABC, wind two five zero degrees five knots, runway 25, cleared for touch and go, after operation join right hand traffic circuit. <br/>**ATC**: SP-ABC, wiatr dwieście pięćdziesiąt stopni pięć węzłów, pas 25 na konwojera zezwalam, po operacji dołącz do prawego kręgu.
 
-## Go around
+## Odejście na drugi krąg (go around)
 
 Odejście na drugi krąg stanowi standardową procedurę bezpieczeństwa i nie powinno być traktowane jako sytuacja wyjątkowa ani jako błąd pilota lub kontrolera. Polecenie wykonania **go around** należy wydać zawsze wtedy, gdy nie można zapewnić bezpiecznego wykonania lądowania. Najczęstsze przyczyny obejmują:
 - zajętą drogę startową;
@@ -65,3 +65,15 @@ Po odejściu statku powietrznego na drugi krąg kontroler powinien ponownie ocen
 - koordynacji (na jednym ze stosowanych kanałów koordynacji + zaznaczenie w tagu) z kontrolerem APP oraz uzyskania _departure release_, czyli zezwolenia od kontrolera APP na start kolejnego statku powietrznego.
 
 Jeśli statek powietrzny odchodzący na drugi krąg wykonuje lot VFR, zwykle nie zachodzi konieczność powyższej koordynacji. Wówczas to kontroler TWR, jako osoba odpowiedzialna za ruch w CTR, wydaje instrukcję dotyczącą dalszego postępowania. Najczęściej jest to ponowne dołączenie do kręgu lub udanie się nad jeden z wyznaczonych w CTR punktów VFR.
+
+## Zwolnienie pasa
+
+Płynność ruchu można zwiększyć także odpowiednio kierując statkami powietrznymi zwalniającymi pas. Pozwala to skrócić czas kołowania do stanowiska postojowego lub umożliwić szybsze wykonanie kolejnej operacji na pasie. Zróżnicowane umiejętności pilotów w sieci VATSIM sprawiają, że nie zawsze hamowanie po przyziemieniu jest wykonywane w optymalny sposób. Możliwe, a niekiedy konieczne jest ponaglenie załogi.
+
+> **ATC**: LOT123, expedite vacating. <br/>**ATC**: LOT123, przyspiesz zwolnienie pasa.
+
+Załoga może też otrzymać instrukcję zwolnienia pasa w określoną drogę kołowania. Tego typu instrukcje należy jednak przekazać z wyprzedzeniem, aby załoga mogła się odpowiednio przygotować. Taki komunikat można przekazać załodze nawet tuż po przekazaniu statku powietrznego przez kontrolera APP. Spóźnione byłoby przekazanie go dopiero wraz z zezwoleniem na lądowanie.
+
+> **ATC**: LOT123, Kraków Tower, continue approach, plan to vacate via Delta. <br/>**ATC**: LOT123, Kraków Wieża, kontynuuj podejście, zaplanuj zwolnienie pasa przez Delta.
+
+W realiach VATSIM nie wszyscy piloci będą w stanie wykonać taką instrukcję poprawnie. Może okazać się, że załoga potwierdzi instrukcję zwolnienie pasa w określony sposób, a następnie niechcący przeoczy tę drogę kołowania.
