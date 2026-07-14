@@ -15,7 +15,7 @@ Podstawową zasadą jest, że droga startowa może być wykorzystywana wyłączn
 ## Wybór pasa w użyciu
 
 Wybór drogi startowej w użyciu jest jedną z podstawowych decyzji podejmowanych przez kontrolera TWR. Celem jest zapewnienie bezpiecznych i efektywnych operacji przy uwzględnieniu aktualnej sytuacji operacyjnej. Przy wyborze pasa kontroler powinien brać pod uwagę przede wszystkim:
-- kierunek i siłę wiatru;
+- warunki meteorologiczne takie jak kierunek, siła wiatru i podstawy chmur;
 - infrastrukturę i pomoce nawigacyjne,
 - konfigurację przestrzeni powietrznej;
 - ograniczenia operacyjne lotniska;
@@ -26,8 +26,7 @@ Podstawowym czynnikiem wpływającym na wybór pasa jest wiatr. Zasadniczo prefe
 Na VATSIM wybór drogi startowej powinien możliwie wiernie odzwierciedlać rzeczywistą konfigurację lotniska, o ile nie koliduje to z zapewnieniem sprawnej i bezpiecznej obsługi ruchu oraz nie wynika z okoliczności, które nie są odwzorowywane w sieci.
 
 ::tip 
-Jeśli wiatr przyziemny nie wskazuje jednoznacznie optymalnego kierunku operacji, pomocne jest sprawdzenie siły i kierunku wiatru na ścieżce podejścia na wysokości 2000-4000 stóp.
-Takie informacje można uzyskać z serwisów [IMGW](https://awiacja.imgw.pl/) czy [Windy](https://www.windy.com/). 
+Jeśli wiatr przyziemny nie wskazuje jednoznacznie optymalnego kierunku operacji, pomocne jest sprawdzenie siły i kierunku wiatru na ścieżce podejścia na wysokości 2000 - 4000 stóp. Takie informacje można uzyskać z serwisów [IMGW](https://awiacja.imgw.pl/) czy [Windy](https://www.windy.com/). 
 :::
 
 ## Zmiana pasa w użyciu
@@ -47,12 +46,14 @@ Zezwolenie na zajęcie drogi startowej obejmuje wszystkie instrukcje powodujące
 - poprzedzające operacje zostały zakończone lub istnieje uzasadniona pewność, że wymagane minima separacji będą zachowane w chwili wykonywania planowanej operacji;
 - dalsza kolejność operacji została odpowiednio zaplanowana.
 
-Zezwolenie na zajęcie pasa nie jest zezwoleniem na start. Pilot może rozpocząć rozbieg dopiero po otrzymaniu osobnego zezwolenia na start. Należy również pamiętać, że w przypadku ruchu oczekującego na pasie szczególnego znaczenia nabiera szybka i jednoznaczna komunikacja. Jeżeli przewidywany czas oczekiwania znacząco się wydłuża, dobrą praktyką jest przekazanie informacji pilotowi i odpowiednie zarządzanie sytuacją.
-
-:::tip
-Zarządzanie drogą startową sprowadza się do odpowiedzi na jedno kluczowe pytanie: czy pas będzie dostępny wtedy, kiedy będzie potrzebny?
-:::
+Zezwolenie na zajęcie pasa nie jest zezwoleniem na start. Pilot może rozpocząć rozbieg dopiero po otrzymaniu osobnego zezwolenia na start. Należy również pamiętać, że w przypadku ruchu oczekującego na pasie szczególnego znaczenia nabiera szybka i jednoznaczna komunikacja. Jeżeli przewidywany czas oczekiwania znacząco się wydłuża, dobrą praktyką jest przekazanie informacji pilotowi i odpowiednie zarządzanie sytuacją. Jeśli wydłużony czas oczekiwania na pasie da się z kolei przewidzieć, statek powietrzny powinien oczekiwać **w punkcie oczekiwania przed pasem**.
 
 ## Zwolnienie pasa
 
 Po zakończeniu operacji pilot powinien opuścić drogę startową możliwie sprawnie, zgodnie z instrukcjami kontrolera lub opublikowanymi procedurami. Za zwolnioną uznaje się drogę startową dopiero wtedy, gdy **cały statek powietrzny przekroczył linię wyznaczającą miejsce oczekiwania przed drogą startową**. Na niektórych lotniskach lub podczas obowiązywania procedur LVP wymagane jest również zgłoszenie opuszczenia pasa.
+
+Kontroler może zasugerować lądującemu statkowi powietrznemu zwolnienie drogi startowej w konkretną drogę kołowania w celu usprawnienia przepływu. Działania takie powinny być odpowiednio przewidziane i zaplanowane, tak żeby przekazać pilotowi instrukcję tak wcześnie jak to możliwe, jednak nie później niż przy zezwoleniu na lądowanie.
+
+:::tip
+Zarządzanie drogą startową sprowadza się do odpowiedzi na jedno kluczowe pytanie: czy pas będzie dostępny wtedy, kiedy będzie potrzebny?
+:::
