@@ -4,11 +4,18 @@ Bezpieczne zarządzanie ruchem przylatującym jest jednym z zadań kontrolera TW
 
 ## Prędkość statków powietrznych na podejściu
 
-Kontroler TWR ma bardzo ograniczone możliwości wpływania na prędkość statku powietrznego wykonującego podejście. W praktyce jedyną instrukcją dotyczącą prędkości, jaką może wydać, jest polecenie jej zredukowania do minimalnej prędkości podejścia. Instrukcja ta wykorzystywana jest przede wszystkim wtedy, gdy konieczne jest zwiększenie odstępu czasowego od poprzedzającego ruchu lub stworzenie możliwości wykonania dodatkowej operacji na drodze startowej.
+Kontroler TWR ma bardzo ograniczone możliwości samodzielnego wpływania na prędkość statku powietrznego wykonującego podejście. W praktyce jedyną instrukcją dotyczącą prędkości, jaką może wydać, jest polecenie jej zredukowania do minimalnej prędkości podejścia. Instrukcja ta wykorzystywana jest przede wszystkim wtedy, gdy konieczne jest zwiększenie odstępu czasowego od poprzedzającego ruchu lub stworzenie możliwości wykonania dodatkowej operacji na drodze startowej.
 
 > **ATC**: SP-ABC, Kraków Tower, reduce to minimum approach speed. <br/>**ATC**: SP-ABC, Kraków Wieża, zredukuj do minimalnej prędkości podejścia.
 
-Instrukcji tej należy używać ostrożnie, ponieważ wydana zbyt wcześnie (np. na dziesięć mil od progu pasa) może zakłócić zaplanowaną przez kontrolera APP organizację ruchu na podejściu.
+Instrukcji tej należy używać ostrożnie, a jej wydanie musi być zawsze poprzedzone oceną sytuacji w powietrzu. W szczególności: 
+- instrukcja wydana zbyt wcześnie (np. na dziesięć mil od progu pasa) może zakłócić zaplanowaną przez kontrolera APP organizację ruchu na podejściu,
+- instrukcja wydana w przypadku, gdy w niedużej odległości (np. pięć mil wcześniej) na podejściu znajduje się kolejny, szybszy statek powietrzny może doprowadzić do załamania separacji,
+- instrukcja wydana niewielkiemu statkowi powietrznemu (np. jednemu z popularnych na VATSIM *business jetów*) może spowodować bardzo istotną redukcję prędkości (np. do 100 kts), a przez to zaburzyć płynność ruchu lub wręcz spowodować załamanie separacji z kolejnym, szybszym podchodzącym statkiem powietrznym.
+
+:::tip
+Wielu problemów opisanych powyżej można uniknąć dzięki odpowiedniej koordynacji. Przykładowo, kontroler TWR może uzgodnić z kontrolerem APP zwiększenie odstępów między podchodzącymi samolotami, odsunięcie w czasie przylotu albo wręcz nakazanie przylatującemu samolotowi przerwanie podejścia zanim zostanie przekazany kontrolerowi TWR. Wymaga to jednak dobrej świadomości sytuacyjnej i działania z wyprzedzeniem.
+:::
 
 ## Zezwolenie na lądowanie
 
