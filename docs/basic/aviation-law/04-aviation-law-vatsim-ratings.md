@@ -1,6 +1,6 @@
 # Ratingi ATC w sieci VATSIM
 
-Zgodnie z [Code of Regulations](https://vatsim.net/docs/policy/code-of-regulations), każdej osobie posiadającej aktywne konto w sieci  VATSIM przypisywane są trzy rangi (*rating*): po jednej dla kontrolerów, pilotów cywilnych i pilotów wojskowych. Poniżej przedstawiamy ratingi kontrolerskie z uwzględnieniem specyfiki Polish VACC.
+Zgodnie z [Code of Regulations](https://vatsim.net/docs/policy/code-of-regulations), każdej osobie posiadającej aktywne konto w sieci VATSIM przypisywane są trzy rangi (*rating*): po jednej dla kontrolerów, pilotów cywilnych i pilotów wojskowych. Poniżej przedstawiamy ratingi kontrolerskie z uwzględnieniem specyfiki Polish VACC.
 
 ## Administrator (ADM)
 
