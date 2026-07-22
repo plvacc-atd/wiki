@@ -22,7 +22,7 @@ Ranga C3 ma charakter wyłącznie prestiżowy.
 
 ## Enroute Controller (C1)
 
-Rating **C1** uprawnia do zapewniania kontroli obszaru (*Enroute Control* oraz *Oceanic Control*) oraz zapewniania służby informacji powietrznej (FIS) w przestrzeni powietrznej obejmującej więcej niż pojedyncze [TMA](../air-traffic-management/aviation-law-airspace). W praktyce oznacza to znaki wywoławcze z końcówkami _CTR (np. EPWW_ALL_CTR czy EPWW_JR_CTR) lub _FSS.
+Rating **C1** uprawnia do zapewniania kontroli obszaru (*Enroute Control* oraz *Oceanic Control*) oraz zapewniania służby informacji powietrznej (FIS) w przestrzeni powietrznej obejmującej więcej niż pojedyncze [TMA](../air-traffic-management/air-traffic-management-airspace). W praktyce oznacza to znaki wywoławcze z końcówkami _CTR (np. EPWW_ALL_CTR czy EPWW_JR_CTR) lub _FSS.
 
 W Polish VACC obowiązują tu dodatkowe zasady:
 
