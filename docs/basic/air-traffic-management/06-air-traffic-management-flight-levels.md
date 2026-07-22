@@ -1,10 +1,8 @@
 # Poziomy lotu
 
-Wyobraźmy sobie dwóch pilotów lecących obok siebie na tej samej wysokości. Każdy z nich korzysta jednak z innego ustawienia wysokościomierza, wynikającego z lokalnego ciśnienia atmosferycznego np. z lotniska ich odlotu. W efekcie wskazania na wysokościomierzach różnią się, mimo że rzeczywiste położenie w przestrzeni jest identyczne. Aby wyeliminować ten problem, w lotnictwie wprowadzono system **poziomów lotu (Flight Levels, FL)** – wspólny, standardowy system odniesienia wysokości oparty o stałe ciśnienie 1013,25 hPa (QNE). Dzięki temu wszystkie statki powietrzne powyżej określonego poziomu korzystają z tego samego punktu odniesienia, co umożliwia jednoznaczną separację pionową. 
+Wyobraźmy sobie dwóch pilotów lecących obok siebie na tej samej wysokości. Każdy z nich korzysta jednak z innego ustawienia wysokościomierza, wynikającego z lokalnego ciśnienia atmosferycznego np. z lotniska ich odlotu. W efekcie wskazania na wysokościomierzach różnią się, mimo że rzeczywiste położenie w przestrzeni jest identyczne. Aby wyeliminować ten problem, w lotnictwie wprowadzono system **poziomów lotu (Flight Levels, FL)** – wspólny, standardowy system odniesienia wysokości oparty o stałe ciśnienie 1013,25 hPa. Dzięki temu wszystkie statki powietrzne powyżej określonego poziomu korzystają z tego samego punktu odniesienia, co umożliwia jednoznaczną separację pionową. 
 
-Poziomy lotu stosuje się po przejściu z lokalnego nastawienia ciśnienia (QNH) na ciśnienie standardowe (QNE). **Poziom lotu to umowne położenie statku powietrznego w pionie, wyrażone w setkach stóp względem standardowego ciśnienia 1013,25 hektopaskali (hPa) lub 29,92 cali słupa rtęci (inHg)**.
-
-Przykładowo:
+Poziomy lotu stosuje się po przejściu z lokalnego nastawienia ciśnienia (QNH) na ciśnienie standardowe (QNE). **Poziom lotu to powierzchnia o stałym ciśnieniu atmosferycznym odniesiona do szczególnej wartości ciśnienia atmosferycznego 1013,2 hektopaskala (hPa) i oddzielona od innych takich powierzchni określonymi różnicami ciśnienia**. Poziomy lotu wyraża się w setkach stóp, w związku z czym ich oznaczenia należy odczytywać jako wielokrotność 100 ft, przykładowo:
 - FL100 ≈ 10 000 ft
 - FL350 ≈ 35 000 ft
 
@@ -20,7 +18,7 @@ Podczas wykonywania lotów poziomy lotu są przydzielane zgodnie z zasadą pół
 | **VFR** | westbound = even + 500 ft<br/><br/>eastbound = odd + 500 ft | Stosowana jest ta sama zasada kierunkowa co w IFR, jednak z przesunięciem o 500 ft. Ma to na celu zwiększenie separacji pionowej pomiędzy ruchem IFR a VFR oraz zmniejszenie ryzyka konfliktów na tych samych „nominalnych” poziomach. |
 
 Dwie ciekawostki:
-- powyżej przestrzeni RVSM, tj. powyżej FL410, [system przydzielania poziomów lotu wygląda inaczej](/docs/basic/air-traffic-management/05-air-traffic-management-flight-levels.md#RVSM);
+- powyżej przestrzeni RVSM, tj. powyżej FL410, [system przydzielania poziomów lotu wygląda inaczej](/docs/basic/air-traffic-management/06-air-traffic-management-flight-levels.md#RVSM);
 - istnieją kraje w Europie (np. Szwajcaria, Francja, Hiszpania czy Portugalia), w których zasada półkulowa wygląda nieco inaczej, tj. **northbound = even, southbound = odd**. Tam statki powietrzne wykonujące loty w kierunku północnym lecą na parzystym poziomie lotu, a te lecące w kierunku południowym obierają poziom lotu nieparzysty.
 
 :::info
@@ -53,7 +51,7 @@ Zmiana nastaw odbywa się w dwóch punktach odniesienia: **TA i TL**.
 W Polsce typowo **TL = FL80** jednak gdy QNH na dowolnym lotnisku w naszym kraju spada poniżej **995 hPa**, wtedy **TL = FL90**.
 
 Kontroler wydając zniżanie poniżej TL, wydaje je instrukcją zawierającą **wysokość** oraz zawsze **wartość QNH**, jaką należy podczas zniżania ustawić na wysokościomierzu, np.:
-> **ATC**: SP-ABC, descend altitude 6,000 ft by QNH 1020.<br/>
+> **ATC**: SP-ABC, descend altitude 6,000 ft, QNH 1020.<br/>
 **ATC**: SP-ABC, zniżaj wysokość 6 000 stóp, QNH 1020.
 
 ### Warstwa przejściowa (Transition Layer)

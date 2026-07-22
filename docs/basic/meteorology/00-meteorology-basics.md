@@ -1,3 +1,7 @@
+---
+sidebar_label: 'Podstawowe zjawiska'
+---
+
 # Podstawowe zjawiska meteorologiczne oraz ich wpływ na lotnictwo
 
 **Meteorologia** to nauka zajmująca się badaniem atmosfery ziemskiej, jej procesów oraz zjawisk zachodzących w warstwie przyziemnej i wyższych warstwach troposfery. W lotnictwie jej znaczenie jest kluczowe, ponieważ warunki meteorologiczne bezpośrednio wpływają na bezpieczeństwo i organizację ruchu lotniczego oraz na osiągi statków powietrznych.

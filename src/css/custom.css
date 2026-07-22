@@ -40,3 +40,11 @@
   text-align: center;
 }
 
+.theme-doc-sidebar-menu {
+  font-size: 0.85rem; /* 1rem by default */
+}
+
+.theme-doc-markdown {
+  font-size: 0.85rem; /* 1rem by default */
+}
+
