@@ -18,7 +18,7 @@ Podczas wykonywania lotów poziomy lotu są przydzielane zgodnie z zasadą pół
 | **VFR** | westbound = even + 500 ft<br/><br/>eastbound = odd + 500 ft | Stosowana jest ta sama zasada kierunkowa co w IFR, jednak z przesunięciem o 500 ft. Ma to na celu zwiększenie separacji pionowej pomiędzy ruchem IFR a VFR oraz zmniejszenie ryzyka konfliktów na tych samych „nominalnych” poziomach. |
 
 Dwie ciekawostki:
-- powyżej przestrzeni RVSM, tj. powyżej FL410, [system przydzielania poziomów lotu wygląda inaczej](/docs/basic/air-traffic-management/05-air-traffic-management-flight-levels.md#RVSM);
+- powyżej przestrzeni RVSM, tj. powyżej FL410, [system przydzielania poziomów lotu wygląda inaczej](/docs/basic/air-traffic-management/06-air-traffic-management-flight-levels.md#RVSM);
 - istnieją kraje w Europie (np. Szwajcaria, Francja, Hiszpania czy Portugalia), w których zasada półkulowa wygląda nieco inaczej, tj. **northbound = even, southbound = odd**. Tam statki powietrzne wykonujące loty w kierunku północnym lecą na parzystym poziomie lotu, a te lecące w kierunku południowym obierają poziom lotu nieparzysty.
 
 :::info
