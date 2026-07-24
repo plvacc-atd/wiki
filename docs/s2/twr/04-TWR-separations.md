@@ -38,7 +38,7 @@ Minima separacji dla odlotów, dozorowanie radarowe:
 
 ### Separacja dla turbulencji w śladzie aerodynamicznym
 
-Każdy statek powietrzny podczas lotu wytwarza wiry powstające na końcówkach skrzydeł. Zjawisko to określane jest jako turbulencja w śladzie aerodynamicznym (_wake turbulence_). Szczególnie silne wiry powstają za dużymi i ciężkimi statkami powietrznymi wykonującymi lot z niewielką prędkością, zwłaszcza podczas startu i podejścia do lądowania. Więcej na ten temat można przeczytać w [artykule poświęconym kategoriom statków powietrznych](/docs/basic/aircraft/aircraft.md#turbulencja-w-śladzie-aerodynamicznym).
+Każdy statek powietrzny podczas lotu wytwarza wiry powstające na końcówkach skrzydeł. Zjawisko to określane jest jako turbulencja w śladzie aerodynamicznym (_wake turbulence_). Szczególnie silne wiry powstają za dużymi i ciężkimi statkami powietrznymi wykonującymi lot z niewielką prędkością, zwłaszcza podczas startu i podejścia do lądowania. Więcej na ten temat można przeczytać w [artykule poświęconym kategoriom statków powietrznych](/docs/basic/aircraft/00-aircraft.md#turbulencja-w-śladzie-aerodynamicznym).
 
 Podczas organizacji ruchu kontroler powinien uwzględniać kategorię turbulencji statków powietrznych oraz stosować odpowiednie minima określone w obowiązujących przepisach. Szczególnego znaczenia nabiera to podczas:
 - kolejnych startów lub innych operacji (np. niski przelot, konwojer) z wykorzystaniem tej samej drogi startowej przez statki powietrzne różnych kategorii WTC;

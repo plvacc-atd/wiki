@@ -32,7 +32,8 @@ Wstawić link do artykułu, gdy będzie gotowy.
 
 Kontroler TWR powinien znać przebieg lokalnych tras dolotowych i odlotowych VFR, położenie punktów VFR oraz stref o ograniczonym lub zakazanym ruchu, jak również inne obowiązujące procedury opublikowane dla danego lotniska. Pozwala to prowadzić ruch w sposób przewidywalny zarówno dla pilotów, jak i dla innych organów ATS, a także ogranicza ryzyko konfliktów z ruchem IFR wykonującym podejścia i odloty.
 
-Głównym źródłem tych informacji jest AIP Polska oraz [aplikacje](/docs/basic/aviation-law/06-aviation-law-airspace.md#gdzie-szukać-informacji) umożliwiające wyświetlanie map lotniczych, w szczególności kart **Visual Operation Chart**.
+Głównym źródłem tych informacji jest AIP Polska oraz [aplikacje](/docs/basic/air-traffic-management/05-air-traffic-management-airspace.md#gdzie-szukać-informacji) umożliwiające wyświetlanie map lotniczych, w szczególności kart **Visual Operation Chart**.
+
 :::tip
 Na wielu lotniskach publikowane są zalecane lub obowiązkowe trasy dolotowe i odlotowe VFR. Kontroler powinien znać ich przebieg i, o ile sytuacja operacyjna nie wymaga inaczej, prowadzić ruch zgodnie z opublikowanymi procedurami. Na lotniskach, dla których nie opublikowano takich tras, sposób dolotu i odlotu wynika z bieżącej organizacji ruchu. Szczegółowe procedury VFR publikowane są indywidualnie dla każdego lotniska kontrolowanego w AIP Polska. Przykładowo dla lotniska Kraków-Balice w EPKK AD 2.20.3 opublikowany jest zapis, że doloty i odloty z kierunku południowego odbywają się wyłącznie przez punkty SIERRA oraz KILO.
 :::
