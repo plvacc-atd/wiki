@@ -8,7 +8,7 @@ Z punktu widzenia kontrolera ruchu lotniczego najistotniejsze jest rozróżnieni
 
 ### Kierunek geograficzny
 
-**Kierunek geograficzny (True, T)** jest określany względem **północy geograficznej (True North)**, czyli kierunku wyznaczonego przez oś obrotu Ziemi i biegun północny.
+**Kierunek geograficzny (True, T)** jest określany względem **północy geograficznej (True North)**, czyli kierunku wskazującego **geograficzny biegun północny** – punkt, w którym oś obrotu Ziemi przecina jej powierzchnię.
 
 Jest to podstawowy układ odniesienia wykorzystywany między innymi podczas planowania tras lotów dalekodystansowych, obliczeń nawigacyjnych oraz przedstawiania danych na mapach świata. W nawigacji lotniczej kierunki geograficzne oznacza się symbolem **T** (*True*).
 
@@ -18,7 +18,7 @@ Przykładowo, kurs geograficzny **090°T** oznacza lot dokładnie na wschód wzg
 
 **Kierunek magnetyczny (Magnetic, M)** jest określany względem **północy magnetycznej (Magnetic North)**, wskazywanej przez pole magnetyczne Ziemi.
 
-Ponieważ większość kompasów pokładowych reaguje na pole magnetyczne, kierunki magnetyczne są wykorzystywane podczas codziennej eksploatacji statków powietrznych. W większości państw świata również drogi startowe, procedury instrumentalne oraz instrukcje wydawane przez kontrolerów ruchu lotniczego odnoszą się właśnie do kierunków magnetycznych.
+Ponieważ kompasy pokładowe opierają się na polu magnetycznym, kierunki magnetyczne są wykorzystywane podczas codziennej eksploatacji statków powietrznych. W większości państw świata również drogi startowe, procedury instrumentalne oraz instrukcje wydawane przez kontrolerów ruchu lotniczego odnoszą się właśnie do kierunków magnetycznych.
 
 Przykładowo, polecenie:
 
@@ -75,7 +75,9 @@ Zrozumienie różnic pomiędzy tymi pojęciami jest szczególnie istotne podczas
 
 ### Heading (HDG)
 
-**Heading (HDG)** określa kierunek, w którym skierowany jest podłużna oś statku powietrznego, czyli jego nos. Innymi słowy jest to kurs, jaki pilot utrzymuje względem północy magnetycznej lub geograficznej.
+**Heading** określa kierunek, w którym skierowana jest podłużna oś statku powietrznego.
+
+W polskiej terminologii lotniczej często określany jest jako **kurs statku powietrznego**, jednak w języku angielskim należy odróżnić heading od course.
 
 Heading nie uwzględnia wpływu wiatru. Oznacza to, że nawet jeśli statek powietrzny utrzymuje stały heading, jego rzeczywista trajektoria lotu względem powierzchni Ziemi może być inna.
 
@@ -85,7 +87,7 @@ Przykład:
 
 > LOT123, turn right heading 270.
 
-Pilot wykonuje zakręt i stabilizuje lot z nosem skierowanym na kurs **250°**. Jeżeli występuje wiatr boczny, rzeczywista linia lotu będzie różnić się od wydanego headingu.
+Pilot wykonuje zakręt i stabilizuje lot z nosem skierowanym na kurs **270°**. Jeżeli występuje wiatr boczny, rzeczywista **linia drogi** statku powietrznego będzie różnić się od wydanego headingu.
 
 ### Track (TRK)
 
@@ -93,7 +95,7 @@ Pilot wykonuje zakręt i stabilizuje lot z nosem skierowanym na kurs **250°**. 
 
 Na wartość tracku wpływa zarówno heading utrzymywany przez pilota, jak i oddziaływanie wiatru. W przypadku występowania bocznego wiatru track będzie różnił się od headingu o wartość znosu.
 
-Przykładowo, jeżeli pilot utrzymuje heading **090°**, a wiatr znosi statek powietrzny na południe, rzeczywisty track może wynosić **085°**.
+Przykładowo, jeżeli pilot utrzymuje heading **090°**, a wiatr znosi statek powietrzny na południe, rzeczywisty track może wynosić **095°**.
 
 To właśnie track przedstawiany jest między innymi na mapach ruchomych oraz w systemach GNSS.
 
@@ -103,9 +105,9 @@ Przy braku wiatru **heading** oraz **track** są identyczne.
 
 ### Course (CRS)
 
-**Course (CRS)** oznacza zamierzoną linię drogi, którą statek powietrzny powinien podążać pomiędzy dwoma punktami.
+**Course** określa zamierzoną linię drogi pomiędzy dwoma punktami lub kierunek odniesienia wykorzystywany podczas wykonywania procedur nawigacyjnych.
 
-Course nie opisuje aktualnego położenia nosa statku powietrznego, lecz wyznacza trasę, którą pilot zamierza utrzymać.
+Nie należy utożsamiać go z headingiem – statek powietrzny może utrzymywać heading różniący się od course, aby skompensować wpływ wiatru.
 
 Przykładowo:
 
@@ -246,9 +248,9 @@ Polega ona na ustawieniu nosa statku powietrznego pod niewielkim kątem względe
 Dzięki temu:
 
 - **heading** będzie różnił się od **course**,
-- natomiast **track** pozostanie zgodny z zaplanowaną trasą.
+- natomiast **linia drogi** (track) pozostanie zgodna z zaplanowaną trasą.
 
-Przykładowo, jeżeli wiatr znosi statek powietrzny na południe, pilot może utrzymywać heading **095°**, aby rzeczywisty track wynosił **090°**.
+Przykładowo, jeżeli wiatr znosi statek powietrzny na południe, pilot może utrzymywać heading **085°**, aby rzeczywista linia drogi wynosiła **090°**.
 
 :::tip
 To właśnie dlatego pilot lecący idealnie po osi lokalizera bardzo często nie ma nosa statku powietrznego skierowanego dokładnie wzdłuż pasa startowego. W zależności od kierunku i siły wiatru konieczne jest zastosowanie odpowiedniego kąta znosu.
