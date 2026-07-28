@@ -2,7 +2,9 @@
 
 ## Separacje na drodze startowej
 
+### zezwolenie na start
 
+### zezwolenie na ladowanie
 
 ## Separacje w oparciu o czas
 
