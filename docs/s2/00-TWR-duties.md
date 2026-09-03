@@ -1,4 +1,4 @@
-# Zakres obowiązków kontrolera TWR
+# Kontroler lotniska (TWR)
 
 Kontroler lotniska (**Tower Controller, TWR**) odpowiada za zapewnienie bezpiecznego, uporządkowanego i sprawnego przepływu ruchu lotniczego w obrębie lotniska oraz jego bezpośredniego otoczenia. Zakres odpowiedzialności kontrolera TWR obejmuje przede wszystkim operacje wykonywane na drodze startowej i w jej bezpośrednim sąsiedztwie oraz ruch lotniczy w przestrzeni kontrolowanej lotniska (CTR), dla którego organ TWR zapewnia służbę kontroli ruchu lotniczego.
 
