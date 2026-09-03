@@ -1,6 +1,6 @@
 # Przepisy ruchu lotniczego w realiach VATSIM
 
-Nie wszystkie przepisy ruchu lotniczego objęte [załącznikiem nr 2 do konwencji ICAO](https://ulc.gov.pl/_download/prawo/prawo_miedzynarodowe/konwencje/ICAO-ZA%C5%81_2_zm_1-48.pdf) mają sens w symulowanych warunkach VATSIM, nawet przy uwzględnieniu zasady *as real as it gets*. Ponadto, w niektórych przypadkach reguły obowiązujące w sieci, opisane przede wszystkim w  [VATSIM Code of Conduct](https://vatsim.net/docs/policy/code-of-conduct) różnią się od tych, które funkcjonują w "prawdziwym" lotnictwie. Ogólne regulacje CoC zostały częściowo wyjaśnione w oficjalnym komentarzu, czylli (CoC Companion Document)[https://drive.google.com/file/d/1_A9Hnqmv0G-TCG34tCJJ5czdgpC06y0Y/view].
+Nie wszystkie przepisy ruchu lotniczego objęte [załącznikiem nr 2 do konwencji ICAO](https://ulc.gov.pl/_download/prawo/prawo_miedzynarodowe/konwencje/ICAO-ZA%C5%81_2_zm_1-48.pdf) mają sens w symulowanych warunkach VATSIM, nawet przy uwzględnieniu zasady *as real as it gets*. Ponadto, w niektórych przypadkach reguły obowiązujące w sieci, opisane przede wszystkim w  [VATSIM Code of Conduct](https://vatsim.net/docs/policy/code-of-conduct) różnią się od tych, które funkcjonują w "prawdziwym" lotnictwie. Ogólne regulacje CoC zostały częściowo wyjaśnione w oficjalnym komentarzu, czylli [CoC Companion Document](https://drive.google.com/file/d/1_A9Hnqmv0G-TCG34tCJJ5czdgpC06y0Y/view).
 
 ## Najważniejsze reguły specyficzne dla VATSIM
 
