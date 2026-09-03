@@ -65,7 +65,7 @@ Obowiązkowa dla kontrolerów, a preferowana dla pilotów jest komunikacja głos
 
 Zgodnie z oficjalną interpretacją wskazaną w CoC Companion Document, choć kontrolerzy nie mogą z góry odmówić obsługi pilotów, którzy nie wykorzystują pełnej komunikacji głosowej, w przypadku zwiększonego obciążenia dopuszczalne jest traktowanie komunikacji głosowej jako priorytetowej.
 
-### Zdolność pilota do postrzegania 
+### Świadomość sytuacyjna
 
 Inaczej niż załącznik nr 2 do konwencji ICAO, w sieci VATSIM nie obowiązuje zakaz wykonywania lotów "pod wpływem jakichkolwiek środków psychoaktywnych, ograniczających zdolności postrzegania". Nie oznacza to jednak pełnej dowolności, ponieważ w myśl VATSIM CoC B3(a) obowiązkiem pilota jest monitorowanie lotu przez cały czas. Z punktu widzenia kontrolerów i pilotów, których doświadczenia popsuje pilot nieodpowiadający na instrukcje podczas wektorowania do podejścia, jest całkowicie obojętne, czy nieuwaga była spowodowana jakąś substancją, czy prowadzeniem rozmowy przez komunikator albo oglądaniem filmu.
 
