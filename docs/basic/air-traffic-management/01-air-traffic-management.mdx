@@ -51,22 +51,30 @@ Warto rozróżnić pojęcia służby kontroli ruchu lotniczego od organu kontrol
 
 > **Zarządzanie przepływem ruchu lotniczego** (_Air traffic flow management, ATFM_): Służba ustanowiona w celu przyczyniania się do bezpiecznego, uporządkowanego i szybkiego przepływu ruchu lotniczego poprzez zapewnianie wykorzystania w maksymalnym stopniu pojemności ATC i aby wielkość tego ruchu była zgodna z pojemnością deklarowaną przez właściwy organ ATS.
 
-Najprościej mówiąc służba ATFM odpowiada za zapewnienienie maksymalnej przepustowości systemu ATM oraz niedopuszczanie do przekroczenia pojemności sektorowych, a co za tym idzie do niebezpiecznego przeciążenia pracą kontrolerów ruchu lotniczego. To właśnie ta służba odpowiada za regulowanie odlotów statków powietrznych poprzez przydzielanie slotów (_Calculated Take Off Time, CTOT_). Innymi metodami regulowania ruchu są między innymi _rerouting_ (proponowanie alternatywnych tras omijających przeciążone sektory) czy _level capping_ (ograniczanie dostępnych poziomów przelotowych). Z innych ciekawych zadań wymienić można:
-- opracowywanie scenariuszy mitygujących dla wydarzeń generujących duże natężenie ruchu lotniczego w krótkim czasie, takich jak wydarzenia sportowe czy imprezy masowe. 
+Najprościej mówiąc służba ATFM odpowiada za zapewnienienie maksymalnej przepustowości systemu ATM oraz niedopuszczanie do przekroczenia pojemności sektorowych, a co za tym idzie do niebezpiecznego przeciążenia pracą kontrolerów ruchu lotniczego. W rzeczywistości system jest centralnie sterowany z Brukseli, gdzie swoją siedzibę ma Central Flow Management Unit (CFMU) - jednostka odpowiedzialna za zarządzenie przepływem ruchu lotniczego w Europie. To właśnie ta służba odpowiada za regulowanie odlotów statków powietrznych poprzez przydzielanie slotów (_Calculated Take Off Time, CTOT_). Innymi metodami regulowania ruchu są między innymi _rerouting_ (proponowanie alternatywnych tras omijających przeciążone sektory) czy _level capping_ (ograniczanie dostępnych poziomów przelotowych). Z innych ciekawych zadań wymienić można:
+- opracowywanie scenariuszy mitygujących dla wydarzeń generujących duże natężenie ruchu lotniczego w krótkim czasie, takich jak wydarzenia sportowe czy imprezy masowe
 - zarządzanie przepływem ruchu w przypadku wydarzeń losowych, takich jak awarie infrastruktury czy zjawiska pogodowe
 - współpraca z krajowymi organami zapewniającymi służby ruchu lotniczego w celu optymalizacji struktur przestrzeni powietrznej i dopasowanie do potoków ruchu lotniczego
 
+W każdej jednostce zapewniającej służby ruchu lotniczego istnieje stanowisko Flow Managera (FMP), który odpowiada, we współpracy z CFMU, za regulacje przepływu ruchu lotniczego w danym sektorze. Może on wykorzystywać podane wyżej narzędzia, by zapewnić jak najwyższą płynność ruchu w przestrzeni, którą zarządza.
+
 Dużo ciekawych informacji (w tym aktualne restrykcje i poziom obciążenia poszczególnych sektorów) można znaleźć na stronie [Network Manager Operations Center](https://www.public.nm.eurocontrol.int/PUBPORTAL/gateway/spec/index.html) - organu ATFM działającego z ramienia Eurocontrol i sprawującego nadzór nad europejską przestrzenią powietrzną.
 
-Na Vatsim ATFM działa w zdecydowanie bardziej ograniczonej formie, ale jest w fazie bardzo dynamicznego rozwoju. Część państw, w tym Polska, dołączyła do inicjatywy VATSIM Spain i korzystania z narzędzia vIFF symulującego zarządzanie przepływem ruchu lotniczego w sieci. Więcej informacji można znaleźć na stronie projektu: [https://cdm.vatsimspain.es/](https://cdm.vatsimspain.es/)
+### Zarządzanie przepływem ruchu lotniczego na VATSIM
+Na Vatsim ATFM działa w zdecydowanie bardziej ograniczonej formie, ale jest w fazie bardzo dynamicznego rozwoju. Odpowiada za to system znany jako [vIFF](https://viffsys.com/). Do inicjatywy zapoczątkowanej przez Rogera Puiga dołączyło już wiele państw europejskich, w tym Polska, oraz z pozostałych części świata, jak Hongkong czy Zjednoczone Emiraty Arabskie. Dzięki temu systemowi Air Traffic Flow and Capacity Management (ATFCM) jest możliwe wdrożenie ograniczeń przepustowości dla aktywnych sektorów, regulowanie ruchu poprzez przydzielanie slotów CTOT, aktywne monitorowanie natężenia ruchu w przestrzeni powietrznej nad Europą oraz na poszczególnych lotniskach.
 
 :::info
-Na VATSIM przepływ ruchu lotniczego, a co za tym idzie przydzielanie slotów, realizowane jest przez plugin CDM. Powoduje to niefortunne pomieszanie pojęć i odpowiedzialności za poszczególne obszary. Warto wobec tego znać realne znaczenie poszczególnych akronimów i rozróżniać, do jakiego obszaru zarządzania ruchem lotniczym faktycznie się odnoszą:
+Zarządzanie ruchem lotniczym dzieli się na dwa poziomy: lotniskowy (ACDM, patrz niżej) i powietrzny (ATFCM). Za poziom lotniskowy odpowiada w PLVACC [plugin CDM](https://github.com/rpuig2001/CDM), a za poziom przestrzenny system vIFF.
 
 **ACDM** (_Airport Collaborative Decision Making_) jest systemem lokalnym działającym w ramach jednego lotniska. Jego celem jest przede wszystkim poprawa przewidywalności operacji poprzez wymianę precyzyjnych czasów (TOBT, TSAT, TTOT) między wszystkimi podmiotami zaangażowanymi w daną operację lotniczą (przewoźnik, handling, kontrola ruchu lotniczego czy zarządzający lotniskiem)
 
-**ATFM** działa w skali międzynarodowej. W przypadku wystąpienia utrudnień lub przewidywanych przekroczeń pojemności sektorowych reguluje ruch między innymi przez przydzielanie czasów CTOT. Wynika z tego, że czas CTOT może otrzymać statek powietrzny odlatujący z lotniska, na którym nie funkcjonuje system ACDM.
+**ATFCM** działa w skali międzynarodowej. W przypadku wystąpienia utrudnień lub przewidywanych przekroczeń pojemności sektorowych reguluje ruch między innymi przez przydzielanie czasów CTOT. Wynika z tego, że czas CTOT może otrzymać statek powietrzny odlatujący z lotniska, na którym nie funkcjonuje system ACDM.
 :::
+
+Więcej o zarządzaniu przepływem ruchu w praktyce znajdziesz w rozdziale [Lotniska - Gdzie szukać informacji?](/docs/s1/00-aerodromes.mdx#gdzie-szukać-informacji)
+::caution TODO
+Dodać link do ACDM/ATFCM S1
+::
 
 ## Zarządzanie przestrzenią powietrzną
 

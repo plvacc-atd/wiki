@@ -1,0 +1,33 @@
+# Kody transpondera
+
+**Kod transpondera** (_squawk_) służy do identyfikacji statku powietrznego w przestrzeni powietrznej i tym samym umożliwia sprawowanie radarowej kontroli ruchu lotniczego nad nim. Wiedząc, że dany samolot ma ustawiony dany kod, jesteśmy w stanie go zidentyfikować, np. samolot z kodem 0313 to LOT731S, a nie ENT1938. 
+
+## Czym jest "squawk""?
+
+Kod transpondera jest kodem ósemkowym, czyli jego zakres liczb składa się **od 0 do 7**. Całkowita ilość możliwych do wygenerowania kodów squawk wynosi zatem 4096. Są one rozdzielane Państwom i obszarom zgodnie z regionalnymi porozumieniami żeglugi powietrznej, a sposób ich przydzielania samolotom wyklucza możliwość wykorzystania go dla jakiejkolwiek innej funkcji wewnątrz obszaru pokrycia danego SSR w określonym przedziale czasu. Od 2006 roku realizowane jest to poprzez [CCAMS](https://www.eurocontrol.int/tool/centralised-code-assignment-and-management-system) (Centralised Code Assignment and Management System), dzięki czemu każdy kraj dysponuje pulą kodów do przydzielenia dla ruchu krajowego i tranzytowego, a sam system zapewnia brak możliwości powtórzenia się danego kodu w trakcie lotu samolotu z tym kodem.
+Indywidualnym kodem SSR (_bo tak też określamy kod transpondera_) jest kod, w którym ostatnie dwie cyfry są różne od „00”. Z puli kodów do rozdziału wyłącza się tzw. kody specjalne, wykorzystywane w ściśle określonych sytuacjach. Są to: 7500, 7600 i 7700, o których było już [wcześniej](https://wiki.plvacc.pl/basic/special_unsafe_situations/special-and-unsafe-situations#szczególne-kody-transpondera).
+
+### Mode S
+
+W przypadku wykorzystywania identyfikacji w **Modzie S** dla statku powietrznego przypisuje się kod transpondera 1000. Statek posiadający transponder pracujący w Mode S, jeśli jego trasa przebiega przez przestrzeń powietrzną, w której wykorzystuje się ten tryb do identyfikacji, nie wymaga indywidualnego kodu SSR z racji posiadania indywidualnego 24-bitowego kodu.
+Na VATSIM jest prawie w pełni wprowadzone pokrycie Modem S jak w rzeczywistości. Oznacza to, że system przypisze samolotowi squawk 1000 jeśli leci z Krakowa do Amsterdamu czy Bukaresztu i spełni wszystkie dodatkowe wymogi:
+- Samolot musi być wyposażony w transponder z modem S
+- Trasa lotu nie przecina przestrzeni powietrznych, w których nie wykorzystuje się indentyfikacji w modzie S
+
+## Jak przydziela się kod transpondera?
+
+W Polish VACCu do przydzielania kodów wykorzystujemy plugin TopSky. Ma on wgraną pulę kodów przydzieloną dla FIRu EPWW wraz ze wszystkimi ograniczeniami (protections). Przypisze też automatycznie kod 1000, jeśli będzie to tylko możliwe dla danego samolotu. W skrócie, wszystko odbywa się poprzez dwa kliknięcia na Departure List lub Startup List.  
+
+Dla lotów VFR, jeśli nie nada się indywidualnego kodu, przypisuje się squawk 7000. Przypadki przypisania kodu indywitualnego dla lotów VFR są opisane w rozdziale [Identyfikacja ruchu VFR w CTR]().
+:::danger
+ToDo
+Wstawić link do artykułu, gdy będzie gotowy.
+
+WSTAWIĆ ZDJĘCIE DO ASSIGN SQ!!!
+:::
+
+Więcej na temat zarządzania kodami SSR w polskiej i europejskiej przestrzeni powietrznej znaleźć można w:
+- dokumencie [Plan Żeglugi Powietrznej Regionu EUR ANP (Doc 7754)](https://www.icao.int/sites/default/files/EURNAT/Documents/EUR%20and%20Nat%20Docs/EUR%20Documents/_eANP%20EUR%20Doc7754/Doc-7754-EUR-eANP-Vol-III.pdf), 
+- [FASID, część IV (CNS)](https://www.icao.int/sites/default/files/SAM/eDocuments/fasid_anp_en.pdf), 
+- [Supplement – SSR Code Allocation List for the EUR Region](https://www.eurocontrol.int/publication/secondary-surveillance-radar-code-allocation-list-icao-eur-region-cal).
+
