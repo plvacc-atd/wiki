@@ -1,1 +1,0 @@
-# Urządzenia i systemy
