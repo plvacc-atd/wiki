@@ -69,19 +69,42 @@ Zgodnie z **DOC 4444 pkt 8.10.1.1** systemy dozorowania w kontroli lotniska mog�
 
 Wobec powyższego przepisu może rodzić się pytanie: _"czy my i tak nie kontrolujemy właśnie w taki sposób, wykorzystując podgląd w EuroScope, bez względu, czy na danym lotnisku radar jest dopuszczony do wykorzystania operacyjnego, czy to na Okęciu, czy w Szczecinie?"_ Tu można wrócić do wstępu do artykułu. Euroscope jest jedynym narzędziem kontrolera na VATSIM. Różnica jest więc w procedurach, które zastosuje oraz świadomości technik pracy dostępnych na danym lotnisku. Przykładowo, kontroler na Okęciu może samodzielnie zaobserwować na zobrazowaniu radarowym, że samolot opuszcza CTR i w tym momencie zakończyć służbę kontroli ruchu lotniczego. W Szczecinie z kolei, mimo że dysponujemy dokładnie tą samą informacją i podglądem, możemy zasymulować pracę nieradarową i zdać się na meldunki pozycyjne, prosząc pilota o zgłoszenie opuszczenia przestrzeni kontrolowanej. 
 
-Identyfikacja to stan, w którym kontroler ma pewność co do tożsamości konkretnego statku powietrznego widocznego na wskaźniku sytuacji — czyli wie, że ta konkretna kropka (blip) na ekranie to właśnie ten, a nie inny samolot. Nie jest to jednorazowa czynność, lecz stan, który raz ustanowiony musi być nieprzerwanie utrzymywany przez cały czas trwania służby dozorowania.
-
-
-8.6.2.1.1 - radarowa zapewniana gdy a/c zidentyfikowany a pilot poinformowany.
-
-
-W realiach VATSIM mamy dostęp do zobrazowania radarowego na każdym lotnisku, nawet tam, gdzie w rzeczywistości takich możliwości nie ma, na przykład Olsztyn-Mazury lub Zielona Góra.
-
 
 ## Metody identyfikacji
 
-### za pomocą radaru pierwotnego
+Aby móc operacyjnie wykorzystywać dane radarowe, konieczna jest wcześniejsza identyfikacja statku powietrznego. Przez identyfikację rozumiemy wykonanie opisanych przepisami czynności, które pozwalają nam upewnić się co do tożsamości konkretnego statku powietrznego widocznego na wskaźniku radarowym, czyli upewnić się, że ta konkretna kropka (blip) na ekranie to właśnie ten, a nie inny samolot. Identyfikowanie nie jest obowiązkowe, należy jednak pamiętać, że wobec niezidentyfikowanych statków powietrznych nie zapewniamy służby radarowej. Istotny jest też warunek definiowany przez DOC 4444 pkt 8.6.2.1.1:
+> Przed rozpoczęciem zapewnienia statkowi powietrznemu służby dozorowania ATS, identyfikacja jest ustanawiana **a pilot jest o tym informowany**. Następnie identyfikacja jest utrzymywana aż do zakończenia zapewniania służby dozorowania ATS.
 
-### Identyfikacja za pomocą radaru wtórnego
+> **ATC:** SPABC, wieża, zidentyfikowany<br/>
+> **ATC:** SPABC, tower, identified
+
+> **ATC:** SPABC, wieża, w kontakcie radarowym<br/>
+> **ATC:** SPABC, tower, radar contact
+
+Jeśli nie mamy pewności co do tożsamości identyfikacji statku powietrznego, w dowolnym momencie można ponownie zastosować dowolną z dostępnych metod.
+
+### Identyfikacja PSR
+
+**identyfikacja po odlocie, jeśli nastąpi maksymalnie 1NM od końca drogi startowej** Jeśli wydaliśmy zezwolenie na start, a chwilę po oderwaniu się samolotu obserwujemy echo na radarze, możemy być pewni tożsamości tego echa. Gdy pilot nie włączy transpondera, to nadal można go zidentyfikować właśnie na podstawie radaru pierwotnego (symbol pozycji to “+”) “SPABC zidentyfikowany po starcie/SPABC identified after departure”, jak na obrazku poniżej:
+
+![psr1](09-identification-assets/psr01.png)
+
+**wydanie polecenia zmiany kursu o 30 stopni lub więcej** blisko temu do wektorowania, które jest zazwyczaj niedostępne (można pilota VFR nieumyślnie skierować w kierunku przeszkody albo wywektorować z VMC). Można za to wydać polecenie wykonania orbity - for identification make one orbit to the right/left; dla identyfikacji wykonaj oribtę w prawo/lewo. Nadal jest to polecenie zmiany kursu o 30 stopni lub więcej, którą da się zaobserwować na radarze. Należy zwrócić uwagę, żeby w okolicy nie było innego ruch wykonującego podobne manewry i utrudniającego identyfikację (np inny pilot oczekujący nad punktem VFR).
+
+**identyfikacja na podstawie meldunku pozycyjnego** - Jeśli przy nawiązywaniu łączności statek powietrzny poda pozycję i zgadza się ona z echem obserwowanym na radarze, identyfikacja jest ustanowiona. Można też polecić pilotowi zgłoszenie pozycji. 
+“Wieża, Ratownik6, aktualnie 1NM na zachód od SIERRA, 1500ft, wykonujemy z kursem północnym”
+“Ratownik6, wieża, zidentyfikowany, [zezwolenie na wlot, qnh, etc etc]”
+
+![psr2](09-identification-assets/psr02.png)
+
+**przekazanie identyfikacji** - Metoda ta jest bardzo podobna do identyfikacji na podstawie meldunku pozycyjnego, ale informacja o pozycji pochodzi nie od pilota, ale od przekazującego kontrolera, pod warunkiem że wcześniej sam też zidentyfikował dany statek powietrzny. Wtedy przekazanie identyfikacji odbywa się na przykład przez wiadomość tekstową w stylu “Leci do ciebie RAT6, aktualnie 1NM na zachód od Sierra”. Wtedy od razu po zgłoszeniu Ratownika możemy poinformować go o identyfikacji
+
+
+
+### Identyfikacja SSR
+
+### Zidentyfikowany vs. w kontakcie radarowym
+
+## Weryfikacja wskazań wysokości z modu C
 
 ## Możliwości jakie daje służba dozorowania
