@@ -85,26 +85,37 @@ Jeśli nie mamy pewności co do tożsamości identyfikacji statku powietrznego, 
 
 ### Identyfikacja PSR
 
-**identyfikacja po odlocie, jeśli nastąpi maksymalnie 1NM od końca drogi startowej** Jeśli wydaliśmy zezwolenie na start, a chwilę po oderwaniu się samolotu obserwujemy echo na radarze, możemy być pewni tożsamości tego echa. Gdy pilot nie włączy transpondera, to nadal można go zidentyfikować właśnie na podstawie radaru pierwotnego (symbol pozycji to “+”) “SPABC zidentyfikowany po starcie/SPABC identified after departure”, jak na obrazku poniżej:
+**Identyfikacja po odlocie, jeśli nastąpi maksymalnie 1NM od końca drogi startowej** Jeśli wydaliśmy zezwolenie na start, a chwilę po oderwaniu się samolotu obserwujemy echo na radarze, możemy być pewni tożsamości tego echa. Gdy pilot nie włączy transpondera, to nadal można go zidentyfikować właśnie na podstawie radaru pierwotnego (symbol pozycji to “+”) “SPABC zidentyfikowany po starcie/SPABC identified after departure”, jak na obrazku poniżej:
 
 ![psr1](09-identification-assets/psr01.png)
 
-**wydanie polecenia zmiany kursu o 30 stopni lub więcej** blisko temu do wektorowania, które jest zazwyczaj niedostępne (można pilota VFR nieumyślnie skierować w kierunku przeszkody albo wywektorować z VMC). Można za to wydać polecenie wykonania orbity - for identification make one orbit to the right/left; dla identyfikacji wykonaj oribtę w prawo/lewo. Nadal jest to polecenie zmiany kursu o 30 stopni lub więcej, którą da się zaobserwować na radarze. Należy zwrócić uwagę, żeby w okolicy nie było innego ruch wykonującego podobne manewry i utrudniającego identyfikację (np inny pilot oczekujący nad punktem VFR).
+**Wydanie polecenia zmiany kursu o 30 stopni lub więcej** blisko temu do wektorowania, które jest zazwyczaj niedostępne (można pilota VFR nieumyślnie skierować w kierunku przeszkody albo wywektorować z VMC). Można za to wydać polecenie wykonania orbity - for identification make one orbit to the right/left; dla identyfikacji wykonaj oribtę w prawo/lewo. Nadal jest to polecenie zmiany kursu o 30 stopni lub więcej, którą da się zaobserwować na radarze. Należy zwrócić uwagę, żeby w okolicy nie było innego ruch wykonującego podobne manewry i utrudniającego identyfikację (np inny pilot oczekujący nad punktem VFR).
 
-**identyfikacja na podstawie meldunku pozycyjnego** - Jeśli przy nawiązywaniu łączności statek powietrzny poda pozycję i zgadza się ona z echem obserwowanym na radarze, identyfikacja jest ustanowiona. Można też polecić pilotowi zgłoszenie pozycji. 
+**Identyfikacja na podstawie meldunku pozycyjnego** - Jeśli przy nawiązywaniu łączności statek powietrzny poda pozycję i zgadza się ona z echem obserwowanym na radarze, identyfikacja jest ustanowiona. Można też polecić pilotowi zgłoszenie pozycji. 
 “Wieża, Ratownik6, aktualnie 1NM na zachód od SIERRA, 1500ft, wykonujemy z kursem północnym”
 “Ratownik6, wieża, zidentyfikowany, [zezwolenie na wlot, qnh, etc etc]”
 
 ![psr2](09-identification-assets/psr02.png)
 
-**przekazanie identyfikacji** - Metoda ta jest bardzo podobna do identyfikacji na podstawie meldunku pozycyjnego, ale informacja o pozycji pochodzi nie od pilota, ale od przekazującego kontrolera, pod warunkiem że wcześniej sam też zidentyfikował dany statek powietrzny. Wtedy przekazanie identyfikacji odbywa się na przykład przez wiadomość tekstową w stylu “Leci do ciebie RAT6, aktualnie 1NM na zachód od Sierra”. Wtedy od razu po zgłoszeniu Ratownika możemy poinformować go o identyfikacji
-
-
+**Przekazanie identyfikacji** - Metoda ta jest bardzo podobna do identyfikacji na podstawie meldunku pozycyjnego, ale informacja o pozycji pochodzi nie od pilota, ale od przekazującego kontrolera, pod warunkiem że wcześniej sam zidentyfikował dany statek powietrzny. Wtedy przekazanie identyfikacji odbywa się na przykład przez wiadomość tekstową: “Leci do ciebie RAT6, aktualnie 1NM na zachód od SIERRA”. Wtedy od razu po zgłoszeniu Ratownika możemy poinformować go o identyfikacji.
 
 ### Identyfikacja SSR
 
-### Zidentyfikowany vs. w kontakcie radarowym
+**Rozpoznanie znaku rozpoznawczego statku powietrznego na etykietce SSR** W prawdziwym systemie radarowym system wyświetli w etykiecie właściwy callb) sign albo automatycznie (np widząc, że z EPKK wystartował samolot ze squawkiem 4501 i mając w bazie danych plan lotu na SPMOD, do którego przypisany jest taki sam squawk - nastąpi korelacja, czyli powiązanie echa radarowego z planem lotu) albo manualnie (np zezwalam na start SPMOD ze squawkiem 7000 i  gdy zaobserwuję echo po starcie, to manualnie przypisuję plan lotu do tego echa) W Euroscope korzystamy z Easy VATSIM Mode (General settings > correlation mode; więcej w dokumentacji https://www.euroscope.hu/wp/professional-radar-simulation/), a co za tym idzie powyższy mechanizm jest wyeliminowany i mamy zawsze zagwarantowaną poprawną korelację echa radarowego z planem lotu, nie ma tu miejsca na pomyłkę. W związku z tym powiedziałbym, że wszystko z widocznym callsignem można identyfikować tą metodą - niezbyt realistycznie i nadmiernie łatwo, ale technikalia real vs vatsim są w naszym setupie nieprzekładalne.
+
+**Squawk ident** - polecenie użycia przez pilota funkcji IDENT transpondera, wysyłany jest specjalny sygnał, który system radarowy reprezentuje przez zaświecenie się etykiety statku powietrznego na niebiesko.
+
+**Przekazanie identyfikacji** - analogicznie jak dla PSR
+
+**Rozpoznanie na etykietce SSR lub MLAT uprzednio przydzielonego indywidualnego kodu, którego nastawienie zostało sprawdzone**. Ze względu na poprzedni punkt, tej metody z kolei praktycznie nie da się zastosować, chyba że ktoś ma customowo wyświetlony squawk w etykiecie. Definicja kodu dyskretnego/indywidualnego - jest to taki kod, którego 2 ostatnie cyfry sa inne niż 00.
+
+
+### Identyfikacja na VATSIM w praktyce
+
+widze etykiete z callsignem - identyfikuje. System jest bezbłędny i nie ma możliwości pomyłki
 
 ## Weryfikacja wskazań wysokości z modu C
+
+Procedurą przeprowadzaną podczas identyfikacji jest weryfikacja poprawności wskazań wysokości z modu C.
 
 ## Możliwości jakie daje służba dozorowania
