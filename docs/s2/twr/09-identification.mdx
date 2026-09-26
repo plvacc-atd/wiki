@@ -20,17 +20,30 @@ Aby mieć dostęp do dobrodziejstw informacji uzyskiwanych z radaru trzeba jedna
 
 ## Podstawy teoretyczne
 
+### Systemy radarowe
+
 Radary, z których korzysta się w służbie kontroli ruchu lotniczego, dzielą się na dwie podstawowe grupy:
-* Radary pierwotnye (_PSR - primary surveillance radar_) - emitują wiązkę promieniowania o bardzo dużej mocy i nasłuchują odpowiedzi odbitych od obiektów w przestrzeni. Ta nadchodzi, gdy promieniowanie odbije się od samolotu i zostanie zarejestrowane przez odbiornik radaru. Radary pierwotne są samowystarczalne, znaczy to, że nie potrzebują dodatkowego wyposażenia na pokładzie statku powietrznego, żeby go wykryć. Jest to duży atut, głównie z punktu widzenia wojska, gdzie samoloty raczej unikają wykrycia, ale też w zastosowaniach cywilnych - radar PSR  nadal jest w stanie wykryć samolot z awarią transpondera. Takie rozwiązanie ma też wady - radar pierwotny potrzebuje do działania dużo więcej energii. Dodatkowo, wykrywa wszystkie obiekty które odbijają promieniowanie elektromagnetyczne, więc poza samolotami będzie to ukształtowanie terenu, budowle czy nawet obszary złej pogody (ostatni czynnik w pewnych okolicznościach może być zaletą, efekt ten używany jest w radarach pogodowych)
-* Radary wtórne (_SSR - secondary surveillance radar_) - do działania wymagany jest dodatkowo działający transponder na pokładzie statku powietrznego. Radar wysyła w przestrzeń dużo słabszy sygnał, który, jeśli dotrze do statku powietrznego, aktywuje odpowiedź transpondera. To, czego nasłuchuje radar wtórny, to nie echo odbite od samolotu (jak przy PSR), ale sygnał nadany w odpowiedzi przez transponder statku powietrznego. Jeśli pilot nie włączy transpondera, radar wtórny nie wykryje takiego statku powietrznego. Plusami takiego rozwiązania są dużo mniejsze zużycie energii oraz lepsza selektywność wykrywanych obiektów. Przykładowo: o ile wzgórze nie jest wyposażona w transponder, nie będzie pojawiać się jako wykryty obiekt;)
+* Radary pierwotnye (_PSR - primary surveillance radar_) - emitują wiązkę promieniowania o bardzo dużej mocy i nasłuchują odpowiedzi odbitych od obiektów w przestrzeni. Ta nadchodzi, gdy promieniowanie odbije się od samolotu i zostanie zarejestrowana przez odbiornik radaru. Radary pierwotne są samowystarczalne, znaczy to, że nie potrzebują dodatkowego wyposażenia na pokładzie statku powietrznego, żeby go wykryć. Jest to duży atut, głównie z punktu widzenia wojska, gdzie samoloty raczej unikają wykrycia, ale też w zastosowaniach cywilnych - radar PSR  nadal jest w stanie wykryć samolot z awarią transpondera. Takie rozwiązanie ma też wady. Radar pierwotny potrzebuje do działania dużo więcej energii. Dodatkowo wykrywa wszystkie obiekty, które odbijają promieniowanie elektromagnetyczne, więc poza samolotami będzie to ukształtowanie terenu, budowle czy nawet obszary złej pogody (ostatni czynnik w pewnych okolicznościach może być zaletą, efekt ten używany jest w radarach pogodowych)
+* Radary wtórne (_SSR - secondary surveillance radar_) - do działania wymagany jest dodatkowo działający transponder na pokładzie statku powietrznego. Radar wysyła w przestrzeń dużo słabszy sygnał, który jeśli dotrze do statku powietrznego, aktywuje odpowiedź transpondera. To, czego nasłuchuje radar wtórny, to nie echo odbite od samolotu (jak przy PSR), ale sygnał nadany w odpowiedzi przez transponder statku powietrznego. Jeśli pilot nie włączy transpondera, radar wtórny nie wykryje takiego statku powietrznego. Plusami takiego rozwiązania są dużo mniejsze zużycie energii oraz lepsza selektywność wykrywanych obiektów. Przykładowo: o ile wzgórze nie jest wyposażone w transponder, nie będzie pojawiać się jako wykryty obiekt;) Wadą jest oczywiście zależność od wyposażenia statku powietrznego w transponder.
 
-Inne systemy dozorowania dla porządku, choć w vFIR EPWW się nie stosuje:
-ADS-B - Nadajnik w samolocie rozgłasza swoją pozycję a odbiorniki na ziemi zbierają te informacje - na tej podstawie działa choćby FlightRadar24.com
-Multilateracja - ustawiamy kilka odbiorników w różnych lokacjach i pasywnie nasłuchujemy odpowiedzi transponderów. Te do różnych odbiorników dotrą w różnym czasie i z pomocą odrobiny matematyki można z tego dokladnie wyliczyć pozycję z której nadszedł sygnał.
+W pobliżu lotnisk radary PSR/SSR przeważnie instalowane są razem. Szeroka, prostokątna antena na górze to radar wtórny, ta bardziej zaokrąglona to radar pierwotny.
 
+![psr-ssr](09-identification-assets/psr-ssr.png)
 
-Kiedyś używało się pojęcia “służba radarowa”. To się jednak zmienia z rozwojem technologii. Do detekcji statków powietrznych poza radarami można używać innych systemów, jak multilateracja czy ADS-B. Stąd też nie mówi się już o służbie radarowej, ale o służbie dozorowania (szersze pojęcie). Mimo to dla wygody dalej będę stosował te pojęcia zamiennie.
+Najczęściej jednak można spotkać się z charakterystycznymi “piłkami golfowymi”. Radar zamyka się w okrągłej obudowie wykonanej z niewidocznego dla fal elektromagnetycznych tworzywa sztucznego, chroniącego anteny od wpływu warunków atmosferycznych.
 
+![golfball](09-identification-assets/golfball.png)
+
+### Nieradarowe systemy dozorowania
+
+Poza systemami radarowymi istnieją też inne, choć niesymulowane w vFIR EPWW rozwiązania pozwalające na wykrywanie statków powietrzncyh w przestrzeni:
+* ADS-B (Automatic Dependent Surveillance – Broadcast) działa w oparciu o dane pokładowe: statek powietrzny samodzielnie określa swoją pozycję (zwykle z GPS) i cyklicznie nadaje ją drogą radiową wraz z prędkością i wysokością, bez potrzeby odpytywania przez system naziemny. To właśnie z tych danych korzystają serwisy takie jak [FlightRadar24](https://www.flightradar24.com) albo [ADS-B Exchange](https://globe.adsbexchange.com/)
+
+* Multilateracja - pasywny system składający się z wielu stacji nasłuchujących transmisji wysyłanych przez transpondery statków powietrznych. Sygnał z danego transpondera dotrze do różnych stacji w różnym czasie. Znając różnice w czasie odbioru oraz współrzędne każdej stacji algorytmy z pomocą matematyki są w stanie obliczyć dokładną pozycję statku powietrznego. 
+
+:::info
+Wobec rozpowszechniania się systemów nieradarowych, takich jak ADS-B czy multilateracja, odchodzi się od pojęcia **służba radarowa** na rzecz pojęcia szerszego, obejmującego nowe rozwiązania techniczne: **służba dozorowania**. Dla wygody w dalszej części artykułu będę się jednak posługiwał tymi pojęciami zamiennie.  
+:::
 
 
 Identyfikacja to stan, w którym kontroler ma pewność co do tożsamości konkretnego statku powietrznego widocznego na wskaźniku sytuacji — czyli wie, że ta konkretna kropka (blip) na ekranie to właśnie ten, a nie inny samolot. Nie jest to jednorazowa czynność, lecz stan, który raz ustanowiony musi być nieprzerwanie utrzymywany przez cały czas trwania służby dozorowania.
@@ -42,8 +55,10 @@ Identyfikacja to stan, w którym kontroler ma pewność co do tożsamości konkr
 W realiach VATSIM mamy dostęp do zobrazowania radarowego na każdym lotnisku, nawet tam, gdzie w rzeczywistości takich możliwości nie ma, na przykład Olsztyn-Mazury lub Zielona Góra.
 
 
-## Identyfikcja
+## Metody identyfikacji
 
 ### za pomocą radaru pierwotnego
 
 ### Identyfikacja za pomocą radaru wtórnego
+
+## Możliwości jakie daje służba dozorowania
