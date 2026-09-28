@@ -110,7 +110,13 @@ Poniżej przedstawione zostaną niektóre z metod identyfikacji za pomocą radar
 
 ## Weryfikacja wskazań wysokości z modu C
 
-Podczas identyfikowania statku powietrznego najczęściej przeprowadzana jest też weryfikacja poprawności wskazań wysokości z modu C. Polega ona na porównaniu wysokości zgłaszanej przez pilota ze wskazaniami odbieranymi z modu C transpondera. W środowisku wieżowym dopuszczalna odchyłka wskazań wysokościomierza wynosi 300ft. Mimo, że identyfikajca i weryfikacja wskazań wysokościomierza przeprowadzane są jednocześnie, należy pamiętać, że błędne wskazania wysokości lub brak podania wysokości przez pilota nie oznaczają automatycznie, że statek powietrzny nie został zidentyfikowany. Identyfikacja jest niezależna od weryfikacji wysokości, należy jednak podjąć dodatkowe czynności celem weryfikacji wskazań modu C.
+Podczas identyfikowania statku powietrznego najczęściej przeprowadzana jest też weryfikacja poprawności wskazań wysokości. Polega ona na porównaniu wysokości zgłaszanej przez pilota ze wskazaniami odbieranymi z modu C transpondera. W środowisku wieżowym dopuszczalna odchyłka wskazań wysokościomierza wynosi +/-300ft. Mimo, że identyfikajca i weryfikacja wskazań wysokościomierza przeprowadzane są jednocześnie, należy pamiętać, że błędne wskazania wysokości lub brak podania wysokości przez pilota nie oznaczają automatycznie, że statek powietrzny nie został zidentyfikowany. Identyfikacja jest niezależna od weryfikacji wysokości, należy jednak podjąć dodatkowe czynności celem weryfikacji wskazań. Najczęściej błędy wynikają z niepoprawnego ustawienia QNH przez pilota, w takiej sytuacji należy podać aktualne QNH i polecić ponowne potwierdzenie wysokości:
+
+> **TWR** SPABC, wrong mode C indications, QNH 1016, check altimeter settings and confirm altitude
+ 
+Jeśli sytuacja nie ulegnie poprawie można rozważyć polecenie pilotowi wyłączenia modu C aby nie nadawać niepoprawnych i mylących informacji:
+
+> **TWR** SPABC, wrong altitude indications, stop squawk mode C
 
 ## Możliwości jakie daje służba dozorowania
 
@@ -121,7 +127,7 @@ Informacje o ruchu to druga, po identyfikacji, duża zmiana w stosunku do pracy 
 - wysokość i typ
 
 Przykładowo:
-> **TWR** SPABC, ruch na godzinie pierwszej, dystans 3NM, opozyt/przecinający z prawej na lewą/w tym samym kierunku etc, Cessna 152, 2000ft (zgłoś z widocznością) </br>
+> **TWR** SPABC, ruch na godzinie pierwszej, dystans 3NM, opozyt/przecinający z prawej na lewą/w tym samym kierunku etc, Cessna 152, 2000ft (zgłoś z widocznością) <br/>
 > **TWR** SPABC, traffic 1 oclock, distance 3NM, opposite/crossing right to left/parallel etc, Cessna 152, 2000ft (report in sight)
 
 Taki układ wynika z praktycznych względów - podając namiar (godzinę) od razu wskazujemy pilotowi gdzie szukać wzrokiem ruchu, potem napływają kolejne informacje.
