@@ -21,7 +21,7 @@ Opisana sytuacja przedstawia w dużym uproszczeniu technikę pracy na wieży bez
 ### Systemy radarowe
 
 Radary, z których korzysta się w służbie kontroli ruchu lotniczego, dzielą się na dwie podstawowe grupy:
-* Radary pierwotnye (_PSR - primary surveillance radar_) - emitują wiązkę promieniowania o bardzo dużej mocy i nasłuchują odpowiedzi odbitych od obiektów w przestrzeni. Ta nadchodzi, gdy promieniowanie odbije się od samolotu i zostanie zarejestrowana przez odbiornik radaru. Radary pierwotne są samowystarczalne, znaczy to, że nie potrzebują dodatkowego wyposażenia na pokładzie statku powietrznego, żeby go wykryć. Jest to duży atut, głównie z punktu widzenia wojska, gdzie samoloty raczej unikają wykrycia, ale też w zastosowaniach cywilnych - radar PSR  nadal jest w stanie wykryć samolot z awarią transpondera. Takie rozwiązanie ma też wady. Radar pierwotny potrzebuje do działania dużo więcej energii. Dodatkowo wykrywa wszystkie obiekty, które odbijają promieniowanie elektromagnetyczne, więc poza samolotami będzie to ukształtowanie terenu, budowle czy nawet obszary złej pogody (ostatni czynnik w pewnych okolicznościach może być zaletą, efekt ten używany jest w radarach pogodowych)
+* Radary pierwotnye (_PSR - primary surveillance radar_) - emitują wiązkę promieniowania o bardzo dużej mocy i nasłuchują sygnału odbitego od obiektów w przestrzeni. Ten nadchodzi, gdy promieniowanie odbije się od samolotu i zostanie zarejestrowane przez odbiornik radaru. Radary pierwotne są samowystarczalne, znaczy to, że nie potrzebują dodatkowego wyposażenia na pokładzie statku powietrznego, żeby go wykryć. Jest to duży atut, głównie z punktu widzenia wojska, gdzie samoloty raczej unikają wykrycia, ale też w zastosowaniach cywilnych - radar PSR  nadal jest w stanie wykryć samolot z awarią transpondera. Takie rozwiązanie ma też wady. Radar pierwotny potrzebuje do działania dużo więcej energii. Dodatkowo wykrywa wszystkie obiekty, które odbijają promieniowanie elektromagnetyczne, więc poza samolotami będzie to ukształtowanie terenu, budowle czy nawet obszary złej pogody (ostatni czynnik w pewnych okolicznościach może być zaletą, efekt ten używany jest w radarach pogodowych)
 * Radary wtórne (_SSR - secondary surveillance radar_) - do działania wymagany jest dodatkowo działający transponder na pokładzie statku powietrznego. Radar wysyła w przestrzeń dużo słabszy sygnał, który jeśli dotrze do statku powietrznego, aktywuje odpowiedź transpondera. To, czego nasłuchuje radar wtórny, to nie echo odbite od samolotu (jak przy PSR), ale sygnał nadany w odpowiedzi przez transponder statku powietrznego. Jeśli pilot nie włączy transpondera, radar wtórny nie wykryje takiego statku powietrznego. Plusami takiego rozwiązania są dużo mniejsze zużycie energii oraz lepsza selektywność wykrywanych obiektów. Przykładowo: o ile wzgórze nie jest wyposażone w transponder, nie będzie pojawiać się jako wykryty obiekt;) Wadą jest oczywiście zależność od wyposażenia statku powietrznego w transponder.
 
 W pobliżu lotnisk radary PSR/SSR przeważnie instalowane są razem. Szeroka, prostokątna antena na górze to radar wtórny, ta bardziej zaokrąglona to radar pierwotny.
@@ -86,49 +86,54 @@ Poniżej przedstawione zostaną niektóre z metod identyfikacji za pomocą radar
 
 ### Identyfikacja PSR
 
-**Identyfikacja po odlocie, jeśli nastąpi maksymalnie 1NM od końca drogi startowej** Jeśli wydaliśmy zezwolenie na start, a chwilę po oderwaniu się samolotu obserwujemy echo na radarze, możemy być pewni tożsamości tego echa. Gdy pilot nie włączy transpondera, to nadal można go zidentyfikować właśnie na podstawie radaru pierwotnego (symbol pozycji to “+”) “SPABC zidentyfikowany po starcie/SPABC identified after departure”, jak na obrazku poniżej:
+**Identyfikacja po odlocie, jeśli nastąpi maksymalnie 1NM od końca drogi startowej** - jeśli wydaliśmy zezwolenie na start, a chwilę po oderwaniu się samolotu obserwujemy echo na radarze, możemy być pewni tożsamości tego echa. Gdy pilot nie włączy transpondera, to nadal można go zidentyfikować właśnie na podstawie radaru pierwotnego.
+
+> **ATC:** SPABC, wieża, zidentyfikowany po starcie<br/>
+> **ATC:** SPABC, tower, identified after departure
 
 ![psr1](09-identification-assets/psr01.png)
 
-**Wydanie polecenia zmiany kursu o 30 stopni lub więcej** blisko temu do wektorowania, które jest zazwyczaj niedostępne (można pilota VFR nieumyślnie skierować w kierunku przeszkody albo wywektorować z VMC). Można za to wydać polecenie wykonania orbity - for identification make one orbit to the right/left; dla identyfikacji wykonaj oribtę w prawo/lewo. Nadal jest to polecenie zmiany kursu o 30 stopni lub więcej, którą da się zaobserwować na radarze. Należy zwrócić uwagę, żeby w okolicy nie było innego ruch wykonującego podobne manewry i utrudniającego identyfikację (np inny pilot oczekujący nad punktem VFR).
+**Wydanie polecenia zmiany kursu o 30 stopni lub więcej** - blisko temu do wektorowania, które w CTR jest zazwyczaj niedostępne (można pilota VFR nieumyślnie skierować w kierunku przeszkody albo wywektorować z VMC). Można za to wydać polecenie wykonania orbity - for identification make one orbit to the right/left; dla identyfikacji wykonaj oribtę w prawo/lewo. Nadal jest to polecenie zmiany kursu o 30 stopni lub więcej, którą da się zaobserwować na radarze. Należy zwrócić uwagę, żeby w okolicy nie było innego ruch wykonującego podobne manewry i utrudniającego identyfikację (np inny pilot oczekujący nad punktem VFR).
 
-**Identyfikacja na podstawie meldunku pozycyjnego** - Jeśli przy nawiązywaniu łączności statek powietrzny poda pozycję i zgadza się ona z echem obserwowanym na radarze, identyfikacja jest ustanowiona. Można też polecić pilotowi zgłoszenie pozycji. 
-“Wieża, Ratownik6, aktualnie 1NM na zachód od SIERRA, 1500ft, wykonujemy z kursem północnym”
-“Ratownik6, wieża, zidentyfikowany, [zezwolenie na wlot, qnh, etc etc]”
+**Identyfikacja na podstawie meldunku pozycyjnego** - jeśli przy nawiązywaniu łączności statek powietrzny poda pozycję i zgadza się ona z echem obserwowanym na radarze, identyfikacja jest ustanowiona. Można też polecić pilotowi zgłoszenie pozycji. 
+> **PILOT:** Wieża, Ratownik 6, aktualnie 1NM na zachód od SIERRA, 1500ft, wykonujemy z kursem północnym<br/>
+> **ATC:** Ratownik 6, wieża, zidentyfikowany
 
 ![psr2](09-identification-assets/psr02.png)
 
-**Przekazanie identyfikacji** - Metoda ta jest bardzo podobna do identyfikacji na podstawie meldunku pozycyjnego, ale informacja o pozycji pochodzi nie od pilota, ale od przekazującego kontrolera, pod warunkiem że wcześniej sam zidentyfikował dany statek powietrzny. Wtedy przekazanie identyfikacji odbywa się na przykład przez wiadomość tekstową: “Leci do ciebie RAT6, aktualnie 1NM na zachód od SIERRA”. Wtedy od razu po zgłoszeniu Ratownika możemy poinformować go o identyfikacji.
+**Przekazanie identyfikacji** - metoda ta jest bardzo podobna do identyfikacji na podstawie meldunku pozycyjnego, ale informacja o pozycji pochodzi nie od pilota, ale od przekazującego kontrolera, pod warunkiem że wcześniej sam zidentyfikował dany statek powietrzny. Wtedy przekazanie identyfikacji odbywa się na przykład przez wiadomość tekstową: “Leci do ciebie RAT6, aktualnie 1NM na zachód od SIERRA”. Wtedy od razu po zgłoszeniu Ratownika możemy poinformować go o identyfikacji.
 
 ### Identyfikacja SSR
 
-**Rozpoznanie znaku rozpoznawczego statku powietrznego na etykietce SSR** Ta metoda identyfikacji pozwala nam zidentyfikować statek powietrzny na podstawie znaku wywoławczego wyświetlonego w etykiecie radarowej. W środowisku VATSIM, gdzie korelacja echa radarowego z planem lotu następuje automatycznie i zawsze bezbłędnie (ustawienie _easy VATSIM mode_ w Euroscope, [https://www.euroscope.hu/wp/professional-radar-simulation/](https://www.euroscope.hu/wp/professional-radar-simulation/)) jest to najbardziej intuicyjna, najprostsza i najbardziej niezawodna metoda identyfikacji.
+**Rozpoznanie znaku rozpoznawczego statku powietrznego na etykietce SSR** - ta metoda identyfikacji pozwala nam zidentyfikować statek powietrzny na podstawie znaku wywoławczego wyświetlonego w etykiecie radarowej. W środowisku VATSIM, gdzie korelacja echa radarowego z planem lotu następuje automatycznie i zawsze bezbłędnie (ustawienie _easy VATSIM mode_ w Euroscope, [https://www.euroscope.hu/wp/professional-radar-simulation/](https://www.euroscope.hu/wp/professional-radar-simulation/)) jest to najprostsza, najbardziej intuicyjna i niezawodna metoda identyfikacji.
 
-**Squawk ident** - Gdy kontroler poleci pilotowi użycie funkcji IDENT transpondera, wysyłany jest specjalny sygnał, który system radarowy reprezentuje przez zaświecenie się etykiety statku powietrznego na niebiesko.
+**Squawk ident** - gdy kontroler poleci pilotowi użycie funkcji IDENT transpondera, wysyłany jest specjalny sygnał, który system radarowy reprezentuje przez zaświecenie się etykiety statku powietrznego na niebiesko.
 
 **Przekazanie identyfikacji** - metoda działa analogicznie jak dla radaru pierwotnego
 
 ## Weryfikacja wskazań wysokości z modu C
 
-Podczas identyfikowania statku powietrznego najczęściej przeprowadzana jest też weryfikacja poprawności wskazań wysokości. Polega ona na porównaniu wysokości zgłaszanej przez pilota ze wskazaniami odbieranymi z modu C transpondera. W środowisku wieżowym dopuszczalna odchyłka wskazań wysokościomierza wynosi +/-300ft. Mimo, że identyfikajca i weryfikacja wskazań wysokościomierza przeprowadzane są jednocześnie, należy pamiętać, że błędne wskazania wysokości lub brak podania wysokości przez pilota nie oznaczają automatycznie, że statek powietrzny nie został zidentyfikowany. Identyfikacja jest niezależna od weryfikacji wysokości, należy jednak podjąć dodatkowe czynności celem weryfikacji wskazań. Najczęściej błędy wynikają z niepoprawnego ustawienia QNH przez pilota, w takiej sytuacji należy podać aktualne QNH i polecić ponowne potwierdzenie wysokości:
+Podczas identyfikowania statku powietrznego najczęściej przeprowadzana jest też weryfikacja poprawności wskazań wysokości. Polega ona na porównaniu wysokości zgłaszanej przez pilota ze wskazaniami odbieranymi z modu C transpondera. W środowisku wieżowym dopuszczalna odchyłka wskazań wysokościomierza wynosi +/-300ft (DOC 4444 pkt 8.5.5.1). Mimo, że identyfikajca i weryfikacja wskazań wysokościomierza przeprowadzane są jednocześnie, należy pamiętać, że błędne wskazania wysokości lub brak podania wysokości przez pilota nie oznaczają automatycznie, że statek powietrzny nie został zidentyfikowany. Identyfikacja jest niezależna od weryfikacji wysokości, należy jednak podjąć dodatkowe czynności celem weryfikacji wskazań. Najczęściej błędy wynikają z niepoprawnego ustawienia QNH przez pilota, w takiej sytuacji należy podać aktualne QNH i polecić ponowne potwierdzenie wysokości:
 
-> **TWR** SPABC, wrong mode C indications, QNH 1016, check altimeter settings and confirm altitude
+> **TWR:** SPABC, wieża, błędne wskazania modu C, QNH 1016, sprawdź ustawienia wysokościomierza i potwierdź poziom<br/>
+> **TWR:** SPABC, tower, wrong mode C indications, QNH 1016, check altimeter settings and confirm level
  
 Jeśli sytuacja nie ulegnie poprawie można rozważyć polecenie pilotowi wyłączenia modu C aby nie nadawać niepoprawnych i mylących informacji:
 
-> **TWR** SPABC, wrong altitude indications, stop squawk mode C
+> **TWR:** SPABC, wieża, stop squawk C, błędne wskazania<br/>
+> **TWR:** SPABC, tower, stop squawk C, wrong indications
 
-## Możliwości jakie daje służba dozorowania
+## Informacja o ruchu z wykorzystaniem radaru
 
 Informacje o ruchu to druga, po identyfikacji, duża zmiana w stosunku do pracy nieradarowej. Korzystając z radaru i znając dokładne pozycje statków powietrznych możemy podawać dużo dokładniejsze informacje o ruchu. Zgodnie z DOC 4444 pkt 8.8.2.3, taka informacja ma następującą kolejność:
 - względny namiar na statek powietrzny według tarczy zegara
 - dystans
-- kierunek w którym statek powietrzny się przemieszcza
+- kierunek, w którym statek powietrzny się przemieszcza
 - wysokość i typ
 
 Przykładowo:
-> **TWR** SPABC, ruch na godzinie pierwszej, dystans 3NM, opozyt/przecinający z prawej na lewą/w tym samym kierunku etc, Cessna 152, 2000ft (zgłoś z widocznością) <br/>
-> **TWR** SPABC, traffic 1 oclock, distance 3NM, opposite/crossing right to left/parallel etc, Cessna 152, 2000ft (report in sight)
+> **TWR:** SPABC, ruch na godzinie pierwszej, dystans 3NM, opozyt/przecinający z prawej na lewą/w tym samym kierunku etc, Cessna 152, 2000ft (zgłoś z widocznością) <br/>
+> **TWR:** SPABC, traffic 1 oclock, distance 3NM, opposite/crossing right to left/parallel etc, Cessna 152, 2000ft (report in sight)
 
 Taki układ wynika z praktycznych względów - podając namiar (godzinę) od razu wskazujemy pilotowi gdzie szukać wzrokiem ruchu, potem napływają kolejne informacje.
 
