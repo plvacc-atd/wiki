@@ -1,0 +1,116 @@
+Wprowadzenie (1–3 zdania) - co to jest i dlaczego to ważne dla czytelnika
+Definicje (jeśli potrzebne)
+Procedura / zasada - sedno artykułu
+Przykład - zwłaszcza jeśli w grę wchodzi frazeologia radiowa
+Wyjątki / częste błędy (jeśli dotyczy)
+Zobacz też / Źródła - linki do powiązanych artykułów
+
+# Monitorowanie i zarządzanie przepływem ruchu lotniczego
+
+Zarządzanie przepływem ruchu lotniczego zaczyna się już na poziomie **Delivery**. Dobry kontroler rozumiejący procesy zarządzania przepływem jest w stanie bardzo odciążyć kontrolera Ground (GND) oraz Tower (TWR). Do zadań kontrolera należy nie tylko wydawanie zezwoleń, przydzielanie kodów transpondera, ale także monitorowanie ruchu na lotnisku, ale także stosowanie się do ograniczeń wprowadzanych poprzez sloty. Wprowadza to dużo, często niezrozumiałych dla pilotów, terminów i procedur. 
+W rzeczywistości cały proces planowania i zarządzania jest złożony z 4 faz: Strategic Flow Management (7 lub więcej dni przed dniem operacji), Pre-Tactical Flow Management (6 dni przed dniem operacji), Tactical Flow Management (w dniu operacji) oraz Post-Operations Flow Management (po zakończeniu operacji). Z racji specyfiki ruchu na VATSIM w pełni funkcjonuje jedynie faza Tactical, która jest realizowana przez kontrolerów oraz system ATFCM (vIFF); wykorzystuje się też analizę ruchu po eventach lub większych natężeniach ruchu, by lepiej planować kolejne wydarzenia czy zarządzać ruchem.
+
+## Podstawowe definicje
+
+Jak wyglądają podstawowe definicje związane z ATFM oraz A-CDM na lotnisku? Poniżej znajdziesz terminy podzielone na odpowiednie działy - te potrzebne oraz kilka dodatkowych dla lepszego zrozumienia procesów zachodzących "na zapleczu". 
+
+### ACDM
+
+**EOBT** (__Estimated Off-Block Time__) - przewidywany czas opuszczenia stanowiska postojowego przez samolot. 
+Na VATSIM czas ten jest podawany przez pilota w planie lotu w oknie Off Block. Jest on punktem wyjściowym do dalszych kalkulacji i planowania ruchu na lotnisku. Często zdarza się, że ta wartość nie ma nic wspólnego z prawdą i jest jedynie automatycznie przydzielana przez Simbrief bez sprawdzenia jej przez pilota.
+
+**SOBT** (__Scheduled Off-Block Time__) - zaplanowany czas opuszczenia stanowiska postojowego przez samolot.
+Z SOBTem najczęściej spotkasz się w rzeczywistości, gdzie loty mają swoje rozkładowe godziny odlotów. Na VATSIMie najczęściej do SOBT odnosimy się w przypadku eventów, na których piloci sami bookują swoje godziny startu, gdyż w przypadku normalnych operacji na sieci nie stosuje się zazwyczaj do realnych rozkładów.
+
+**STD** (__Standard Time of Departure__) - rozkładowy czas opuszczenia stanowiska.
+W istocie jest odpowiednikiem SOBT. Wykorzystuje się ten termin głównie jako informacja dla pasażerów.
+
+**TOBT** (__Target Off-Block Time__) - docelowy czas opuszczenia stanowiska postojowego przez samolot.
+TOBT w rzeczywistości jest podawane przez agenta handlingowego, który mając informacje o procesie deboardingu oraz boardingu, a także załadunku bagaży czy innych aktywnościach związanych z przygotowaniem samolotu do lotu, jest w stanie podać godzinę, kiedy samolot faktycznie będzie gotowy do opuszczenia stanowiska. Na sieci niestety nie ma koordynatorów naziemnych, więc każdy pilot jest swoim koordynatorem. To na nim spoczywa obowiązek podania rzeczywistej godziny gotowości do uruchamiania i wypychania samolotu (o tym gdzie i jak to się robi - niżej). 
+TOBT jest prawdziwym punktem wyjściowym do kalkulacji systemu A-CDM oraz ATFCM na VATSIM.
+
+**ETD** (__Esitmated Time of Departure__) - przewidywany czas odlotu.
+Przewidywany czas odlotu bazuje się na STD. Zazwyczaj jest to ETD = STD + czas kołowania, jednak może się to zmienić w wyniku przydzielenia slotu, procedury odladzania i innych sytuacji ruchowych.
+
+**CTOT** (__Calculated Off-Block Time__) - obliczony czas startu.
+CTOT, znany też jako slot, to najważniejszy z zaprezentowanych czasów, od niego zależy praktycznie wszystko. Przydzielenie slotu dzieje się automatycznie przez system ATFCM, gdy wykryje on, że popyt na sektor przestrzeni powietrznej lub lotnisko jest zbyt duży względem jego maksymalnej pojemności. Niezawsze będzie to czas oczekiwania 10 minut, bo nawet w rzeczywistości zdarza się przydzielony czas startu za 3 godziny.
+Obowiązkiem kontrolera jest zagwarantowanie, żeby pilot wystartował z lotniska w okienku CTOT -5/+10 minut. Odlot poza tymi ramami czasowymi będzie źródłem przeciążenia sektoru kontrolera, z powodu którego dane ograniczenie wystąpiło oraz może skutkować zawieszeniem lotu.
+
+**Pojemność lotniska** - maksymalna ilość ruchu, którą jest w stanie obsłużyć lotnisko, a konkretniej pas startowy. W zależności od budowy lotniska, pasów startowych, dróg kołowania oraz systemów podejścia ta liczba może się różnić. Czasem pojemność lotniska może różnić się w zależności od używanego kierunku startów i lądowań - drogi szybkiego zjazdu wpływają pozytywnie na to.
+
+### ATFM
+
+**ETFMS** (__Enhanced Tactical Flow Management Systems__) - system odpowiadający za automatyczną regulację przepływu ruchu.
+To właśnie ten system odpowiada za przydzielanie slotów, gdy nie ma innej opcji, niż regulować czasowo przepływ samolotów przez dany sektor przestrzeni kontrolowanej lub liczbę przylotów na dane lotnisko.
+
+**SAM** (__Slot Allocation Message__) - komunikat o przydzieleniu slotu.
+Jeśli dany samolot podlega regulacji, ETFMS wysyła do pilota informację na ACARS o przydzieleniu slotu dla niego. Dla kontrolera oznacza to, że samolot otrzymuje na liście odlotów w polu CTOT swój slot, do którego musi się zastosować.
+
+**SRM** (__Slot Revision Message__) - komunikat o zmianie slotu.
+W trakcie oczekiwana może się zdarzyć, że slot zostane przesunięty. Slot może być przesunięty z kilku powodów:
+- znaleziono lepszy slot
+- zmieniła się przepustowość lub popyt sektora, przez który jest regulacja
+- zmiana ETOT (__Estimated Take-Off Time__) na późniejszy od CTOT (ETOT>CTOT) w wyniku komunikatu DLA/CHG (delay/change, niesymulowane na VATSIM)
+
+**SLC** (__Slot Cancellation Message__) - komunikat o odwołaniu slotu.
+Najszczęśliwsza wiadomość dla pilota. Oznacza ona, że pilot może już zaraz po zgłoszeniu gotowości rozpocząć uruchamianie silników i opuszczanie stanowiska.
+
+**FLS** (__Flight Suspended Message__) - komunikat o zawieszeniu lotu.
+W środkowisku VATSIM jest najczęściej występującym komunikatem. Lot może być zawieszony z kilku powodów:
+- FLS-NRA: Not Reported As Airborne - lot nie wystartował na czas
+- FLS-CDM: Triggered by CDM - samolot nie opuścił stanowiska w wyznaczonym oknie czasowym
+- FLS-MR: Mandatory Route - trasa w planie lotu jest inna od obowiązkowej na tej relacji
+- FLS-GS: Ground Stop - wstrzymanie wszystkich odlotów do danej destynacji na ziemi
+
+**DES** (__De-Suspension Message__) - komunikat o anulowaniu zawieszenia lotu.
+Jest on po prostu przeciwieństwem FLS i pozwala samolotowi odleciecieć z lotniska z obecnym planem lotu.
+
+## Procedury
+
+### Wprowadzenie
+
+Każdy z pilotów ma obowiązek wpisać w planie lotu w okienku Off-Block swój przewidywany czas opuszczenia stanowiska (EOBT). Sama procedura kalkulacji i obsługi ruchu różni się w zależności od tego, czy lotnisko ma wprowadzony A-CDM czy nie. W Polsce jedynym lotniskiem wyposażonym jest Warszawa-Okęcie (EPWA), dlatego tutaj skupimy się jedynie na procedurze non-CDM, a więcej o A-CDM będzie w szkoleniu S2-CE.
+
+::: tip
+Piloci mają do wykorzystania panel [VDGS](https://vats.im/vdgs) (__Visual Docking Guidance System__). Tam mogą sprawdzić CTOT, jego powód lub śledzić ewentualne zmiany slotu. Dzięki temu narzędziu możesz prosić pilotów, by właśnie tam sprawdzili swoje opóźnienie, zamiast zajmować częstotliwość ciągle tym samym pytaniem. Dodatkowo istnieje też alias `.vdgs`, dzięki któremu możesz szybko wskazać tą strone poprzez kanał tekstowy.
+:::
+
+### Standardowa ścieżka
+
+Standardowo po wpisaniu EOBT system kalkuluje ETOT na podstawie danych danego lotniska, sprawdza profil trasy, czy nie naruszy ona już obecnie przeciążonych sektorów lub nie przeładuje innego - zazwyczaj trwa to maksymalnie kilka sekund. Jeśli nie nastąpi żadna regulacja lotu (slot) CTOT nie pokaże się. Oznacza to, że możesz takiemu samolotowi wydać clearance.
+
+:::caution
+Zezwolenie możesz wydać nie wcześniej niż 30 minut przed EOBT. Okienko EOBT automatycznie pokaże inny kolor, gdy różnica czasu jest większa. W tym przypadku poproś pilota o aktualizację planu lotu.
+:::
+
+Pilot powinien zgłosić gotowość do opuszczenia stanowiska w takim czasie, by zmieścić się w okienku ETD +/- 10 minut. Oczywiście trzeba wziąć w tym wszystkim pod uwagę czas wypychania i kołowania. Na większości polskich lotnisk średni czas wypychania i kołowania wynosi 10 minut. Korzystając z tego, można przyjąć, że okienko EOBT +/- 10 minut jest odpowiednie na wydanie zezwolenia na wypychanie lub wykołowanie ze stanowiska. 
+
+### Slot - co wtedy?
+
+Nierzadko w godzinach wieczornych zdarza się, że niektóre sektory przestrzeni stają się przeciążone przez za duży popyt ruchu przez nie. Pilot otrzymuje wtedy SAM, a w kolumnie CTOT pojawi się czas, który staje się od teraz świętością. Warto w tym wypadku polecić pilotowi śledzenie panelu VDGS, by otrzymywał na bieżąco aktualizacje dotyczące swojego odlotu.
+
+Pamiętaj, że CTOT jest elementem zezwolenia na lot, jeśli został przydzielony slot. Gdy zostanie on przydzielony samolotowi później, należy niezwłocznie poinformować o tym pilota.
+> **ATC:** LOT123, SLOT (czas) <br/>
+> **ATC:** LOT123, SLOT (time)
+
+Gdy nastąpi zmiana slotu (__slot revision__) odpowiednio musisz zmienić docelowy czas wypychania samolotu. Warto też poinformować pilota o zmianie, na wypadek gdyby nie śledził panelu VDGS. Tak samo należy postąpić w przypadku anulowaniu slota (__slot cancelled__).
+
+SRM:
+> **ATC:** LOT123, poprawiony slot (czas)<br/>
+> **ATC:** LOT123, revised slot (time)
+
+SLC:
+> **ATC:** LOT123, slot anulowany, zgłoś gotowość<br/>
+> **ATC:** LOT123, slot cancelled, report ready
+
+**Obowiązkiem kontrolera jest zapewnić odlot w okienku CTOT -5/+10**. Oznacza to, że z odpowiednim wyprzedzeniem (wspomniane 10 minut) należy przekazać zezwolenie na wypychanie lub wykołowanie ze stanowiska. Jeśli samolot dojedzie za wcześnie do pasa, np. CTOT -8, kontroler TWR musi wstrzymać się z tym odlotem. Zamiast niepotrzebnie skazywać samolot na czekanie w punkcie oczekiwania, możesz go po prostu wstrzymać na stanowisku.
+> **ATC:** LOT123, nie mogę przyjąć zezwolenia na uruchamianie z powodu slotu (czas), proszę o uruchamianie o (czas).
+> **ATC:** LOT123, unable to approve start-up clearance due to slot (time), request start-up at (time). 
+
+Z kolei, gdy samolot przegapi swój slot musisz poprosić o i przypisać nowe EOBT dla samolotu oraz sprawdzić, czy ponownie nie zostanie mu przydzielony slot. Może być wtedy wymagany powrót na stanowisko. Gdy masz pewność, że pilot za późno zgłosił gotowość, możesz także wstrzymać go na stanowisku, jeśli ma nie wyrobić się w oknie czasowym CTOT.
+> **ATC:** LOT123, nie mogę przyjąć zezwolenia na uruchamianie z powodu slotu (czas), proszę o nowy slot.
+> **ATC:** LOT123, unable to approve start-up clearance due to slot expired, request a new slot. 
+
+## Warto wiedzieć
+
+1. Zgodnie z CoC B12: "During events and periods of high traffic, a pilot may be issued traffic management initiatives (e.g., ground stops, Expect Departure Clearance Time (EDCT), Calculated Takeoff Time (CTOT), etc.). When such an initiative is in effect, a pilot is obligated to abide by the initiative. A pilot shall not circumvent these initiatives.". Jeśli zauważysz pilota, który rozłączył się z siecią na wieść o slocie, a następnie połączy się w powietrzu, warto poinformować Supervisora o takim incydencie.
