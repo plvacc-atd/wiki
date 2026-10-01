@@ -10,7 +10,7 @@ Zgodnie z VATSIM CoC B6, żaden użytkownik sieci nie może jednostronnie narzuc
 
 ### Sytuacje szczególne i niebezpieczne
 
-Do najważniejszych odstępstw od "rzeczywistych" przepisów należą regulacje dotyczące symulowania sytuacji szczególnych i niebezpiecznych, wynikające z VATSIM CoC B6. Zagadnienie to jest omawiane szczegółowo w [odrębnym artykule](../../basic/special_unsafe_situations/special-and-unsafe-situations). W tym miejscu podkreślmy tylko, że **zabronione** jest symulowanie bezprawnej ingerencji ("porwania"), a symulowanie sytuacji awaryjnych jest dopuszczalne, ale pod warunkiem przestrzegania kilku ograniczeń.
+Do najważniejszych odstępstw od "rzeczywistych" przepisów należą regulacje dotyczące symulowania sytuacji szczególnych i niebezpiecznych, wynikające z VATSIM CoC B6. Zagadnienie to jest omawiane szczegółowo w [odrębnym artykule](../aviation-law/special-and-unsafe-situations). W tym miejscu podkreślmy tylko, że **zabronione** jest symulowanie bezprawnej ingerencji ("porwania"), a symulowanie sytuacji awaryjnych jest dopuszczalne, ale pod warunkiem przestrzegania kilku ograniczeń.
 
 ### Katastrofy lotnicze
 
