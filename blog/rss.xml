@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Polish VACC Wiki Blog</title>
+        <link>https://wiki.plvacc.pl/blog</link>
+        <description>Polish VACC Wiki Blog</description>
+        <lastBuildDate>Mon, 12 Oct 2026 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Błędy w readbacku i hearbacku]]></title>
+            <link>https://wiki.plvacc.pl/blog/safety-circular-readback-errors</link>
+            <guid>https://wiki.plvacc.pl/blog/safety-circular-readback-errors</guid>
+            <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[this post is an AI generated placeholder]]></description>
+            <content:encoded><![CDATA[<p><strong>this post is an AI generated placeholder</strong></p>
+<p>W ostatnim kwartale instruktorzy zwrócili uwagę na powtarzający się problem w sesjach szkoleniowych: nieprawidłowe powtórzenia (readbacki), które nie zostały skorygowane.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="podsumowanie">Podsumowanie<a href="https://wiki.plvacc.pl/blog/safety-circular-readback-errors#podsumowanie" class="hash-link" aria-label="Direct link to Podsumowanie" title="Direct link to Podsumowanie" translate="no">​</a></h2>
+<p>W przeanalizowanych sesjach kontrolerzy często akceptowali niepełne lub błędne powtórzenia, głównie dotyczące pasa, kursu i wysokości. Żadne z tych zdarzeń nie doprowadziło do utraty separacji, ale taki schemat jest znanym prekursorem poważnych incydentów.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="typowe-przykłady">Typowe przykłady<a href="https://wiki.plvacc.pl/blog/safety-circular-readback-errors#typowe-przyk%C5%82ady" class="hash-link" aria-label="Direct link to Typowe przykłady" title="Direct link to Typowe przykłady" translate="no">​</a></h2>
+<ul>
+<li class="">Pilot powtarza błędne oznaczenie pasa, a kontroler kontynuuje bez korekty</li>
+<li class="">Wysokość powtórzona bez określenia „poziom lotu” lub „stopy”</li>
+<li class="">Powtórzenie bez znaku wywoławczego, po którym następuje niejednoznaczne „roger”</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="czynniki-sprzyjające">Czynniki sprzyjające<a href="https://wiki.plvacc.pl/blog/safety-circular-readback-errors#czynniki-sprzyjaj%C4%85ce" class="hash-link" aria-label="Direct link to Czynniki sprzyjające" title="Direct link to Czynniki sprzyjające" translate="no">​</a></h2>
+<ul>
+<li class="">Duże obciążenie pracą, gdy kontroler planuje już kolejne działanie</li>
+<li class="">Znany ruch, gdzie myślenie „na pewno powtórzą poprawnie” prowadzi do rozluźnienia uwagi</li>
+<li class="">Szybkie tempo mówienia po obu stronach łączności</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="zalecane-działania">Zalecane działania<a href="https://wiki.plvacc.pl/blog/safety-circular-readback-errors#zalecane-dzia%C5%82ania" class="hash-link" aria-label="Direct link to Zalecane działania" title="Direct link to Zalecane działania" translate="no">​</a></h2>
+<ol>
+<li class="">Traktuj hearback (kontrolę powtórzenia) jako aktywne zadanie, a nie czynność w tle</li>
+<li class="">Poprawiaj każde odstępstwo natychmiast, używając pełnego znaku wywoławczego</li>
+<li class="">Nie zastępuj właściwego potwierdzenia słowem „roger”</li>
+<li class="">Mentorzy powinni uwzględniać kontrolę powtórzeń w każdym podsumowaniu sesji</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="przypomnienie">Przypomnienie<a href="https://wiki.plvacc.pl/blog/safety-circular-readback-errors#przypomnienie" class="hash-link" aria-label="Direct link to Przypomnienie" title="Direct link to Przypomnienie" translate="no">​</a></h2>
+<p>Readback jest siatką bezpieczeństwa tylko wtedy, gdy ktoś naprawdę go słucha.</p>]]></content:encoded>
+            <category>bezpieczeństwo</category>
+            <category>frazeologia</category>
+        </item>
+        <item>
+            <title><![CDATA[Dział Szkoleń w liczbach: III kwartał 2026]]></title>
+            <link>https://wiki.plvacc.pl/blog/training-statistics-q3</link>
+            <guid>https://wiki.plvacc.pl/blog/training-statistics-q3</guid>
+            <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[this post is an AI generated placeholder]]></description>
+            <content:encoded><![CDATA[<p><strong>this post is an AI generated placeholder</strong></p>
+<p>Krótkie spojrzenie na to, jak przebiegały szkolenia między lipcem a wrześniem.</p>
+<p><em>Wszystkie poniższe dane są przykładowe. Zastąp je prawdziwymi.</em></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="najważniejsze-liczby">Najważniejsze liczby<a href="https://wiki.plvacc.pl/blog/training-statistics-q3#najwa%C5%BCniejsze-liczby" class="hash-link" aria-label="Direct link to Najważniejsze liczby" title="Direct link to Najważniejsze liczby" translate="no">​</a></h2>
+<table><thead><tr><th>Wskaźnik</th><th>II kw.</th><th>III kw.</th></tr></thead><tbody><tr><td>Nowi przyjęci kursanci</td><td>14</td><td>18</td></tr><tr><td>Aktywni mentorzy</td><td>8</td><td>10</td></tr><tr><td>Przeprowadzone sesje szkoleniowe</td><td>112</td><td>134</td></tr><tr><td>Podejścia do egzaminu praktycznego</td><td>21</td><td>25</td></tr><tr><td>Zdawalność egzaminów</td><td>71%</td><td>76%</td></tr></tbody></table>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="co-zwraca-uwagę">Co zwraca uwagę<a href="https://wiki.plvacc.pl/blog/training-statistics-q3#co-zwraca-uwag%C4%99" class="hash-link" aria-label="Direct link to Co zwraca uwagę" title="Direct link to Co zwraca uwagę" translate="no">​</a></h2>
+<ul>
+<li class=""><strong>Więcej kursantów, niż mentorzy mogą komfortowo prowadzić.</strong> Na jednego mentora przypada obecnie średnio około 1,8 aktywnego kursanta.</li>
+<li class=""><strong>Zdawalność wzrosła</strong>, głównie dzięki liście kontrolnej przed egzaminem wprowadzonej w lipcu.</li>
+<li class=""><strong>Większość niezdanych egzaminów</strong> wynikała z problemów z planowaniem ruchu i koordynacją, a nie z frazeologii.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="średni-czas-do-uzyskania-uprawnień">Średni czas do uzyskania uprawnień<a href="https://wiki.plvacc.pl/blog/training-statistics-q3#%C5%9Bredni-czas-do-uzyskania-uprawnie%C5%84" class="hash-link" aria-label="Direct link to Średni czas do uzyskania uprawnień" title="Direct link to Średni czas do uzyskania uprawnień" translate="no">​</a></h2>
+<p>Kursanci potrzebowali średnio około 11 tygodni na ukończenie pierwszego etapu wieży, czyli nieco mniej niż w poprzednim kwartale.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="cele-na-iv-kwartał">Cele na IV kwartał<a href="https://wiki.plvacc.pl/blog/training-statistics-q3#cele-na-iv-kwarta%C5%82" class="hash-link" aria-label="Direct link to Cele na IV kwartał" title="Direct link to Cele na IV kwartał" translate="no">​</a></h2>
+<ul>
+<li class="">Pozyskać dwóch kolejnych mentorów</li>
+<li class="">Skrócić czas oczekiwania między zgłoszeniem a pierwszą sesją</li>
+<li class="">Opublikować krótki przewodnik po planowaniu ruchu, oparty na najczęstszych uwagach egzaminatorów</li>
+</ul>
+<p>Dziękujemy wszystkim mentorom i kursantom za pracę w tym kwartale.</p>]]></content:encoded>
+            <category>statystyki</category>
+            <category>szkolenia</category>
+            <category>raport</category>
+        </item>
+        <item>
+            <title><![CDATA[SIDs and STARs Explained]]></title>
+            <link>https://wiki.plvacc.pl/blog/what-is-a-sid-and-star</link>
+            <guid>https://wiki.plvacc.pl/blog/what-is-a-sid-and-star</guid>
+            <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[this post is an AI generated placeholder]]></description>
+            <content:encoded><![CDATA[<p><strong>this post is an AI generated placeholder</strong></p>
+<p>SIDs and STARs are published routes that standardize how aircraft leave and arrive at busy airports.</p>
+<p>A <strong>SID</strong> (Standard Instrument Departure) guides an aircraft from the runway to the en-route airway network. A <strong>STAR</strong> (Standard Terminal Arrival Route) does the reverse, leading it from the airway network toward the approach.</p>
+<p>The benefits are practical:</p>
+<ul>
+<li class="">Less radio traffic, since the route is already known</li>
+<li class="">Predictable flows that keep departures and arrivals apart</li>
+<li class="">Built-in noise abatement and terrain clearance</li>
+</ul>
+<p>Instead of dictating every turn, a controller can say "cleared via the SID" or "descend via the STAR", and both sides know exactly what to expect.</p>]]></content:encoded>
+            <category>procedures</category>
+            <category>ifr</category>
+        </item>
+    </channel>
+</rss>
