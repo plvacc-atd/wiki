@@ -60,7 +60,11 @@ const config = {
         docs: {
           routeBasePath: '/',
         },
-        blog: false,
+        blog: {
+                showReadingTime: true,
+                blogSidebarTitle: 'Recent posts',
+                blogSidebarCount: 10,
+              },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -83,6 +87,8 @@ const config = {
           src: 'img/logo-plvacc.svg',
         },
         items: [
+            {to: '/', label: 'Baza wiedzy', position: 'left'},
+            {to: '/blog', label: 'Blog', position: 'left'},
         ],
       },
       footer: {
