@@ -87,6 +87,7 @@ const config = {
           src: 'img/logo-plvacc.svg',
         },
         items: [
+            {to: '/', label: 'Baza wiedzy', position: 'left'},
             {to: '/blog', label: 'Blog', position: 'left'},
         ],
       },
