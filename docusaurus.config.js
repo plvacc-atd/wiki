@@ -76,6 +76,14 @@ const config = {
       colorMode: {
         respectPrefersColorScheme: true,
       },
+      announcementBar: {
+          id: 'not_for_operational_use',
+          content:
+            'Wyłącznie do szkolenia wirtualnych kontrolerów w sieci VATSIM. <b>Nie do użytku operacyjnego w rzeczywistym lotnictwie.</b>',
+          backgroundColor: '#ff0000',
+          textColor: '#000000',
+          isCloseable: true,
+      },
       navbar: {
         title: 'Polish VACC Knowledgebase',
         logo: {
