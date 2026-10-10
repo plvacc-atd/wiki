@@ -1,0 +1,33 @@
+# Specyfika VATSIM
+
+To, że pomiędzy rzeczywistymi operacjami lotniczymi a tym, co dzieje się w sieci VATSIM, są ogromne różnice, jest zupełnie oczywiste. Z punktu widzenia kontrolera na VATSIM świadomość, na czym konkretnie te różnice mogą polegać, ułatwia podejmowanie właściwych decyzji. 
+
+## Różnice dotyczące przepisów
+
+Tym, jak "prawo lotnicze" obowiązujące w sieci VATSIM różni się od rzeczywistego prawa lotniczego, którym jest inspirowane, zajmujemy się szczegółowo w [osobnym rozdziale](../../category/prawo-lotnicze-a-vatsim). Nigdy jednak dość przypominania o tym, że symulowanie sytuacji szczególnych i niebezpiecznych jest dozwolone [tylko w ograniczonym zakresie](/docs/basic/aviation-law/08-special-and-unsafe-situations.mdx).
+
+Warto przypomnieć także o praktycznych problemach związanych z nieaktualnymi danymi nawigacyjnymi. Inaczej niż w rzeczywistości, zdarzają się, choć jest to naruszenie CoC B14, loty użytkowników nie dysponujących odpowiednimi procedurami lub punktami nawigacyjnymi. Jednocześnie, dopuszczalne jest symulowanie lotów samolotami, które nie są technicznie zdolne do wykonywania aktualnych procedur (np. lot IFR samolotem bez systemu nawigacji obszarowej GNSS), a które mogłyby nie zostać dopuszczone do operacji w rzeczywistym lotnictwie.
+
+W praktyce podobny problem może wynikać z błędnego przygotowania planu lotu. Użytkownik może posiadać aktualne dane nawigacyjne, ale zgłosić plan lotu z trasą opartą na nieaktualnych danych (przypadki takie zdarzają się zwłaszcza w przypadku bezrefleksyjnego korzystania z automatycznie wygenerowanego planu). Niezgodność objawia się wtedy najczęściej tym, że w planie lotu IFR wskazane są nieużywane już punkty wylotowe z TMA (np. NUMBA zamiast OMFOL dla lotu z EPKK) lub wlotowe do TMA (np. MAPIK zamiast MOFKE dla lotu do EPKK). W takim wypadku pilot będzie jednak w stanie wykonać poprawną procedurę. 
+
+## Umiejętności pilotów
+
+Działalności VATSIM przyświecają dwa założenia, które trudno zrealizować w całości. Z jednej strony, chodzi o możliwie realistyczne symulowanie rzeczywistych operacji lotniczych (*as real as it gets*). Jednak z drugiej strony, ma to być także środowisko szkoleniowe, co w praktyce przekłada się na bardzo zróżnicowany poziom wiedzy i umiejętności pilotów. Choć kontrolerzy mają prawo wymagać od pilotów [pewnych podstawowych umiejętności](/docs/basic/aviation-law/07-aviation-law-vatsim-specifics.md), to jednocześnie oczekuje się od nich [profesjonalnego i życzliwego podejścia do mniej doświadczonych pilotów](/docs/basic/vatsim-environment/01-human-factor-principles.md).
+
+## Pogoda
+
+W sieci VATSIM piloci mają obowiązek symulowania rzeczywistej temperatury, ciśnienia i wiatru. W pozostałym zakresie symulowanie rzeczywistych zjawisk pogodowych jest tylko zalecane. Przekłada się to na kilka praktycznych skutków:
+
+1. Jeśli na lotnisku panują warunki pogodowe, które w typowej sytuacji wykluczałyby wydawanie zezwolenia na lot VFR, kontroler może je wydać po upewnieniu się, że pilot w symulatorze ma włączone warunki VMC (Visual Meteorological Conditions).
+1. Nawet jeśli różni użytkownicy zgodnie z zasadami przestrzegają obowiązku symulowania rzeczywistego wiatru, ich oprogramowanie może symulować odmienne wartości. Przykładowo, dwóch pilotów na wysokości przelotowej może mieć podobną prędkość względem powierzchni ziemi (Ground Speed) mimo zupełnie różnej prędkości przyrządowej (Indicated Air Speed).
+1. W przypadku kontrolowania w trudnych warunkach pogodowych (np. front atmosferyczny przechodzący nad Polską, komórka burzowa na podejściu), trudno przewidzieć, czy pilot zdecyduje się na wykonywanie operacji, czy omijanie pogody.
+
+## Zachowanie statków powietrznych
+
+Dla decyzji podejmowanych przez kontrolerów, na każdym poziomie od wieży (TWR) po obszar (CTR), istotne znaczenie mają osiągi statków powietrznych. Jednak różne symulatory mogą odmiennie, czasem zupełnie nierealistycznie, odzwierciedlać rzeczywiste parametry. Przykładowo, popularny Airbus A320 może być w sieci symulowany za pomocą co najmniej ośmiu dodatków do trzech różnych symulatorów. Choć twórcy dodatków z reguły dążą do tego, by osiągi symulowane były zbliżone do rzeczywistych, jakość oprogramowania bywa bardzo różna. Różne mogą być też wyzwania dla użytkowników sieci, bo bardziej realistyczne dodatki do symulatorów mogą przekładać się na większe trudności w pilotażu.
+
+## Scenerie lotnisk
+
+Zdarzające się co jakiś czas przebudowy lotnisk nie zawsze są szybko odzwierciedlane przez twórców scenerii. Czasami z kolei, mimo dostępności scenerii, szczególnie początkujący użytkownicy nie dysponują nimi. W praktyce może to oznaczać, że piloci nie będą w stanie wykonać poprawnie instrukcji, bo nie będą widzieli odpowiednich dróg kołowania.
+
+Polish VACC publikuje ogłoszenia (NOTAM) informujące o niedawnej zmianie scenerii i zobowiązujące pilotów do zgłaszania, że nie dysponują najnowszym układem lotniska. Ponieważ z reguły stary i nowy układ dróg kołowania pokrywa się częściowo (np. drogi kołowania A, B i Z nie uległy zmianie po ostatniej przebudowie lotniska EPKK), można wykorzystać je, obsługując pilotów dysponujących starą scenerią.
