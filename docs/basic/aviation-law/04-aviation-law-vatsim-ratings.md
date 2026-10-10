@@ -8,7 +8,7 @@ Ranga **ADM** zastrzeżona jest dla wąskiej grupy osób zarządzających sieci�
 
 ## Supervisor (SUP)
 
-Zadaniem użytkowników pełniących rolę **SUP** jest wspieranie pilotów i kontrolerów. Z punktu widzenia kontrolera zapewniającego wirtulną służbę ruchu lotniczego kluczowa jest zwłaszcza możliwość [zwrócenia się do SUPa](../human-factor/human-factor-principles) w przypadku, gdy pilot zachowuje się w sposób sprzeczny z zasadami obowiązującymi w sieci.
+Zadaniem użytkowników pełniących rolę **SUP** jest wspieranie pilotów i kontrolerów. Z punktu widzenia kontrolera zapewniającego wirtulną służbę ruchu lotniczego kluczowa jest zwłaszcza możliwość [zwrócenia się do SUPa](../vatsim-environment/human-factor-principles) w przypadku, gdy pilot zachowuje się w sposób sprzeczny z zasadami obowiązującymi w sieci.
 
 ## Senior Instructor (I3) oraz Instructor (I1)
 
