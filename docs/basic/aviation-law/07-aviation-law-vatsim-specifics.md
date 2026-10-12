@@ -37,7 +37,7 @@ Choć część obowiązków pilotów wskazanych w VATSIM CoC dotyczy wyraźnie t
 
 VATSIM CoC B13 zachęca, ale nie nakazuje pilotom włączania w symulatorach rzeczywistej pogody w pełnym zakresie. Obowiązkowe jest jednak utrzymywanie rzeczywistej temperatury, ciśnienia i wiatru.
 
-W praktyce oznacza to na przykład, że gdy na lotnisku panują warunki pogodowe, które w typowej sytuacji wykluczałyby wydwanie zezwolenia na lot VFR, kontroler może je wydać po upewnieniu się, że pilot w symulatorze ma włączone warunki VMC (Visual Meteorological Conditions).
+W praktyce oznacza to na przykład, że gdy na lotnisku panują warunki pogodowe, które w typowej sytuacji wykluczałyby wydawanie zezwolenia na lot VFR, kontroler może je wydać po upewnieniu się, że pilot w symulatorze ma włączone warunki VMC (Visual Meteorological Conditions).
 
 ### Dane nawigacyjne
 

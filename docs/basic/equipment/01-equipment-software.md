@@ -37,4 +37,4 @@ Zaletą (lub wadą, zależnie od gustu) VACS jest to, że w porównaniu do Disco
 
 import VACS from './/assets/VACS.png';
 
-<img src={VACS} alt="VACS" style={{width: 480}} />
+<img src={VACS} alt="VACS" style={{width: 600}} />
