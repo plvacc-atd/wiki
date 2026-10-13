@@ -58,7 +58,7 @@ Aktualne zasady szkolenia w Polish VACC zakładają płynne przejście od uzyska
 Reguły obowiązujące w Polish VACC przewidują możliwość tymczasowego przyznania kontrolerowi o niższej randze prawa samodzielnego obsadzania pozycji przypisanych do wyższej rangi, kiedy jest to związane z procesem szkolenia (*solo endorsement*). Obecnie jest to możliwe:
 * w przypadku kontrolerów S3 w trakcie szkolenia na rating C1: na pozycjach EPWW_N_CTR, EPWW_S_CTR i EPWW_DTC_CTR,
 * w przypadku kontrolerów S2 w trakcie szkolenia na rating S3: na pozycji EPKK_APP,
-* w przypadku kontrolerów S1 w trakcie szkolenia na rating S2: na pozycji EPKK_TWR.
+* w przypadku kontrolerów S1 w trakcie szkolenia na rating S2: na pozycji EPKK_TWR, EPKT_TWR i EPGD_TWR.
 
 ## Uprawnienia lokalne
 
