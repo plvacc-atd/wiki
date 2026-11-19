@@ -141,6 +141,11 @@ W przypadku lotu do miejsca znajdującego się poza lotniskiem kontrolowanym kon
 Po wykonaniu lądowania w terenie przygodnym pilot powinien ponownie uzyskać odpowiednie zezwolenie przed wejściem w kontrolowaną przestrzeń powietrzną:
 > **Pilot**: Kraków Wieża, Ratownik 6, przed odlotem z miejsca zdarzenia, będziemy wykonywać do szpitala Rydygiera. <br/>**ATC**: Ratownik 6, Kraków Wieża, zezwalam wykonywać jako VFR w CTR Krakowa nie wyżej niż altitude 2000 stóp, wiatr z Balic 240 stopni 14 węzłów, start we własnym zakresie, następnie wykonuj bezpośrednio do szpitala, zgłoś w dolocie.
 
+:::info
+**Wytyczne szkoleniowe ATC Training Director (ACCPL4).** <br/>
+W ramach operacji na sieci VATSIM, śmigłowce HEMS, które otrzymały zezwolenie od organu kontroli ruchu lotniczego na wykonywanie lotów w obrębie strefy kontrolowanej lotniska (CTR), nie muszą uzyskiwać nowego zezwolenia po wykonaniu lądowania w miejscu zdarzenia lub na lądowisku przy szpitalu, o ile znajdują się one w granicach tej samej strefy CTR. Przed wznowieniem lotu pilot ma obowiązek nawiązać łączność z ATC i zgłosić zamiar wykonania odlotu. W razie potrzeby, w celu zapewnienia bezpieczeństwa oraz sprawnego przebiegu ruchu lotniczego, ATC może wydać dodatkowe instrukcje lub nałożyć ograniczenia.
+:::
+
 W przypadku VATSIM należy również pamiętać o zasadzie top-down. Przed opuszczeniem przestrzeni kontrolowanej (np. jeśli miejsce zdarzenia znajduje się poza CTRem) pilot powinien zostać przekazany do właściwego organu zapewniającego FIS, zgodnie z aktualnym pokryciem stanowisk ATC. Przykładowa frazeologia może wyglądać następująco:
 > **ATC**: Ratownik 6, Kraków Wieża, opuszczasz przestrzeń kontrolowaną Krakowa, służba kontroli ruchu lotniczego zakończona, służba informacji powietrznej dostępna na Kraków Zbliżanie, 121.075.
 
