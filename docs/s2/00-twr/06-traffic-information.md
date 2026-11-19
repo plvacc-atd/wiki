@@ -8,14 +8,9 @@ Przekazywanie informacji o ruchu (_traffic information_) stanowi jedno z podstaw
 - rodzaj wykonywanej operacji;
 - inne informacje mogące ułatwić identyfikację ruchu, np. typ statku powietrznego.
 
-Jeżeli kontroler dysponuje dozorowaniem radarowym, to zidentyfikowanym statkom powietrznym może przekazywać bardziej precyzyjne informacje o ruchu, określając jego położenie względem statku powietrznego za pomocą względnego namiaru według tarczy zegara oraz odległości, zamiast opisywać je wyłącznie względem lotniska lub punktów VFR.
+Jeżeli kontroler dysponuje [dozorowaniem radarowym](docs\s2\00-twr\09-identification.mdx), to zidentyfikowanym statkom powietrznym może przekazywać bardziej precyzyjne informacje o ruchu, określając jego położenie względem statku powietrznego za pomocą względnego namiaru według tarczy zegara oraz odległości, zamiast opisywać je wyłącznie względem lotniska lub punktów VFR.
 
 > **ATC:** SP-ABC, traffic two o'clock, distance two miles, crossing left to right, Cessna 172, altitude 2,000 feet. <br/>**ATC:** SP-ABC, ruch na godzinie drugiej, odległość dwie mile, przecina z lewej na prawą, Cessna 172, altitude 2000 stóp.
-
-:::danger
-ToDo
-"Jeżeli kontroler dysponuje...", podlinkować do artykułu o identyfikacji SP (sekcja o radarowej informacji o ruchu) gdy będzie gotowy.
-:::
 
 ## Informacja o ruchu w przestrzeni klasy D
 
